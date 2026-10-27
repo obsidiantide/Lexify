@@ -1,3 +1,4 @@
+import { seedLessons } from "@/content/catalog";
 import { guides } from "@/content/guides";
 import { SITE_URL } from "@/lib/site";
 
@@ -14,9 +15,10 @@ export function GET() {
 - [Free diagnostic](${SITE_URL}/en/welcome/diagnostic): four-skill placement test with a band for each skill
 
 ## Free lessons
-- [How IELTS Reading works](${SITE_URL}/en/preview/lessons/reading-how-it-works)
-- [The four Listening sections](${SITE_URL}/en/preview/lessons/listening-sections)
-- [A Task 2 structure that always works](${SITE_URL}/en/preview/lessons/writing-task2-structure)
+${seedLessons
+  .filter((l) => l.free && l.published)
+  .map((l) => `- [${l.title.en}](${SITE_URL}/en/preview/lessons/${l.id}): ${l.summary.en}`)
+  .join("\n")}
 
 ## Guides
 ${guides.map((g) => `- [${g.text.en.title}](${SITE_URL}/en/guides/${g.slug}): ${g.text.en.description}`).join("\n")}

@@ -30,9 +30,11 @@ export function SiteFooter({ locale, m }: { locale: Locale; m: Messages }) {
         <div className="space-y-4">
           <Logo />
           <p className="max-w-xs text-sm text-muted">{m.footer.tagline}</p>
-          <a href={`mailto:${SUPPORT_EMAIL}`} className="text-sm font-semibold text-ink underline decoration-amber decoration-2 underline-offset-4">
-            {SUPPORT_EMAIL}
-          </a>
+          {SUPPORT_EMAIL && (
+            <a href={`mailto:${SUPPORT_EMAIL}`} className="text-sm font-semibold text-ink underline decoration-amber decoration-2 underline-offset-4">
+              {SUPPORT_EMAIL}
+            </a>
+          )}
         </div>
         <div>
           <h3 className="mb-3 text-sm font-bold">{m.footer.product}</h3>
@@ -51,23 +53,25 @@ export function SiteFooter({ locale, m }: { locale: Locale; m: Messages }) {
             <li><Link className="hover:text-ink" href={`${home}/refund-policy`}>{m.footer.refund}</Link></li>
           </ul>
         </div>
-        <div>
-          <h3 className="mb-3 text-sm font-bold">{m.footer.follow}</h3>
-          <div className="flex gap-2">
-            {SOCIAL_LINKS.filter((s) => s.href).map((s) => (
-              <a
-                key={s.id}
-                href={s.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={s.label}
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-surface text-ink/80 hover:border-ink/30 hover:text-ink"
-              >
-                <SocialIcon id={s.id} />
-              </a>
-            ))}
+        {SOCIAL_LINKS.some((s) => s.href) && (
+          <div>
+            <h3 className="mb-3 text-sm font-bold">{m.footer.follow}</h3>
+            <div className="flex gap-2">
+              {SOCIAL_LINKS.filter((s) => s.href).map((s) => (
+                <a
+                  key={s.id}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={s.label}
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-line bg-surface text-ink/80 hover:border-ink/30 hover:text-ink"
+                >
+                  <SocialIcon id={s.id} />
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
       <div className="border-t border-line">
         <div className="container-page flex flex-col gap-2 py-6 text-xs text-muted sm:flex-row sm:justify-between">

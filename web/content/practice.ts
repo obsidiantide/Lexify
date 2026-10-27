@@ -1,5 +1,5 @@
 /**
- * Placeholder practice content: one exercise per skill plus a sample mock
+ * Starter practice content: exercises for every skill plus a sample mock
  * test per skill. `npm run seed` writes them to `practiceTasks` and their
  * answers to `answerKeys`. Add your own in the admin panel.
  */
@@ -10,6 +10,14 @@ import { seedAnswerKeys as diagnosticKeys, seedDiagnosticTasks } from "./diagnos
 const TFNG = "Do the following statements agree with the information in the passage? Choose TRUE if the statement agrees with the information, FALSE if it contradicts it, and NOT GIVEN if there is no information on this.";
 const ALL = ["ielts-academic"];
 const WS = ["ielts-academic", "writing-speaking"];
+const HEADINGS_SLEEP = [
+  { value: "i", label: "Why sleep was once thought to be useless" },
+  { value: "ii", label: "How much sleep adults really need" },
+  { value: "iii", label: "Evidence that sleep protects learning" },
+  { value: "iv", label: "The process behind storing memories at night" },
+  { value: "v", label: "The dangers of sleeping pills" },
+  { value: "vi", label: "What learners should do differently" },
+];
 
 const exercises: PracticeTask[] = [
   {
@@ -141,6 +149,269 @@ const exercises: PracticeTask[] = [
       },
     ],
   },
+  {
+    id: "practice-reading-sleep-memory",
+    section: "reading",
+    kind: "exercise",
+    order: 2,
+    courseIds: ALL,
+    free: false,
+    title: "Sleep and memory",
+    active: true,
+    durations: { light: 15, full: 15 },
+    passages: [
+      {
+        id: "p1",
+        title: "Sleep and memory",
+        text: `**A** For most of history, sleep was seen as a time when the brain simply switched off. Philosophers described it as a kind of temporary death, and early scientists assumed that nothing useful happened until the sleeper woke up. This view began to change in the 1950s, when researchers recording brain activity noticed that during certain stages of sleep the brain was almost as active as when awake.
+
+**B** Today, one of the best-established findings in sleep research is that sleep helps us keep what we have learned. In a typical experiment, volunteers learn a list of word pairs in the evening and are tested twelve hours later. Those who slept in between remember significantly more than those who stayed awake for the same period, even when both groups are tested at the same time of day.
+
+**C** The deep, slow-wave stage of sleep appears to be particularly important. During this stage, the hippocampus, a small structure that stores new information for a short time, replays the day's experiences. These signals are passed to the outer layer of the brain, where long-term memories are kept. Researchers have shown that gently playing sounds linked to a task during deep sleep can strengthen the memory of that task, although the effect is small.
+
+**D** The practical lessons for students are straightforward. Staying up all night before an exam is likely to be counterproductive, because the material studied cannot be stored properly. Short daytime naps of around twenty minutes can also help, but they are not a substitute for a full night. Perhaps most surprisingly, studies suggest that reviewing material shortly before going to bed is more effective than reviewing it first thing in the morning.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "Matching headings",
+        instructions: "The passage has four paragraphs, A–D. Choose the correct heading for each paragraph from the list of headings.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q1", number: 1, type: "match", prompt: "Paragraph A", options: HEADINGS_SLEEP },
+          { id: "q2", number: 2, type: "match", prompt: "Paragraph B", options: HEADINGS_SLEEP },
+          { id: "q3", number: 3, type: "match", prompt: "Paragraph C", options: HEADINGS_SLEEP },
+          { id: "q4", number: 4, type: "match", prompt: "Paragraph D", options: HEADINGS_SLEEP },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "Multiple choice",
+        instructions: "Choose the correct letter, A, B, C or D.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          {
+            id: "q5",
+            number: 5,
+            type: "mcq",
+            prompt: "In the experiment described in paragraph B, the two groups",
+            options: [
+              { value: "A", label: "learned different lists of words." },
+              { value: "B", label: "were tested at the same time of day." },
+              { value: "C", label: "were tested immediately after learning." },
+              { value: "D", label: "slept for different lengths of time." },
+            ],
+          },
+          {
+            id: "q6",
+            number: 6,
+            type: "mcq",
+            prompt: "According to paragraph C, the hippocampus",
+            options: [
+              { value: "A", label: "stores memories permanently." },
+              { value: "B", label: "is only active when we are awake." },
+              { value: "C", label: "holds new information for a short time." },
+              { value: "D", label: "reacts strongly to sounds during sleep." },
+            ],
+          },
+          {
+            id: "q7",
+            number: 7,
+            type: "mcq",
+            prompt: "Which piece of advice does the writer find most unexpected?",
+            options: [
+              { value: "A", label: "Avoid studying all night before an exam." },
+              { value: "B", label: "Take a short nap during the day." },
+              { value: "C", label: "Sleep for a full night." },
+              { value: "D", label: "Review material just before sleeping." },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "practice-reading-cities-cycling",
+    section: "reading",
+    kind: "exercise",
+    order: 3,
+    courseIds: ALL,
+    free: false,
+    title: "Cities built for bicycles",
+    active: true,
+    durations: { light: 12, full: 12 },
+    passages: [
+      {
+        id: "p1",
+        title: "Cities built for bicycles",
+        text: `Copenhagen and Amsterdam are often presented as proof that cycling is part of the national character in Denmark and the Netherlands. In fact, both cities were heading in the same direction as the rest of Europe in the 1960s: car ownership was rising quickly, and planners were preparing to build motorways through historic neighbourhoods.
+
+What changed the direction was a combination of protest and crisis. In the Netherlands, a public campaign against the number of children killed in road accidents gained wide support in the early 1970s. At almost the same time, the oil crisis of 1973 made fuel expensive and led the government to introduce car-free Sundays. Politicians began to see cycling as a practical answer to both problems.
+
+The key decision was to build separate cycle lanes, protected from traffic by kerbs or parked cars, rather than simply painting lines on the road. Research has since shown that most people will only cycle regularly if they feel safe, and that physical separation matters far more than the total length of the network. Today, around a third of all trips in Amsterdam are made by bicycle.
+
+Other cities have tried to copy this model with mixed results. Paris greatly expanded its network after 2020 and saw cycling rise sharply, while some cities that added only painted lanes reported little change. Experts conclude that the attitude of the population is less important than the quality of the infrastructure.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "Yes / No / Not Given",
+        instructions: "Do the following statements agree with the views of the writer? Choose YES if the statement agrees with the views of the writer, NO if it contradicts the views of the writer, and NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q1", number: 1, type: "ynng", prompt: "Cycling has always been part of the national culture in Denmark and the Netherlands." },
+          { id: "q2", number: 2, type: "ynng", prompt: "Road safety campaigns helped to change transport policy in the Netherlands." },
+          { id: "q3", number: 3, type: "ynng", prompt: "Painted cycle lanes are as effective as physically separated ones." },
+          { id: "q4", number: 4, type: "ynng", prompt: "Cycling in Paris is now more common than in Amsterdam." },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "Sentence completion",
+        instructions: "Complete the sentences. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q5", number: 5, type: "gap", prompt: "In the 1960s, planners were getting ready to build ______ through old parts of the cities.", maxWords: 1 },
+          { id: "q6", number: 6, type: "gap", prompt: "After the oil crisis, the Dutch government introduced ______.", maxWords: 2 },
+          { id: "q7", number: 7, type: "gap", prompt: "People cycle regularly only when they ______.", maxWords: 2 },
+        ],
+      },
+    ],
+  },
+  {
+    id: "practice-writing-task1-energy",
+    section: "writing",
+    kind: "exercise",
+    order: 2,
+    courseIds: WS,
+    free: false,
+    title: "Task 1: household energy use",
+    active: true,
+    durations: { light: 20, full: 20 },
+    writing: [
+      {
+        id: "task1",
+        light: true,
+        minWords: 150,
+        prompt:
+          "The chart below shows the percentage of household energy used for different purposes in one country in 1990 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        chart: {
+          title: "Household energy use by purpose",
+          unit: "%",
+          categories: ["Heating", "Water heating", "Lighting", "Appliances", "Cooking"],
+          series: [
+            { name: "1990", values: [52, 21, 9, 11, 7] },
+            { name: "2020", values: [41, 18, 4, 29, 8] },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    id: "practice-writing-education-online",
+    section: "writing",
+    kind: "exercise",
+    order: 3,
+    courseIds: WS,
+    free: false,
+    title: "Task 2: online university degrees",
+    active: true,
+    durations: { light: 40, full: 40 },
+    writing: [
+      {
+        id: "task2",
+        light: true,
+        minWords: 250,
+        prompt:
+          "Some people believe that university degrees studied entirely online will soon be as valuable as degrees studied on campus.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      },
+    ],
+  },
+  {
+    id: "practice-writing-city-traffic",
+    section: "writing",
+    kind: "exercise",
+    order: 4,
+    courseIds: WS,
+    free: false,
+    title: "Task 2: traffic in big cities",
+    active: true,
+    durations: { light: 40, full: 40 },
+    writing: [
+      {
+        id: "task2",
+        light: true,
+        minWords: 250,
+        prompt:
+          "Traffic congestion is becoming a serious problem in many large cities.\n\nWhat are the main causes of this problem, and what measures could be taken to reduce it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      },
+    ],
+  },
+  {
+    id: "practice-speaking-hometown",
+    section: "speaking",
+    kind: "exercise",
+    order: 2,
+    courseIds: WS,
+    free: false,
+    title: "Part 1: your hometown",
+    active: true,
+    durations: { light: 4, full: 4 },
+    speaking: [
+      {
+        part: 1,
+        light: true,
+        answerSeconds: 40,
+        questions: [
+          "Where is your hometown?",
+          "What do you like most about living there?",
+          "Has your hometown changed much in recent years?",
+          "Would you like to live in a different city in the future?",
+        ],
+      },
+    ],
+  },
+  {
+    id: "practice-speaking-helpful-person",
+    section: "speaking",
+    kind: "exercise",
+    order: 3,
+    courseIds: WS,
+    free: false,
+    title: "Parts 2 and 3: a person who helped you",
+    active: true,
+    durations: { light: 4, full: 9 },
+    speaking: [
+      {
+        part: 2,
+        light: true,
+        prepSeconds: 60,
+        answerSeconds: 120,
+        questions: ["Describe a person who has helped you in an important way."],
+        cueCard: {
+          topic: "Describe a person who has helped you in an important way.",
+          bullets: ["who this person is", "how you know them", "what they did to help you", "and explain why their help was important to you."],
+        },
+      },
+      {
+        part: 3,
+        light: false,
+        answerSeconds: 60,
+        questions: [
+          "Do you think people today are less willing to help strangers than in the past?",
+          "Should schools teach children to help others, or is that the job of parents?",
+          "Why do some people choose to work as volunteers?",
+          "How can governments encourage people to help their communities?",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Sample mocks reuse the diagnostic texts at full length until real mock tests are added. */
@@ -159,6 +430,12 @@ export const seedPracticeTasks: PracticeTask[] = [...exercises, ...mocks];
 export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
   "practice-reading-night-trains": {
     answers: { q1: ["true"], q2: ["false"], q3: ["not given"], q4: ["true"], q5: ["private cabins", "cabins"], q6: ["public support"] },
+  },
+  "practice-reading-sleep-memory": {
+    answers: { q1: ["i"], q2: ["iii"], q3: ["iv"], q4: ["vi"], q5: ["B"], q6: ["C"], q7: ["D"] },
+  },
+  "practice-reading-cities-cycling": {
+    answers: { q1: ["no"], q2: ["yes"], q3: ["no"], q4: ["not given"], q5: ["motorways"], q6: ["car-free sundays", "car free sundays"], q7: ["feel safe"] },
   },
   "practice-listening-museum": {
     answers: {

@@ -34,6 +34,7 @@ const en = {
     pricing: "Pricing",
     preview: "Demo",
     faq: "FAQ",
+    guides: "Guides",
     login: "Log in",
     signup: "Sign up",
     account: "Account",
@@ -200,6 +201,14 @@ const en = {
   legal: {
     updated: "Last updated: {date}",
     draftNote: "This text is a template. Have it reviewed by a lawyer before launch.",
+  },
+  guides: {
+    title: "IELTS guides",
+    intro: "Plain answers to the questions candidates ask most: scoring, test versions and how to prepare on your own.",
+    updated: "Updated {date}",
+    ctaTitle: "Find out your band in each skill",
+    ctaText: "The free diagnostic takes about an hour and shows which skill is holding your score back.",
+    back: "All guides",
   },
   auth: {
     signupTitle: "Create your account",

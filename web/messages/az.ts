@@ -36,6 +36,7 @@ const az: Messages = {
     pricing: "Qiymətlər",
     preview: "Demo",
     faq: "Suallar",
+    guides: "Məqalələr",
     login: "Daxil ol",
     signup: "Qeydiyyat",
     account: "Hesab",
@@ -202,6 +203,14 @@ const az: Messages = {
   legal: {
     updated: "Son yenilənmə: {date}",
     draftNote: "Bu mətn şablondur. İstifadəyə verməzdən əvvəl hüquqşünasa yoxlatdırın.",
+  },
+  guides: {
+    title: "IELTS haqqında məqalələr",
+    intro: "Ən çox verilən suallara sadə cavablar: bal necə hesablanır, hansı test variantını seçmək və müstəqil necə hazırlaşmaq.",
+    updated: "Yeniləndi: {date}",
+    ctaTitle: "Hər bacarıq üzrə balınızı öyrənin",
+    ctaText: "Pulsuz diaqnostika təxminən bir saat çəkir və balınızı hansı bacarığın aşağı saldığını göstərir.",
+    back: "Bütün məqalələr",
   },
   auth: {
     signupTitle: "Hesab yarat",

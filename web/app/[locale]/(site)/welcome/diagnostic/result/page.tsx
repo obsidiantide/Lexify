@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight, TrendingUp } from "lucide-react";
 import { BandRing } from "@/components/charts/BandRing";
 import { Pricing } from "@/components/marketing/Pricing";
 import { SkillIcon } from "@/components/SkillIcon";
+import { TrackOnMount } from "@/components/TrackOnMount";
 import { formatBand, monthsToNextBand, skillColor } from "@/lib/band";
 import { isLocale } from "@/lib/i18n/config";
 import { fmt, plural } from "@/lib/i18n/format";
@@ -29,6 +30,7 @@ export default async function ResultPage({ params }: PageProps<"/[locale]/welcom
 
   return (
     <div className="container-page py-10 sm:py-14">
+      <TrackOnMount event={{ name: "diagnostic_complete", band: overall }} onceKey={`lexify:diag-complete:${user.uid}`} />
       <Link href={hub} className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted hover:text-ink">
         <ArrowLeft className="h-4 w-4" /> {m.diag.reviewPage.backToHub}
       </Link>

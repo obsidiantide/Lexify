@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useRef, useState } from "react";
 import { Check, Gift, Loader2, ShieldCheck, Tag, X } from "lucide-react";
 import { useI18n } from "@/components/i18n";
+import { track } from "@/lib/analytics";
 import { ApiError, errorText, postJson } from "@/lib/api-client";
 import { fmt, plural } from "@/lib/i18n/format";
 import { reloadTo } from "@/lib/navigate";
@@ -80,6 +81,8 @@ export function Checkout({ course, initialPlan, initialDays }: { course: { id: s
     setError(null);
     try {
       const res = await postJson<{ orderId: string; redirectUrl: string }>("/api/checkout", { ...body(plan, days, promo?.code ?? null), locale, agree: true });
+      // Free access completes right here; paid orders report the purchase after the provider confirms it.
+      if (!PAYMENTS_ENABLED) track({ name: "purchase", value: 0, plan, orderId: res.orderId });
       if (res.redirectUrl.startsWith("/")) router.push(res.redirectUrl);
       else reloadTo(res.redirectUrl);
     } catch (err) {

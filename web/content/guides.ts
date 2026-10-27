@@ -378,6 +378,344 @@ Səkkiz həftədə **gündə təxminən bir saat** məşğul olsanız, nəticən
       },
     },
   },
+  {
+    slug: "ielts-writing-task-1-academic",
+    updated: "2026-10-28",
+    minutes: 6,
+    text: {
+      en: {
+        title: "IELTS Writing Task 1 Academic: how to describe a chart",
+        description: "A four-paragraph structure for charts, tables, maps and processes, what the overview is, and the mistakes that keep Task 1 below band 7.",
+        body: `## What the task asks
+
+You get a chart, table, map or process diagram and **20 minutes** to describe it in at least **150 words**. You report what the data shows. You do not explain why it happens and you do not give your opinion.
+
+Task 1 counts for one third of your Writing band, so a weak Task 1 pulls down a good essay.
+
+## A structure that works for every type
+
+1. **Introduction.** One sentence that paraphrases the task: what is shown, where and when. Change the words, not the meaning.
+2. **Overview.** Two or three sentences with the main trends or the biggest differences, without numbers. This is the paragraph examiners look for first.
+3. **Detail paragraph 1.** One group of related data with figures.
+4. **Detail paragraph 2.** The other group, with comparisons.
+
+Aim for 170–190 words. More words do not raise your band, and they cost time you need for Task 2.
+
+## The overview decides your band
+
+Without a clear overview, Task Achievement is usually limited to **band 5**. A good overview answers: what went up, what went down, what was the largest, what changed the most?
+
+> Overall, car use rose steadily over the period, while bus travel fell. Cars remained by far the most common way to commute.
+
+No numbers here: they belong in the detail paragraphs.
+
+## How to group the data
+
+Do not describe every bar or line one by one. Group items that behave the same way:
+
+- **Line graphs:** rising lines together, falling lines together.
+- **Bar charts and tables:** the largest and smallest values, or the categories that are similar.
+- **Maps:** what was added, what was removed, what stayed.
+- **Processes:** the stages in order, from the first to the last, with sequencers such as *first*, *after that*, *finally*.
+
+## Language for trends and comparisons
+
+| Purpose | Examples |
+| --- | --- |
+| Increase | rose, grew, climbed; a rise, an increase |
+| Decrease | fell, dropped, declined; a fall, a decline |
+| Size of change | slightly, gradually, steadily, sharply, dramatically |
+| Comparison | twice as many as, slightly higher than, the lowest figure |
+| Approximation | just over, nearly, around, roughly |
+
+Vary your structures: *Sales rose sharply* and *There was a sharp rise in sales* say the same thing in two ways.
+
+## Common mistakes
+
+- No overview, or an overview full of numbers.
+- Giving reasons or opinions (*because people prefer cars*).
+- Copying the task sentence word for word.
+- Listing every number without comparing anything.
+- Wrong tense: a chart about 1990–2010 needs the past tense; a projection to 2040 needs *is expected to*, *will*.
+
+## Practise with feedback
+
+In Lexify every Task 1 you write gets an estimated band and a comment for each of the four criteria, so you know exactly what to fix.`,
+      },
+      ru: {
+        title: "IELTS Writing Task 1 Academic: как описать график",
+        description: "Структура из четырёх абзацев для графиков, таблиц, карт и процессов, что такое overview и какие ошибки не дают подняться выше 7.0.",
+        body: `## Что требуется
+
+Вы получаете график, таблицу, карту или схему процесса и **20 минут**, чтобы описать их минимум в **150 словах**. Нужно рассказать, что показывают данные. Объяснять причины и высказывать мнение не нужно.
+
+Task 1 даёт треть балла за Writing, поэтому слабый Task 1 тянет вниз даже хорошее эссе.
+
+## Структура, которая подходит для любого типа
+
+1. **Введение.** Одно предложение, перефразирующее задание: что показано, где и когда. Меняйте слова, а не смысл.
+2. **Overview (общий обзор).** Два-три предложения о главных тенденциях или самых больших различиях, без цифр. Этот абзац экзаменатор ищет первым.
+3. **Детали, абзац 1.** Одна группа связанных данных с цифрами.
+4. **Детали, абзац 2.** Другая группа, со сравнениями.
+
+Ориентируйтесь на 170–190 слов. Больше слов не повышает балл, а время отнимает у Task 2.
+
+## Overview решает балл
+
+Без чёткого обзора критерий Task Achievement обычно ограничен **баллом 5**. Хороший обзор отвечает на вопросы: что выросло, что упало, что было самым большим, что изменилось сильнее всего?
+
+> Overall, car use rose steadily over the period, while bus travel fell. Cars remained by far the most common way to commute.
+
+Цифр здесь нет: они нужны в абзацах с деталями.
+
+## Как группировать данные
+
+Не описывайте каждый столбик или линию по очереди. Объединяйте то, что ведёт себя одинаково:
+
+- **Линейные графики:** растущие линии вместе, падающие вместе.
+- **Столбчатые диаграммы и таблицы:** самые большие и самые маленькие значения или похожие категории.
+- **Карты:** что появилось, что исчезло, что осталось.
+- **Процессы:** этапы по порядку, от первого до последнего, со словами *first*, *after that*, *finally*.
+
+## Лексика для тенденций и сравнений
+
+| Задача | Примеры |
+| --- | --- |
+| Рост | rose, grew, climbed; a rise, an increase |
+| Снижение | fell, dropped, declined; a fall, a decline |
+| Сила изменения | slightly, gradually, steadily, sharply, dramatically |
+| Сравнение | twice as many as, slightly higher than, the lowest figure |
+| Приблизительность | just over, nearly, around, roughly |
+
+Меняйте конструкции: *Sales rose sharply* и *There was a sharp rise in sales* говорят одно и то же двумя способами.
+
+## Частые ошибки
+
+- Нет обзора, или в обзоре одни цифры.
+- Причины и мнения (*because people prefer cars*).
+- Задание переписано слово в слово.
+- Перечисление всех цифр без сравнений.
+- Не то время: график за 1990–2010 требует прошедшего времени, прогноз до 2040 требует *is expected to*, *will*.
+
+## Тренируйтесь с обратной связью
+
+В Lexify каждый Task 1 получает примерный балл и комментарий по каждому из четырёх критериев, так что вы точно знаете, что исправить.`,
+      },
+      az: {
+        title: "IELTS Writing Task 1 Academic: qrafiki necə təsvir etmək",
+        description: "Qrafik, cədvəl, xəritə və proseslər üçün dörd abzaslı struktur, overview nədir və 7.0-dan yuxarı qalxmağa mane olan səhvlər.",
+        body: `## Tapşırıq nə tələb edir
+
+Sizə qrafik, cədvəl, xəritə və ya proses sxemi verilir və onu ən azı **150 sözlə** təsvir etmək üçün **20 dəqiqə** vaxtınız olur. Məlumatların nə göstərdiyini yazırsınız. Səbəbləri izah etmək və fikir bildirmək lazım deyil.
+
+Task 1 Writing balının üçdə birini təşkil edir, ona görə zəif Task 1 yaxşı esseni də aşağı çəkir.
+
+## Hər növ üçün uyğun struktur
+
+1. **Giriş.** Tapşırığı başqa sözlərlə ifadə edən bir cümlə: nə göstərilib, harada və nə vaxt. Mənanı yox, sözləri dəyişin.
+2. **Overview (ümumi icmal).** Əsas meylləri və ya ən böyük fərqləri göstərən iki-üç cümlə, rəqəmsiz. İmtahançı ilk olaraq bu abzası axtarır.
+3. **Təfərrüat, 1-ci abzas.** Rəqəmlərlə bir qrup əlaqəli məlumat.
+4. **Təfərrüat, 2-ci abzas.** Digər qrup, müqayisələrlə.
+
+170–190 söz hədəfləyin. Daha çox söz balı artırmır, amma Task 2 üçün lazım olan vaxtı alır.
+
+## Balı overview həll edir
+
+Aydın icmal olmadan Task Achievement meyarı adətən **5 balla** məhdudlaşır. Yaxşı icmal bu suallara cavab verir: nə artdı, nə azaldı, ən böyük nə idi, ən çox nə dəyişdi?
+
+> Overall, car use rose steadily over the period, while bus travel fell. Cars remained by far the most common way to commute.
+
+Burada rəqəm yoxdur: rəqəmlər təfərrüat abzaslarında olmalıdır.
+
+## Məlumatları necə qruplaşdırmaq
+
+Hər sütunu və ya xətti bir-bir təsvir etməyin. Eyni cür dəyişənləri birləşdirin:
+
+- **Xətti qrafiklər:** artan xətlər bir yerdə, azalanlar bir yerdə.
+- **Sütunlu diaqramlar və cədvəllər:** ən böyük və ən kiçik dəyərlər və ya oxşar kateqoriyalar.
+- **Xəritələr:** nə əlavə olundu, nə yox oldu, nə qaldı.
+- **Proseslər:** mərhələlər ardıcıllıqla, birincidən sonuncuya, *first*, *after that*, *finally* kimi sözlərlə.
+
+## Meyllər və müqayisə üçün ifadələr
+
+| Məqsəd | Nümunələr |
+| --- | --- |
+| Artım | rose, grew, climbed; a rise, an increase |
+| Azalma | fell, dropped, declined; a fall, a decline |
+| Dəyişmənin gücü | slightly, gradually, steadily, sharply, dramatically |
+| Müqayisə | twice as many as, slightly higher than, the lowest figure |
+| Təxminilik | just over, nearly, around, roughly |
+
+Strukturları dəyişin: *Sales rose sharply* və *There was a sharp rise in sales* eyni fikri iki üsulla deyir.
+
+## Tez-tez edilən səhvlər
+
+- İcmal yoxdur və ya icmal rəqəmlərlə doludur.
+- Səbəb və fikir yazmaq (*because people prefer cars*).
+- Tapşırıq cümləsini olduğu kimi köçürmək.
+- Heç nəyi müqayisə etmədən bütün rəqəmləri sadalamaq.
+- Səhv zaman: 1990–2010 illərinə aid qrafik keçmiş zaman, 2040-a qədər proqnoz isə *is expected to*, *will* tələb edir.
+
+## Rəylə məşq edin
+
+Lexify-da yazdığınız hər Task 1 dörd meyarın hər biri üzrə təxmini bal və şərh alır, beləliklə nəyi düzəltmək lazım olduğunu dəqiq bilirsiniz.`,
+      },
+    },
+  },
+  {
+    slug: "ielts-speaking-part-2-cue-card",
+    updated: "2026-10-28",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Speaking Part 2: how to talk for two minutes",
+        description: "How to use the one minute of preparation, a simple plan for any cue card, and what to do when you run out of ideas.",
+        body: `## How Part 2 works
+
+The examiner gives you a **cue card** with a topic and three or four prompts, a pencil and paper. You have **one minute to prepare** and then speak for **one to two minutes** without interruption. The examiner stops you at two minutes and may ask one or two short follow-up questions.
+
+Aim to speak until the examiner stops you. Finishing after 40 seconds is the most common reason for a low Fluency score in Part 2.
+
+## Use the minute well
+
+Do not write sentences. Write **keywords** in four lines, one for each prompt plus one for your feelings:
+
+- *who / what*: my grandfather, retired engineer
+- *when / where*: summers in Quba, his workshop
+- *what happened*: taught me to fix a bicycle
+- *why it matters*: patience, first time I felt useful
+
+Six to ten words are enough. You will look at them while you speak, so make them large and clear.
+
+## A plan for any card
+
+1. **Open in one sentence:** say what you are going to talk about.
+2. **Answer each prompt** in the order on the card, two or three sentences each, with one concrete detail (a name, a place, a moment).
+3. **Tell a short story:** one specific event is easier to talk about for a long time than general facts.
+4. **Finish with feelings:** why it was important, how you feel about it now. This last prompt is where you can keep talking if you have time left.
+
+## When you run out of ideas
+
+- Add a **comparison**: *It was very different from the school I go to now…*
+- Add a **sense detail**: what you saw, heard, smelled.
+- Talk about **before and after**: *Before that summer I… After it I…*
+- If the topic is unfamiliar, it is fine to **change it slightly**: a "book you read recently" can be one you read last year. The examiner marks your English, not the truth of the story.
+
+## What examiners listen for
+
+The four criteria are the same as in the rest of the test: **Fluency and Coherence**, **Lexical Resource**, **Grammatical Range and Accuracy** and **Pronunciation**. In Part 2 they pay special attention to whether you can organise a long answer and link ideas with words such as *at first*, *after a while*, *the reason was*, *looking back*.
+
+## Common mistakes
+
+- Memorised answers: examiners recognise them, and the score drops.
+- Stopping at one minute and waiting.
+- Reading the prompts back word for word.
+- Only general statements with no story or example.
+
+## Practise with feedback
+
+Lexify gives you real cue cards with a one-minute timer and the full two minutes to speak, then an estimated band and comments on each criterion.`,
+      },
+      ru: {
+        title: "IELTS Speaking Part 2: как говорить две минуты",
+        description: "Как использовать минуту на подготовку, простой план для любой карточки и что делать, когда кончились идеи.",
+        body: `## Как устроена Part 2
+
+Экзаменатор даёт **карточку** с темой и тремя-четырьмя пунктами, карандаш и бумагу. У вас **одна минута на подготовку**, потом вы говорите **от одной до двух минут** без перерыва. Через две минуты экзаменатор вас остановит и может задать один-два коротких вопроса.
+
+Говорите, пока вас не остановят. Закончить через 40 секунд — самая частая причина низкого балла за Fluency в Part 2.
+
+## Используйте минуту правильно
+
+Не пишите предложения. Запишите **ключевые слова** в четыре строки, по одной на пункт карточки и одну про ваши чувства:
+
+- *who / what*: my grandfather, retired engineer
+- *when / where*: summers in Quba, his workshop
+- *what happened*: taught me to fix a bicycle
+- *why it matters*: patience, first time I felt useful
+
+Шести-десяти слов достаточно. Вы будете смотреть на них во время ответа, поэтому пишите крупно и разборчиво.
+
+## План для любой карточки
+
+1. **Начните одним предложением:** скажите, о чём будете говорить.
+2. **Ответьте на каждый пункт** в том порядке, как на карточке, по два-три предложения с одной конкретной деталью (имя, место, момент).
+3. **Расскажите короткую историю:** об одном конкретном событии говорить долго легче, чем об общих фактах.
+4. **Закончите чувствами:** почему это было важно, что вы думаете об этом сейчас. В этом пункте удобно продолжать, если время ещё осталось.
+
+## Когда закончились идеи
+
+- Добавьте **сравнение**: *It was very different from the school I go to now…*
+- Добавьте **ощущения**: что вы видели, слышали, чувствовали.
+- Расскажите **до и после**: *Before that summer I… After it I…*
+- Если тема незнакомая, её можно **немного изменить**: «книга, которую вы недавно прочитали» может быть прочитана в прошлом году. Экзаменатор оценивает английский, а не правдивость истории.
+
+## Что слушает экзаменатор
+
+Четыре критерия те же, что во всём Speaking: **Fluency and Coherence**, **Lexical Resource**, **Grammatical Range and Accuracy** и **Pronunciation**. В Part 2 особенно важно, умеете ли вы строить длинный ответ и связывать мысли словами *at first*, *after a while*, *the reason was*, *looking back*.
+
+## Частые ошибки
+
+- Заученные ответы: экзаменаторы их узнают, и балл падает.
+- Остановиться через минуту и ждать.
+- Пересказывать пункты карточки дословно.
+- Только общие слова, без истории и примеров.
+
+## Тренируйтесь с обратной связью
+
+В Lexify есть настоящие карточки с таймером на минуту подготовки и полными двумя минутами на ответ, а после него примерный балл и комментарии по каждому критерию.`,
+      },
+      az: {
+        title: "IELTS Speaking Part 2: iki dəqiqə necə danışmaq",
+        description: "Hazırlıq üçün verilən bir dəqiqədən necə istifadə etmək, istənilən kart üçün sadə plan və fikirlər bitəndə nə etmək.",
+        body: `## Part 2 necə keçir
+
+İmtahançı sizə mövzu və üç-dörd bəndi olan **kart**, karandaş və kağız verir. **Hazırlıq üçün bir dəqiqəniz** var, sonra fasiləsiz **bir-iki dəqiqə** danışırsınız. İki dəqiqədən sonra imtahançı sizi dayandırır və bir-iki qısa sual verə bilər.
+
+İmtahançı dayandırana qədər danışın. 40 saniyədən sonra susmaq Part 2-də Fluency balının aşağı olmasının ən geniş yayılmış səbəbidir.
+
+## Dəqiqədən düzgün istifadə edin
+
+Cümlə yazmayın. **Açar sözləri** dörd sətirdə yazın: kartın hər bəndi üçün bir sətir və hissləriniz üçün bir sətir:
+
+- *who / what*: my grandfather, retired engineer
+- *when / where*: summers in Quba, his workshop
+- *what happened*: taught me to fix a bicycle
+- *why it matters*: patience, first time I felt useful
+
+Altı-on söz kifayətdir. Danışarkən onlara baxacaqsınız, ona görə iri və aydın yazın.
+
+## İstənilən kart üçün plan
+
+1. **Bir cümlə ilə başlayın:** nədən danışacağınızı deyin.
+2. **Hər bəndə cavab verin** kartdakı ardıcıllıqla, hər birinə iki-üç cümlə və bir konkret təfərrüat (ad, yer, an).
+3. **Qısa hekayə danışın:** bir konkret hadisə haqqında uzun danışmaq ümumi faktlardan daha asandır.
+4. **Hisslərlə bitirin:** bu niyə vacib idi, indi bu barədə nə düşünürsünüz. Vaxt qalıbsa, bu bənddə danışmağa davam etmək rahatdır.
+
+## Fikirlər bitəndə
+
+- **Müqayisə** əlavə edin: *It was very different from the school I go to now…*
+- **Hissləri** əlavə edin: nə gördünüz, nə eşitdiniz, nə hiss etdiniz.
+- **Əvvəl və sonra** haqqında danışın: *Before that summer I… After it I…*
+- Mövzu tanış deyilsə, onu **bir az dəyişmək** olar: "son oxuduğunuz kitab" keçən il oxunmuş kitab ola bilər. İmtahançı hekayənin doğruluğunu yox, ingilis dilinizi qiymətləndirir.
+
+## İmtahançı nəyə qulaq asır
+
+Meyarlar bütün Speaking-dəki kimidir: **Fluency and Coherence**, **Lexical Resource**, **Grammatical Range and Accuracy** və **Pronunciation**. Part 2-də uzun cavabı qurmağı və fikirləri *at first*, *after a while*, *the reason was*, *looking back* kimi sözlərlə bağlamağı bacarıb-bacarmadığınız xüsusilə vacibdir.
+
+## Tez-tez edilən səhvlər
+
+- Əzbərlənmiş cavablar: imtahançılar onları tanıyır və bal aşağı düşür.
+- Bir dəqiqədən sonra dayanıb gözləmək.
+- Kartın bəndlərini sözbəsöz təkrarlamaq.
+- Hekayə və nümunə olmadan yalnız ümumi sözlər.
+
+## Rəylə məşq edin
+
+Lexify-da hazırlıq üçün bir dəqiqəlik taymer və cavab üçün tam iki dəqiqə olan real kartlar var, cavabdan sonra isə təxmini bal və hər meyar üzrə şərhlər alırsınız.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

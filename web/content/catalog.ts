@@ -683,4 +683,183 @@ The reduced words (*to, the, some*) become short and quick. This rhythm makes yo
 
 Five minutes of shadowing a day improves rhythm faster than any amount of reading.`,
   },
+  {
+    id: "reading-multiple-choice",
+    courseId: "ielts-academic",
+    skill: "reading",
+    order: 4,
+    minutes: 9,
+    free: false,
+    published: true,
+    title: L("Multiple choice: rule out three answers", "Multiple choice: üç cavabı istisna et", "Multiple choice: исключаем три ответа"),
+    summary: L(
+      "Why the option with words from the text is often wrong.",
+      "Mətndəki sözləri təkrarlayan variant niyə çox vaxt səhvdir.",
+      "Почему вариант со словами из текста часто неверный.",
+    ),
+    body: `## How the question works
+
+You read a question stem and choose one of four options, A to D. Usually only one option fully matches what the passage says. The other three are **distractors**, written to look right at first glance.
+
+## Three kinds of distractor
+
+1. **Word match.** The option repeats words from the passage but says something different. Be suspicious when an option looks like a copy of the text.
+2. **True but irrelevant.** The option is correct according to the passage but does not answer *this* question.
+3. **Too strong.** The passage says *some*, *may* or *often*; the option says *all*, *will* or *always*.
+
+## A four-step method
+
+1. Read the **stem** only and underline its key idea.
+2. Find the part of the passage that answers it. Answers usually come in passage order.
+3. Answer the stem **in your own words** before looking at the options.
+4. Now read A–D and cross out each option you can prove wrong. Choose the one left.
+
+## Example
+
+> *Passage:* "Some operators therefore say that night trains will need public support if ticket prices are to stay competitive with flights."
+>
+> *What do some operators believe?*
+> A. Night trains are already cheaper than flights.
+> B. Night trains cannot survive without government help.
+> C. Governments should support night trains to keep prices low.
+> D. Flights should become more expensive.
+
+**C** is right. **B** is too strong: the operators talk about competitive prices, not survival. **A** contradicts the text, and **D** is not mentioned.
+
+> If two options seem correct, compare them word by word. The wrong one usually has one word that goes further than the text.`,
+  },
+  {
+    id: "listening-form-completion",
+    courseId: "ielts-academic",
+    skill: "listening",
+    order: 4,
+    minutes: 8,
+    free: false,
+    published: true,
+    title: L("Form and note completion", "Forma və qeydlərin tamamlanması", "Заполнение форм и заметок"),
+    summary: L(
+      "Names, numbers and dates: the easiest marks to lose in Section 1.",
+      "Adlar, rəqəmlər və tarixlər: Section 1-də itirilməsi ən asan ballar.",
+      "Имена, цифры и даты: самые обидные потерянные баллы в Section 1.",
+    ),
+    body: `## Why this matters
+
+Section 1 is usually a form: a booking, a registration, an enquiry. These questions are the **easiest in the test**, and most candidates aiming for band 6 or higher need almost all of them right.
+
+## Before the recording
+
+- Read the form and decide what each gap needs: a **name**, a **number**, a **date**, a **day**, a **noun**.
+- Check the **word limit**. "ONE WORD AND/OR A NUMBER" means *15 May* is fine, but *the 15th of May* is too long.
+- Notice the words just before and after each gap. The speaker will say something close to them.
+
+## Spelling things out
+
+Names and street names are spelled letter by letter. Practise until these feel automatic:
+
+- **A / E / I** — *A* sounds like "ay", *E* like "ee", *I* like "eye".
+- **G / J** — *G* is "jee", *J* is "jay".
+- Double letters: "double S", "double L".
+
+## Numbers and dates
+
+- Phone numbers are read in groups, often with **"oh"** for zero.
+- Listen for **corrections**: "It's the 14th... sorry, the 16th." Write the last one.
+- Dates can be written as *16 May* or *May 16*: both are accepted.
+- Prices: write the number and, if needed, the currency sign (£30).
+
+## After the section
+
+Use the few seconds you get to check **spelling and plurals**. A singular noun where the recording said a plural is marked wrong.
+
+> Common trap: the speaker mentions two options and rejects the first. "I was going to book Tuesday, but actually Thursday would be better." The answer is *Thursday*.`,
+  },
+  {
+    id: "writing-task2-types",
+    courseId: "ielts-academic",
+    skill: "writing",
+    order: 4,
+    minutes: 10,
+    free: false,
+    published: true,
+    title: L("The five Task 2 question types", "Task 2-nin beş sual növü", "Пять типов вопросов Task 2"),
+    summary: L(
+      "Recognise the question in 20 seconds and pick the right structure.",
+      "Sualı 20 saniyəyə tanı və düzgün strukturu seç.",
+      "Узнайте тип вопроса за 20 секунд и выберите структуру.",
+    ),
+    body: `## Why the type matters
+
+**Task Response** checks whether you answered *the question asked*. The same topic can come with different instructions, and each needs a slightly different essay.
+
+| Type | Typical instruction | What to do |
+| --- | --- | --- |
+| Opinion | To what extent do you agree or disagree? | Give a clear position in the introduction and keep it to the end. |
+| Discussion | Discuss both views and give your own opinion. | One paragraph per view, your opinion in the introduction and conclusion. |
+| Advantages / disadvantages | Do the advantages outweigh the disadvantages? | Say which side is stronger and explain why. |
+| Problem / solution | What are the causes? What can be done? | One paragraph for causes, one for solutions, linked to each other. |
+| Two-part question | Why is this happening? Is it positive or negative? | Answer **both** questions fully, one paragraph each. |
+
+## The most common mistake
+
+In a discussion essay, many candidates describe both views but **forget their own opinion**. In a two-part question, they answer the first question well and the second in one sentence. Both limit Task Response to around band 5–6.
+
+## A 20-second check
+
+Before planning, write the type in the margin and underline every part of the instruction. When you finish, check that each underlined part has a paragraph or at least a clear sentence answering it.
+
+### Try it
+
+Open the Writing practice. For each Task 2 question there, name the type and write a one-line plan before you start the essay.`,
+  },
+  {
+    id: "speaking-part1",
+    courseId: "ielts-academic",
+    skill: "speaking",
+    order: 4,
+    minutes: 7,
+    free: true,
+    published: true,
+    title: L("Part 1: answers that are long enough", "Part 1: kifayət qədər uzun cavablar", "Part 1: ответы нужной длины"),
+    summary: L(
+      "Two to three sentences per question, without sounding rehearsed.",
+      "Hər suala iki-üç cümlə, əzbər kimi səslənmədən.",
+      "Два-три предложения на вопрос, без заученности.",
+    ),
+    body: `## What happens in Part 1
+
+Part 1 lasts four to five minutes. The examiner asks simple questions about **familiar topics**: your home, work or studies, hobbies, food, the weather. It's the warm-up, but it is scored on the same four criteria as the rest of the test.
+
+## The right length
+
+One-word answers give the examiner nothing to score. Long speeches make you run out of ideas and sound memorised. Aim for **two or three sentences**, about 15–20 seconds:
+
+1. **Answer** the question directly.
+2. Add a **reason** or a **detail**.
+3. Optionally, add an **example** or a contrast.
+
+## Example
+
+> *Do you like cooking?*
+>
+> *Too short:* "Yes, I do."
+>
+> *Good:* "Yes, quite a lot, especially at the weekend when I have more time. I usually cook traditional dishes my grandmother taught me, like plov, although lately I've been trying some Italian recipes too."
+
+## Useful starters
+
+- "To be honest, ..."
+- "It depends. On weekdays ..., but at weekends ..."
+- "I used to ..., but these days ..."
+- "Not really, because ..."
+
+The *used to / these days* pattern is especially useful: it shows a range of tenses with no extra effort.
+
+## Don't worry about the "right" answer
+
+Part 1 isn't a test of your opinions. If you don't like cooking, say so and explain why. Honest answers are easier to develop than invented ones.
+
+### Try it
+
+Record yourself answering these, 20 seconds each: *What kind of music do you like? Do you prefer mornings or evenings? How often do you see your friends?*`,
+  },
 ];

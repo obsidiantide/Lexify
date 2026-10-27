@@ -217,6 +217,7 @@ AI_PROVIDER=openai-compatible
 AI_BASE_URL=https://api.openai.com/v1       # адрес API, куда добавляется /chat/completions
 AI_API_KEY=...
 AI_MODEL=...                                # модель, умеющая отвечать JSON
+AI_TEMPERATURE=                             # необязательно; не задавайте для моделей GPT-5 и новее
 
 STT_PROVIDER=openai-compatible
 STT_BASE_URL=https://api.openai.com/v1      # адрес API, куда добавляется /audio/transcriptions
@@ -225,6 +226,10 @@ STT_MODEL=...                               # модель распознава�
 ```
 
 Ключи задаются только в переменных окружения Vercel и никогда не попадают в браузер. Промпты оценивания лежат в `server/ai/openai-compatible.ts`. Каждая проверка Writing или Speaking расходует одну единицу месячного лимита пользователя (по умолчанию 40, меняется в админке). Если ИИ упал, единица возвращается.
+
+## Аналитика
+
+Google Analytics 4 и Meta Pixel включаются переменными `NEXT_PUBLIC_GA_ID` (вида `G-XXXXXXX`) и `NEXT_PUBLIC_META_PIXEL_ID`. Пустые значения отключают их. Кроме просмотров страниц отправляются события воронки: `sign_up` (регистрация), `diagnostic_complete` (итог диагностики) и `purchase` (оформление доступа). В Meta они приходят как CompleteRegistration, Lead и Purchase.
 
 ## Подключение оплаты
 

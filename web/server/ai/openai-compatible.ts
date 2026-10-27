@@ -20,7 +20,8 @@ async function chatJson<T extends z.ZodType>(schema: T, system: string, user: st
     headers: { "content-type": "application/json", authorization: `Bearer ${process.env.AI_API_KEY}` },
     body: JSON.stringify({
       model: process.env.AI_MODEL,
-      temperature: 0.2,
+      // Newer reasoning models reject a custom temperature, so it is sent only when configured.
+      ...(process.env.AI_TEMPERATURE ? { temperature: Number(process.env.AI_TEMPERATURE) } : {}),
       response_format: { type: "json_object" },
       messages: [
         { role: "system", content: system },

@@ -6,6 +6,7 @@ import { useState } from "react";
 import { createUserWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
 import { AuthCard, Field, FormMessage, SubmitButton } from "@/components/auth/AuthUi";
 import { useI18n } from "@/components/i18n";
+import { track } from "@/lib/analytics";
 import { authError, reloadTo, safeNext, startSession } from "@/lib/auth-client";
 import { clientAuth, setAuthLanguage } from "@/lib/firebase-client";
 
@@ -33,6 +34,7 @@ export function SignupForm() {
       if (name) await updateProfile(user, { displayName: name.slice(0, 80) });
       await sendEmailVerification(user, { url: `${window.location.origin}/${locale}/verify-email?next=${encodeURIComponent(next)}` });
       await startSession(user, locale);
+      track({ name: "sign_up" });
       reloadTo(`/${locale}/verify-email?next=${encodeURIComponent(next)}`);
     } catch (err) {
       setError(authError(err, m));

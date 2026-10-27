@@ -1,3 +1,4 @@
+import { guides } from "@/content/guides";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -16,6 +17,9 @@ export function GET() {
 - [How IELTS Reading works](${SITE_URL}/en/preview/lessons/reading-how-it-works)
 - [The four Listening sections](${SITE_URL}/en/preview/lessons/listening-sections)
 - [A Task 2 structure that always works](${SITE_URL}/en/preview/lessons/writing-task2-structure)
+
+## Guides
+${guides.map((g) => `- [${g.text.en.title}](${SITE_URL}/en/guides/${g.slug}): ${g.text.en.description}`).join("\n")}
 
 ## Policies
 - [Terms of service](${SITE_URL}/en/terms)

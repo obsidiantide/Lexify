@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import "../globals.css";
+import { Analytics } from "@/components/Analytics";
 import { I18nProvider } from "@/components/i18n";
 import { isLocale, locales } from "@/lib/i18n/config";
 import { getMessages } from "@/lib/i18n/messages";
@@ -50,6 +51,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[lo
         <I18nProvider locale={locale} messages={messages}>
           {children}
         </I18nProvider>
+        <Analytics />
       </body>
     </html>
   );

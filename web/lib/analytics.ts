@@ -1,9 +1,11 @@
 /**
- * Marketing analytics: Google Analytics 4 and Meta Pixel. Both stay off until
- * NEXT_PUBLIC_GA_ID / NEXT_PUBLIC_META_PIXEL_ID are set, and calls made before
- * the scripts load (or with them blocked) are dropped silently.
+ * Marketing analytics: Google Analytics 4 and Meta Pixel. GA uses Lexify's own
+ * property on the production deployment unless NEXT_PUBLIC_GA_ID overrides it
+ * (an empty value turns it off); the pixel stays off until
+ * NEXT_PUBLIC_META_PIXEL_ID is set. Calls made before the scripts load (or with
+ * them blocked) are dropped silently.
  */
-export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
+export const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? (process.env.NEXT_PUBLIC_VERCEL_ENV === "production" ? "G-CSFMQRGC7P" : "");
 export const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID || "";
 
 type Gtag = (...args: unknown[]) => void;

@@ -414,16 +414,26 @@ Other cities have tried to copy this model with mixed results. Paris greatly exp
   },
 ];
 
+/** Mock id per diagnostic task: mock-<section>-<n>, numbered in pool order within each section. */
+const mockIds: Record<string, string> = {};
+for (const t of seedDiagnosticTasks) {
+  const n = Object.values(mockIds).filter((id) => id.startsWith(`mock-${t.section}-`)).length + 1;
+  mockIds[t.id] = `mock-${t.section}-${n}`;
+}
+
 /** Sample mocks reuse the diagnostic texts at full length until real mock tests are added. */
-const mocks: PracticeTask[] = seedDiagnosticTasks.map((t) => ({
-  ...t,
-  id: `mock-${t.section}-1`,
-  kind: "mock",
-  order: 1,
-  courseIds: t.section === "writing" || t.section === "speaking" ? WS : ALL,
-  free: false,
-  title: `Mock test 1 · ${t.title}`,
-}));
+const mocks: PracticeTask[] = seedDiagnosticTasks.map((t) => {
+  const n = Number(mockIds[t.id].split("-").pop());
+  return {
+    ...t,
+    id: mockIds[t.id],
+    kind: "mock",
+    order: n,
+    courseIds: t.section === "writing" || t.section === "speaking" ? WS : ALL,
+    free: false,
+    title: `Mock test ${n} · ${t.title}`,
+  };
+});
 
 export const seedPracticeTasks: PracticeTask[] = [...exercises, ...mocks];
 
@@ -447,6 +457,6 @@ export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
     },
   },
   ...Object.fromEntries(
-    seedDiagnosticTasks.filter((t) => diagnosticKeys[t.id]).map((t) => [`mock-${t.section}-1`, diagnosticKeys[t.id]]),
+    seedDiagnosticTasks.filter((t) => diagnosticKeys[t.id]).map((t) => [mockIds[t.id], diagnosticKeys[t.id]]),
   ),
 };

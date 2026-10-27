@@ -1,7 +1,7 @@
 /**
- * Placeholder diagnostic pool: one task per section. `npm run seed` writes the
- * tasks to `diagnosticTasks` and the answers to `answerKeys` (server-only).
- * Add more tasks per section and each new user is randomly assigned one.
+ * Starter diagnostic pool. `npm run seed` writes the tasks to `diagnosticTasks`
+ * and the answers to `answerKeys` (server-only). Each new user is randomly
+ * assigned one active task per section.
  */
 import type { AnswerKey, DiagnosticTask } from "@/lib/diagnostic/types";
 
@@ -114,6 +114,116 @@ export const seedDiagnosticTasks: DiagnosticTask[] = [
           { id: "r11", number: 11, type: "gap", maxWords: 2, prompt: "Before planting, engineers may need to ______ the building." },
           { id: "r12", number: 12, type: "gap", maxWords: 2, prompt: "Because space is limited, rooftop farms focus on ______ such as herbs and tomatoes." },
           { id: "r13", number: 13, type: "gap", maxWords: 2, prompt: "In some cities, the law requires ______ to have green roofs." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "reading-electric-buses",
+    section: "reading",
+    title: "The quiet arrival of electric buses",
+    active: true,
+    durations: { light: 15, full: 20 },
+    passages: [
+      {
+        id: "p1",
+        title: "The quiet arrival of electric buses",
+        text: `**A** In 2017 the Chinese city of Shenzhen became the first in the world to run its entire public bus fleet on electricity. More than sixteen thousand diesel buses were replaced in less than a decade, a change that was barely noticed by passengers except for one thing: the streets became quieter. Since then, cities from Santiago to London have set targets to follow, and electric buses have become one of the fastest-growing parts of the vehicle market.
+
+**B** The case for electric buses rests largely on health. Diesel engines release fine particles and nitrogen dioxide at street level, exactly where people walk and breathe. Because city buses stop and start constantly, they produce more of these pollutants per kilometre than vehicles on motorways. Replacing them removes a significant source of local air pollution, even in countries where much of the electricity still comes from fossil fuels, since power stations are usually located far from residential areas.
+
+**C** The price of an electric bus remains considerably higher than that of a diesel one, mainly because of the battery. However, transport authorities increasingly compare the total cost over a vehicle's working life, which is typically twelve to fifteen years. Electricity is cheaper than diesel per kilometre, and electric motors have far fewer moving parts, so maintenance costs fall. Several studies have concluded that, over its lifetime, an electric bus can cost the same as or less than its diesel equivalent.
+
+**D** Charging is the most complicated part of the transition. Some cities charge buses overnight in depots, which requires large batteries and powerful connections to the electricity grid. Others install fast chargers at the ends of routes, allowing buses to top up for a few minutes while drivers take a break. This second approach means buses can carry smaller, lighter batteries, but the chargers are expensive and must be placed carefully.
+
+**E** Cold weather presents another challenge. Batteries lose part of their capacity at low temperatures, and heating the inside of the bus uses energy that would otherwise move it. Operators in northern Europe have reported that the range of their buses can fall by up to a third in winter. Some have responded by installing small diesel heaters, a solution that critics describe as defeating the purpose.
+
+**F** Despite these difficulties, few experts expect a return to diesel. Battery prices have fallen sharply over the past decade, and manufacturers continue to improve the range of their vehicles. For many cities, the question is no longer whether to switch, but how quickly the electricity network can be adapted to support thousands of large vehicles charging at the same time.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "True / False / Not Given",
+        instructions: TFNG,
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "r1", number: 1, type: "tfng", prompt: "Shenzhen replaced its diesel bus fleet in under ten years." },
+          { id: "r2", number: 2, type: "tfng", prompt: "Passengers in Shenzhen complained about the change to electric buses." },
+          { id: "r3", number: 3, type: "tfng", prompt: "City buses produce fewer pollutants per kilometre than vehicles on motorways." },
+          { id: "r4", number: 4, type: "tfng", prompt: "Electric buses reduce local air pollution even when electricity is produced from fossil fuels." },
+          { id: "r5", number: 5, type: "tfng", prompt: "Electric buses usually stay in service for longer than diesel buses." },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "Multiple choice",
+        instructions: "Choose the correct letter, A, B, C or D.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          {
+            id: "r6",
+            number: 6,
+            type: "mcq",
+            prompt: "According to paragraph C, transport authorities now",
+            options: [
+              { value: "A", label: "buy electric buses only when diesel buses break down." },
+              { value: "B", label: "consider the cost of a bus over its whole working life." },
+              { value: "C", label: "pay less for electric buses than for diesel ones." },
+              { value: "D", label: "spend more on maintaining electric buses." },
+            ],
+          },
+          {
+            id: "r7",
+            number: 7,
+            type: "mcq",
+            prompt: "What is an advantage of charging buses at the ends of routes?",
+            options: [
+              { value: "A", label: "The chargers are cheap to install." },
+              { value: "B", label: "Drivers no longer need breaks." },
+              { value: "C", label: "Buses can use smaller batteries." },
+              { value: "D", label: "Buses do not need to return to depots." },
+            ],
+          },
+          {
+            id: "r8",
+            number: 8,
+            type: "mcq",
+            prompt: "Why do critics object to diesel heaters on electric buses?",
+            options: [
+              { value: "A", label: "They make the buses too heavy." },
+              { value: "B", label: "They go against the reason for using electric buses." },
+              { value: "C", label: "They do not work in very cold weather." },
+              { value: "D", label: "They reduce the range of the buses by a third." },
+            ],
+          },
+          {
+            id: "r9",
+            number: 9,
+            type: "mcq",
+            prompt: "What does the writer suggest in the final paragraph?",
+            options: [
+              { value: "A", label: "Some cities may return to diesel buses." },
+              { value: "B", label: "Battery prices are likely to rise again." },
+              { value: "C", label: "The main issue now is the speed of adapting the power network." },
+              { value: "D", label: "Manufacturers have stopped improving battery range." },
+            ],
+          },
+        ],
+      },
+      {
+        id: "g3",
+        typeLabel: "Sentence completion",
+        instructions: "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        passageId: "p1",
+        light: false,
+        questions: [
+          { id: "r10", number: 10, type: "gap", maxWords: 2, prompt: "Diesel engines release fine particles and ______ at street level." },
+          { id: "r11", number: 11, type: "gap", maxWords: 2, prompt: "Electric motors have fewer ______, which lowers maintenance costs." },
+          { id: "r12", number: 12, type: "gap", maxWords: 2, prompt: "Overnight charging in depots needs large batteries and powerful connections to the ______." },
+          { id: "r13", number: 13, type: "gap", maxWords: 2, prompt: "In winter, energy is used for ______ the inside of the bus." },
         ],
       },
     ],
@@ -258,6 +368,81 @@ Receptionist: Towels and water are provided in the changing rooms, but each of y
       },
     ],
   },
+  {
+    id: "writing-cinema-reading",
+    section: "writing",
+    title: "Leisure activities and working from home",
+    active: true,
+    durations: { light: 40, full: 60 },
+    writing: [
+      {
+        id: "task1",
+        light: false,
+        minWords: 150,
+        prompt:
+          "The chart below shows the average number of hours per week that adults in one country spent on four leisure activities in 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        chart: {
+          title: "Average hours per week on leisure activities",
+          unit: "hours",
+          categories: ["Watching TV", "Reading", "Sport", "Online videos"],
+          series: [
+            { name: "2000", values: [18, 5, 3, 0] },
+            { name: "2020", values: [11, 3, 4, 9] },
+          ],
+        },
+      },
+      {
+        id: "task2",
+        light: true,
+        minWords: 250,
+        prompt:
+          "In many countries, more people are choosing to live alone than in the past.\n\nWhy is this happening? Is this a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      },
+    ],
+  },
+  {
+    id: "speaking-places",
+    section: "speaking",
+    title: "Places and travel",
+    active: true,
+    durations: { light: 6, full: 12 },
+    speaking: [
+      {
+        part: 1,
+        light: true,
+        lightCount: 3,
+        answerSeconds: 40,
+        questions: [
+          "Let's talk about your work or studies. What do you do?",
+          "What is the most interesting part of your work or studies?",
+          "Do you like travelling? Why or why not?",
+          "How do you usually travel around your city?",
+        ],
+      },
+      {
+        part: 2,
+        light: true,
+        prepSeconds: 60,
+        answerSeconds: 120,
+        questions: ["Describe a place you visited that you would like to go back to."],
+        cueCard: {
+          topic: "Describe a place you visited that you would like to go back to.",
+          bullets: ["where the place is", "when you went there and who with", "what you did there", "and explain why you would like to go back."],
+        },
+      },
+      {
+        part: 3,
+        light: false,
+        answerSeconds: 60,
+        questions: [
+          "Why do people enjoy visiting places they have been to before?",
+          "How has tourism changed the place where you live?",
+          "Do you think people will travel more or less in the future? Why?",
+          "Should famous tourist sites limit the number of visitors?",
+        ],
+      },
+    ],
+  },
 ];
 
 export const seedAnswerKeys: Record<string, AnswerKey> = {
@@ -276,6 +461,23 @@ export const seedAnswerKeys: Record<string, AnswerKey> = {
       r11: ["strengthen", "strengthen the structure"],
       r12: ["high-value crops", "high value crops"],
       r13: ["new buildings"],
+    },
+  },
+  "reading-electric-buses": {
+    answers: {
+      r1: ["true"],
+      r2: ["not given"],
+      r3: ["false"],
+      r4: ["true"],
+      r5: ["not given"],
+      r6: ["B"],
+      r7: ["C"],
+      r8: ["B"],
+      r9: ["C"],
+      r10: ["nitrogen dioxide"],
+      r11: ["moving parts"],
+      r12: ["electricity grid", "grid"],
+      r13: ["heating"],
     },
   },
   "listening-sports-centre": {

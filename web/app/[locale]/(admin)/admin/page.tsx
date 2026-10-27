@@ -10,7 +10,7 @@ import { adminStats, recentLog } from "@/server/admin/settings";
 
 export default async function AdminOverview({ params }: PageProps<"/[locale]/admin">) {
   const { locale, a } = await adminContext(params);
-  const [stats, log, emptyDb] = await Promise.all([adminStats(), recentLog(), needsSeed()]);
+  const [stats, log, seedPending] = await Promise.all([adminStats(), recentLog(), needsSeed()]);
   const s = a.overview.stats;
   const cards: [string, string | number][] = [
     [s.users, stats.users],
@@ -28,7 +28,7 @@ export default async function AdminOverview({ params }: PageProps<"/[locale]/adm
     <>
       <PageTitle title={a.title} />
       <div className="space-y-3">
-        {emptyDb && <SeedButton />}
+        {seedPending && <SeedButton />}
         {!PAYMENTS_ENABLED && <p className="rounded-xl border border-line bg-sand/60 px-4 py-3 text-sm">{a.overview.paymentsOff}</p>}
         {stats.refundRequests > 0 && (
           <Link

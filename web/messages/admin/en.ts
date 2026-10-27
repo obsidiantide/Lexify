@@ -41,8 +41,8 @@ const en = {
     unlimited: "Unlimited",
   },
   overview: {
-    seedTitle: "The database is empty",
-    seedText: "The site is showing the built-in starter content. Load it into the database before editing courses, lessons or tasks, otherwise the other starter items disappear from the lists.",
+    seedTitle: "Starter content is not fully loaded",
+    seedText: "Some built-in starter courses, lessons or tasks are not in the database yet. Load them before editing, otherwise the missing ones disappear from the lists. Anything you have already edited stays as it is.",
     seedButton: "Load starter content",
     stats: {
       users: "Users",

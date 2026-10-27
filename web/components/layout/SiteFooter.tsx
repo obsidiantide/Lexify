@@ -41,6 +41,7 @@ export function SiteFooter({ locale, m }: { locale: Locale; m: Messages }) {
             <li><Link className="hover:text-ink" href={`${home}/preview`}>{m.nav.preview}</Link></li>
             <li><Link className="hover:text-ink" href={`${home}#pricing`}>{m.nav.pricing}</Link></li>
             <li><Link className="hover:text-ink" href={`${home}#faq`}>{m.nav.faq}</Link></li>
+            <li><Link className="hover:text-ink" href={`${home}/guides`}>{m.nav.guides}</Link></li>
           </ul>
         </div>
         <div>

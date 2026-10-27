@@ -128,6 +128,15 @@ body {
   & a {
     @apply font-semibold text-ink underline decoration-amber decoration-2 underline-offset-2;
   }
+  & table {
+    @apply my-4 block w-full overflow-x-auto border-collapse text-sm;
+  }
+  & th {
+    @apply border-b-2 border-line px-3 py-2 text-left font-bold text-ink;
+  }
+  & td {
+    @apply border-b border-line px-3 py-2 align-top;
+  }
 }
 
 @media print {

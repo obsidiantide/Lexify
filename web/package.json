@@ -11,6 +11,7 @@
     "emulators": "firebase emulators:start --project demo-lexify",
     "seed": "tsx --env-file-if-exists=.env.local scripts/seed.mts",
     "make-admin": "tsx --env-file-if-exists=.env.local scripts/make-admin.mts",
+    "test": "vitest run tests --exclude tests/rules.test.ts",
     "test:rules": "vitest run tests",
     "test:e2e": "playwright test"
   },

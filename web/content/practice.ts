@@ -445,11 +445,11 @@ export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
     answers: { q1: ["i"], q2: ["iii"], q3: ["iv"], q4: ["vi"], q5: ["B"], q6: ["C"], q7: ["D"] },
   },
   "practice-reading-cities-cycling": {
-    answers: { q1: ["no"], q2: ["yes"], q3: ["no"], q4: ["not given"], q5: ["motorways"], q6: ["car-free sundays", "car free sundays"], q7: ["feel safe"] },
+    answers: { q1: ["no"], q2: ["yes"], q3: ["no"], q4: ["not given"], q5: ["motorways"], q6: ["car-free sundays"], q7: ["feel safe"] },
   },
   "practice-listening-museum": {
     answers: {
-      q1: ["1860", "eighteen sixty"],
+      q1: ["1860"],
       q2: ["coin", "one manat coin", "1 manat coin", "manat coin", "1-manat coin", "one-manat coin"],
       q3: ["six", "6"],
       q4: ["map room"],

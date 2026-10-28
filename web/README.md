@@ -263,6 +263,9 @@ Google Analytics 4 на продакшне работает сразу, со с�
 ```bash
 npm run lint         # ESLint
 npm run typecheck    # TypeScript
-npm run test:rules   # правила Firestore и подсчёт баллов (нужны запущенные эмуляторы)
+npm test             # контент (ключи ответов, переводы) и подсчёт баллов, без эмуляторов
+npm run test:rules   # то же плюс правила Firestore (нужны запущенные эмуляторы)
 npm run build        # production-сборка
 ```
+
+Те же проверки GitHub Actions запускает на каждый pull request и пуш в `main` (`.github/workflows/web.yml`).

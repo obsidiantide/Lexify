@@ -862,4 +862,253 @@ Part 1 isn't a test of your opinions. If you don't like cooking, say so and expl
 
 Record yourself answering these, 20 seconds each: *What kind of music do you like? Do you prefer mornings or evenings? How often do you see your friends?*`,
   },
+  {
+    id: "reading-matching-information",
+    courseId: "ielts-academic",
+    skill: "reading",
+    order: 5,
+    minutes: 10,
+    free: false,
+    published: true,
+    title: L("Matching information: which paragraph contains…", "Matching information: hansı abzasda var…", "Matching information: в каком абзаце есть…"),
+    summary: L(
+      "Find a specific detail in a lettered paragraph, in any order.",
+      "Hərflərlə işarələnmiş abzasda konkret təfərrüatı istənilən ardıcıllıqla tapın.",
+      "Найти конкретную деталь в абзаце с буквой, в любом порядке.",
+    ),
+    body: `## What the task looks like
+
+The passage has lettered paragraphs, **A**, **B**, **C** and so on. You get a list of statements and decide which paragraph contains each piece of information:
+
+> *Which paragraph contains the following information?*
+> *1. an example of a project that failed*
+> *2. a comparison of costs in two countries*
+
+The instructions often say **"You may use any letter more than once."** Some paragraphs will not be used at all.
+
+## Why it is harder than it looks
+
+- The questions are **not in passage order**.
+- The statements describe the *type* of information (*an example*, *a reason*, *a prediction*), not its exact content.
+- The detail is often one sentence in the middle of a paragraph, not its main idea. That makes it different from matching headings.
+
+## A method that saves time
+
+1. **Leave this task until last** if the section has other question types. By then you will already know the passage well.
+2. Underline the **type word** in each statement: *example*, *reason*, *comparison*, *definition*, *warning*, *number*.
+3. Underline the **topic word**: *project*, *costs*, *two countries*.
+4. Scan for the topic first. Then check that the sentence really gives the right type of information: a *comparison* needs two things compared, a *prediction* needs future language (*will*, *is likely to*, *by 2040*).
+5. Write the letter and move on. Do not reread the whole paragraph.
+
+## Signal words for common types
+
+| Type of information | Look for |
+| --- | --- |
+| Reason or cause | because, due to, as a result of, led to |
+| Example | for instance, such as, one case is |
+| Comparison | whereas, than, compared with, similarly |
+| Prediction | will, expected, likely, in the future |
+| Criticism | however, critics, problem, fail |
+
+## Common mistakes
+
+- Choosing the paragraph whose *topic* matches but which gives the wrong *type* of information.
+- Assuming every letter must be used once.
+- Spending five minutes on one statement. If you can't find it in a minute, guess and come back.
+
+### Try it
+
+In the next practice reading, write the type word next to each matching question before you look at the passage. You will scan much faster.`,
+  },
+  {
+    id: "listening-multiple-choice",
+    courseId: "ielts-academic",
+    skill: "listening",
+    order: 5,
+    minutes: 9,
+    free: false,
+    published: true,
+    title: L("Multiple choice in Listening: don't fall for distractors", "Listening-də multiple choice: yayındırıcılara aldanmayın", "Multiple choice в Listening: не попадитесь на ловушки"),
+    summary: L(
+      "Why all three options are mentioned, and how to hear which one is meant.",
+      "Niyə hər üç variant səslənir və hansının nəzərdə tutulduğunu necə eşitmək.",
+      "Почему звучат все три варианта и как услышать нужный.",
+    ),
+    body: `## The trap
+
+In Listening multiple choice you usually hear **all three options** mentioned. Two of them are **distractors**: the speaker mentions them and then rejects, corrects or qualifies them. Candidates who tick the first option they hear lose the mark.
+
+> *What time will the tour start?*
+> *A 9.00  B 9.30  C 10.00*
+>
+> "The tour normally starts at nine, but this week, because of the repairs, it's half an hour later. We'll finish at ten as usual."
+
+The answer is **B**. You heard all three times.
+
+## Listen for these signals
+
+| Signal | What it means |
+| --- | --- |
+| *but*, *however*, *actually* | the speaker is about to change what they said |
+| *at first I thought…*, *we were going to…* | the option that follows is probably wrong |
+| *no, sorry, I mean…* | a correction: the new information is the answer |
+| *the main reason*, *above all*, *what really matters* | the speaker is giving the answer |
+
+## Use the preparation time
+
+Before each section you get time to read the questions. Use it to:
+
+1. **Underline the key words** in the question stem: *why*, *main*, *first*, *not*.
+2. **Paraphrase the options** in your head. The recording almost never uses the same words as the options. *Expensive* may be "costs a lot"; *crowded* may be "hard to find a seat".
+3. Notice questions with **two answers** (*Choose TWO letters*). They often follow a list of five options, and the speakers discuss several before agreeing.
+
+## While you listen
+
+- Keep your pencil on the current question, but glance at the next one, so you notice if you miss an answer.
+- Don't decide on the first mention. Wait until the speaker moves on to the next point.
+- If you missed it, guess and move on immediately. Never leave a question blank.
+
+## Common mistakes
+
+- Choosing the option that uses the same words as the recording. Same words often mean a distractor.
+- Missing the word *not* in the question.
+- Losing your place after one difficult question and missing the next three.
+
+### Try it
+
+Listen to any podcast for five minutes and write down every time a speaker says *but* or *actually*. Notice what changes after it. This trains exactly the skill the test checks.`,
+  },
+  {
+    id: "ws-task1-process-map",
+    courseId: "writing-speaking",
+    skill: "writing",
+    order: 2,
+    minutes: 10,
+    free: false,
+    published: true,
+    title: L("Task 1: processes and maps", "Task 1: proseslər və xəritələr", "Task 1: процессы и карты"),
+    summary: L(
+      "No numbers to compare: how to describe stages and changes instead.",
+      "Müqayisə üçün rəqəm yoxdur: mərhələləri və dəyişiklikləri necə təsvir etmək.",
+      "Нет цифр для сравнения: как описывать этапы и изменения.",
+    ),
+    body: `## Why these feel different
+
+Most Task 1 charts give you numbers to compare. **Processes** and **maps** don't. Many candidates panic, but these tasks follow the same four-paragraph structure and are often easier to finish in 20 minutes.
+
+## Processes
+
+A process diagram shows how something is made or how something works, in stages.
+
+**Overview:** say how many stages there are, where the process begins and ends, and whether it is natural or man-made, linear or a cycle.
+
+> Overall, the production of bricks involves seven stages, beginning with the digging of clay and ending with delivery to customers.
+
+**Detail paragraphs:** split the stages roughly in half and describe them **in order**.
+
+Grammar that examiners expect here:
+- The **passive** for man-made processes: *The clay **is dug** up and **placed** on a metal grid.*
+- **Sequencers**, varied: *first, next, after that, once this is done, at this stage, finally.*
+- **Purpose**: *The bricks are heated **in order to** harden them.*
+
+For natural cycles (the life cycle of a frog, the water cycle), use the **active**: *The eggs hatch into tadpoles.*
+
+## Maps
+
+Map tasks usually show one place at two dates, or a plan for the future.
+
+**Overview:** the biggest change in one or two sentences.
+
+> Overall, the village became much more developed, with farmland replaced by housing and new transport links.
+
+**Detail paragraphs:** group changes by **area** (north and south, the centre and the outskirts) or by **type** (things added, things removed, things that stayed).
+
+Useful language:
+
+| Change | Examples |
+| --- | --- |
+| Something new | *was built, was constructed, was added, opened* |
+| Something gone | *was demolished, was removed, was replaced by, made way for* |
+| Something changed | *was converted into, was extended, was enlarged* |
+| Location | *to the north of, next to, opposite, in the south-west corner* |
+
+Use the **past simple passive** for changes between two past dates, and *will be* or *is planned to be* for future plans.
+
+## Common mistakes
+
+- Skipping stages, or describing them out of order.
+- Adding information that isn't on the diagram (*this is good for the environment*).
+- Getting compass directions wrong on maps. Check where north is before you write.
+
+### Try it
+
+Search for "IELTS process diagram" and write only the overview sentence for three different processes. If you can write a good overview in two minutes, the rest of the task is simple.`,
+  },
+  {
+    id: "ws-speaking-vocabulary",
+    courseId: "writing-speaking",
+    skill: "speaking",
+    order: 2,
+    minutes: 8,
+    free: false,
+    published: true,
+    title: L("Vocabulary for Speaking: sound natural, not memorised", "Speaking üçün lüğət: əzbər kimi yox, təbii səslənin", "Лексика для Speaking: естественно, а не заученно"),
+    summary: L(
+      "Collocations, paraphrase and topic words that raise Lexical Resource.",
+      "Lexical Resource balını artıran kollokasiyalar, perifraz və mövzu sözləri.",
+      "Коллокации, перефразирование и тематическая лексика для Lexical Resource.",
+    ),
+    body: `## What examiners mean by Lexical Resource
+
+One quarter of your Speaking band depends on vocabulary. At band 7 and above, examiners look for:
+
+- **less common words and phrases** used naturally;
+- **collocations**: words that go together, such as *make a decision*, *heavy traffic*, *highly recommend*;
+- the ability to **paraphrase** when you don't know a word.
+
+Rare words used wrongly hurt you. Simple words used precisely help you.
+
+## Idioms: be careful
+
+Lists of "idioms for IELTS" do more harm than good. *It's raining cats and dogs* sounds strange in a test. Use an idiom only if you would say it to a friend, and only when it fits exactly. A few that sound natural in many answers:
+
+- *to be honest* / *to be fair*
+- *it's not my cup of tea*
+- *on the go* (very busy)
+- *every now and then*
+
+## Collocations beat single words
+
+Instead of learning *significant*, learn **phrases**:
+
+| Instead of | Try |
+| --- | --- |
+| a big problem | a serious problem, a major issue |
+| very tired | exhausted, worn out |
+| I like it very much | I'm really into it, I'm a big fan of it |
+| many people | a lot of people, quite a few people, most people I know |
+| good weather | lovely weather, clear skies |
+
+## Paraphrase when you're stuck
+
+If you forget a word, describe it. This is a skill the examiner rewards, not a failure:
+
+> "It's a kind of… a small shop where you can get coffee and snacks, usually near a station."
+
+Useful frames: *it's a kind of…*, *it's what you use to…*, *I'm not sure of the exact word, but…*
+
+## Build a topic bank
+
+Common Part 1 and Part 3 topics are predictable: work and study, home, technology, environment, education, travel, health, the city. For each topic keep **ten useful phrases** in a notebook and use them in practice answers until they come without thinking.
+
+## Common mistakes
+
+- Memorised "advanced" phrases that don't fit the question.
+- Repeating the examiner's words instead of paraphrasing them.
+- Translating directly from your language: *make a photo* instead of *take a photo*, *say a joke* instead of *tell a joke*.
+
+### Try it
+
+Answer this Part 3 question out loud for one minute, then listen back and count how many words you repeated: *How has technology changed the way people communicate?* Try again and replace each repeated word.`,
+  },
 ];

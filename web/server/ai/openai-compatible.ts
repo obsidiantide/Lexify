@@ -83,7 +83,7 @@ export const openAiCompatibleStt: SpeechToText = {
     form.append("language", "en");
     const res = await fetch(`${process.env.STT_BASE_URL!.replace(/\/$/, "")}/audio/transcriptions`, {
       method: "POST",
-      headers: { authorization: `Bearer ${process.env.STT_API_KEY}` },
+      headers: { authorization: `Bearer ${process.env.STT_API_KEY || process.env.AI_API_KEY}` },
       body: form,
       signal: AbortSignal.timeout(55_000),
     });

@@ -616,6 +616,12 @@ const az: Messages = {
       view: "Bax",
     },
   },
+  serverError: {
+    title: "Nəsə alınmadı",
+    text: "Səhifəni yükləmək mümkün olmadı. Bir az sonra yenidən cəhd et. Xəta təkrarlanırsa, bir qədər sonra qayıt.",
+    retry: "Yenidən cəhd et",
+    home: "Ana səhifəyə keç",
+  },
   notFound: {
     title: "Səhifə tapılmadı",
     text: "Axtardığın səhifə mövcud deyil və ya köçürülüb.",

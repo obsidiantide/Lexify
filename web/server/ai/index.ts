@@ -9,8 +9,8 @@ export function grader(): AiGrader {
   return ok ? openAiCompatibleGrader : mockGrader;
 }
 
-/** STT_PROVIDER=openai-compatible with STT_BASE_URL, STT_API_KEY and STT_MODEL; otherwise the demo transcriber. */
+/** STT_PROVIDER=openai-compatible with STT_BASE_URL, STT_MODEL and a key (STT_API_KEY, or AI_API_KEY when empty); otherwise the demo transcriber. */
 export function speechToText(): SpeechToText {
-  const ok = process.env.STT_PROVIDER === "openai-compatible" && process.env.STT_BASE_URL && process.env.STT_API_KEY && process.env.STT_MODEL;
+  const ok = process.env.STT_PROVIDER === "openai-compatible" && process.env.STT_BASE_URL && (process.env.STT_API_KEY || process.env.AI_API_KEY) && process.env.STT_MODEL;
   return ok ? openAiCompatibleStt : mockStt;
 }

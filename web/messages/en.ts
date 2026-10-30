@@ -614,6 +614,12 @@ const en = {
       view: "View",
     },
   },
+  serverError: {
+    title: "Something went wrong",
+    text: "We couldn't load this page. Try again in a moment. If it keeps happening, come back a little later.",
+    retry: "Try again",
+    home: "Go to the home page",
+  },
   notFound: {
     title: "Page not found",
     text: "The page you are looking for doesn't exist or has moved.",

@@ -221,7 +221,7 @@ AI_TEMPERATURE=                             # необязательно; не �
 
 STT_PROVIDER=openai-compatible
 STT_BASE_URL=https://api.openai.com/v1      # адрес API, куда добавляется /audio/transcriptions
-STT_API_KEY=...
+STT_API_KEY=                                # пусто: используется AI_API_KEY
 STT_MODEL=...                               # модель распознавания речи
 ```
 

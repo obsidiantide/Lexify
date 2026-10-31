@@ -716,6 +716,169 @@ Lexify-da hazırlıq üçün bir dəqiqəlik taymer və cavab üçün tam iki d�
       },
     },
   },
+  {
+    slug: "ielts-writing-task-2-essay-structure",
+    updated: "2026-10-31",
+    minutes: 6,
+    text: {
+      en: {
+        title: "IELTS Writing Task 2: essay types and a structure that works",
+        description: "The five common Task 2 question types, a four-paragraph plan for each, and how to spend your 40 minutes.",
+        body: `## What Task 2 asks for
+
+Task 2 is the same in Academic and General Training. You get a statement about a social topic and a question about it, and you write **at least 250 words** in about **40 minutes**. Task 2 counts for twice as much as Task 1, so start with it if you tend to run out of time.
+
+Fewer than 250 words lowers your Task Response score. More than 300 rarely helps and leaves less time to check.
+
+## Read the question twice
+
+Most low scores in Task Response come from answering a different question. Underline the **topic** (for example, *working from home*) and the **instruction** (*do you agree or disagree?*). Your essay must answer every part of the instruction.
+
+## Five common question types
+
+1. **Opinion:** *To what extent do you agree or disagree?* Give a clear position in the introduction and keep it to the end.
+2. **Discussion:** *Discuss both views and give your own opinion.* One paragraph for each view, and your opinion in the introduction and conclusion.
+3. **Advantages and disadvantages:** *Do the advantages outweigh the disadvantages?* One paragraph for each side, then say which is stronger.
+4. **Problem and solution:** *What problems does this cause? What can be done?* One paragraph for problems (or causes), one for solutions that match them.
+5. **Two-part question:** *Why is this happening? Is it a positive or negative development?* One paragraph for each question.
+
+## A four-paragraph plan
+
+- **Introduction (2–3 sentences):** paraphrase the topic in your own words and state your answer to the question.
+- **Body paragraph 1 (5–7 sentences):** one main idea, explained, with a specific example.
+- **Body paragraph 2 (5–7 sentences):** a second main idea, explained, with an example.
+- **Conclusion (2 sentences):** repeat your answer in new words. No new ideas.
+
+Start each body paragraph with a **topic sentence** that tells the reader what the paragraph is about. Then explain *why* and give an example. One well-developed idea scores higher than three ideas listed in a sentence each.
+
+## How to spend 40 minutes
+
+- **5 minutes:** read the question, decide your answer, note two main ideas and an example for each.
+- **30 minutes:** write.
+- **5 minutes:** check verb forms, articles, plurals and spelling.
+
+## How Task 2 is marked
+
+Examiners use four criteria with equal weight: **Task Response**, **Coherence and Cohesion**, **Lexical Resource** and **Grammatical Range and Accuracy**. Linking words help coherence, but too many (*Moreover… Furthermore… In addition…*) in every sentence sound mechanical. Clear paragraphs and topic sentences matter more.
+
+## Common mistakes
+
+- Copying whole phrases from the question instead of paraphrasing.
+- Giving no clear opinion when the question asks for one.
+- Memorised introductions that could fit any topic.
+- Examples that are too general (*many people think…*) instead of specific.
+- A conclusion that adds a new argument.
+
+## Practise with feedback
+
+Lexify has real-style Task 2 questions with a 40-minute timer and a word counter. After you submit, you get an estimated band for each criterion and a list of errors with corrections.`,
+      },
+      ru: {
+        title: "IELTS Writing Task 2: типы эссе и структура, которая работает",
+        description: "Пять частых типов вопросов в Task 2, план из четырёх абзацев для каждого и как распределить 40 минут.",
+        body: `## Что нужно в Task 2
+
+Task 2 одинаковая в Academic и General Training. Вам дают утверждение на общественную тему и вопрос к нему, и нужно написать **не меньше 250 слов** примерно за **40 минут**. Task 2 весит вдвое больше Task 1, поэтому, если вам часто не хватает времени, начинайте с неё.
+
+Меньше 250 слов снижает балл за Task Response. Больше 300 почти ничего не даёт, а времени на проверку остаётся меньше.
+
+## Прочитайте вопрос дважды
+
+Чаще всего низкий балл за Task Response получают за ответ не на тот вопрос. Подчеркните **тему** (например, *working from home*) и **задание** (*do you agree or disagree?*). Эссе должно отвечать на каждую часть задания.
+
+## Пять частых типов вопросов
+
+1. **Мнение:** *To what extent do you agree or disagree?* Чётко обозначьте позицию во вступлении и держитесь её до конца.
+2. **Обсуждение:** *Discuss both views and give your own opinion.* По абзацу на каждую точку зрения, а своё мнение во вступлении и заключении.
+3. **Плюсы и минусы:** *Do the advantages outweigh the disadvantages?* По абзацу на каждую сторону, потом скажите, какая перевешивает.
+4. **Проблема и решение:** *What problems does this cause? What can be done?* Абзац о проблемах (или причинах) и абзац о решениях, которые им соответствуют.
+5. **Вопрос из двух частей:** *Why is this happening? Is it a positive or negative development?* По абзацу на каждый вопрос.
+
+## План из четырёх абзацев
+
+- **Вступление (2–3 предложения):** перескажите тему своими словами и дайте ответ на вопрос.
+- **Основной абзац 1 (5–7 предложений):** одна главная мысль, её объяснение и конкретный пример.
+- **Основной абзац 2 (5–7 предложений):** вторая мысль, объяснение и пример.
+- **Заключение (2 предложения):** повторите ответ другими словами. Без новых идей.
+
+Начинайте каждый основной абзац с **topic sentence**, которое говорит, о чём абзац. Затем объясните *почему* и приведите пример. Одна хорошо раскрытая мысль даёт больше, чем три мысли по одному предложению.
+
+## Как распределить 40 минут
+
+- **5 минут:** прочитать вопрос, решить, что отвечаете, записать две главные мысли и пример к каждой.
+- **30 минут:** писать.
+- **5 минут:** проверить формы глаголов, артикли, множественное число и орфографию.
+
+## Как оценивают Task 2
+
+У экзаменаторов четыре критерия с одинаковым весом: **Task Response**, **Coherence and Cohesion**, **Lexical Resource** и **Grammatical Range and Accuracy**. Связки помогают связности, но если они в каждом предложении (*Moreover… Furthermore… In addition…*), текст звучит механически. Чёткие абзацы и topic sentences важнее.
+
+## Частые ошибки
+
+- Переписывать целые фразы из вопроса вместо перефразирования.
+- Не дать ясного мнения, когда вопрос его требует.
+- Заученные вступления, которые подходят к любой теме.
+- Слишком общие примеры (*many people think…*) вместо конкретных.
+- Новый аргумент в заключении.
+
+## Тренируйтесь с обратной связью
+
+В Lexify есть вопросы Task 2 в формате экзамена с таймером на 40 минут и счётчиком слов. После отправки вы получите примерный балл по каждому критерию и список ошибок с исправлениями.`,
+      },
+      az: {
+        title: "IELTS Writing Task 2: esse növləri və işləyən struktur",
+        description: "Task 2-də ən çox rast gəlinən beş sual növü, hər biri üçün dörd abzaslıq plan və 40 dəqiqəni necə bölmək.",
+        body: `## Task 2-də nə tələb olunur
+
+Task 2 Academic və General Training-də eynidir. Sizə ictimai mövzuda bir fikir və ona aid sual verilir, siz isə təxminən **40 dəqiqəyə** **ən azı 250 söz** yazırsınız. Task 2 Task 1-dən iki dəfə çox dəyərləndirilir, ona görə vaxtınız tez-tez çatmırsa, ondan başlayın.
+
+250 sözdən az yazmaq Task Response balını aşağı salır. 300 sözdən çox yazmaq demək olar ki, kömək etmir, yoxlamağa isə vaxt az qalır.
+
+## Sualı iki dəfə oxuyun
+
+Task Response üzrə aşağı balın ən çox səbəbi başqa suala cavab verməkdir. **Mövzunun** (məsələn, *working from home*) və **tapşırığın** (*do you agree or disagree?*) altından xətt çəkin. Esse tapşırığın hər hissəsinə cavab verməlidir.
+
+## Beş geniş yayılmış sual növü
+
+1. **Fikir:** *To what extent do you agree or disagree?* Mövqeyinizi girişdə aydın bildirin və sona qədər saxlayın.
+2. **Müzakirə:** *Discuss both views and give your own opinion.* Hər baxış üçün bir abzas, öz fikriniz isə girişdə və nəticədə.
+3. **Üstünlüklər və çatışmazlıqlar:** *Do the advantages outweigh the disadvantages?* Hər tərəf üçün bir abzas, sonra hansının üstün olduğunu deyin.
+4. **Problem və həll:** *What problems does this cause? What can be done?* Problemlər (və ya səbəblər) üçün bir abzas, onlara uyğun həllər üçün bir abzas.
+5. **İki hissəli sual:** *Why is this happening? Is it a positive or negative development?* Hər sual üçün bir abzas.
+
+## Dörd abzaslıq plan
+
+- **Giriş (2–3 cümlə):** mövzunu öz sözlərinizlə ifadə edin və suala cavabınızı bildirin.
+- **Əsas abzas 1 (5–7 cümlə):** bir əsas fikir, onun izahı və konkret nümunə.
+- **Əsas abzas 2 (5–7 cümlə):** ikinci fikir, izah və nümunə.
+- **Nəticə (2 cümlə):** cavabınızı başqa sözlərlə təkrarlayın. Yeni fikir yoxdur.
+
+Hər əsas abzası onun nədən bəhs etdiyini deyən **topic sentence** ilə başlayın. Sonra *niyə* olduğunu izah edin və nümunə gətirin. Yaxşı açılmış bir fikir hərəsi bir cümlə olan üç fikirdən daha yüksək qiymətləndirilir.
+
+## 40 dəqiqəni necə bölmək
+
+- **5 dəqiqə:** sualı oxuyun, cavabınızı seçin, iki əsas fikir və hər biri üçün nümunə qeyd edin.
+- **30 dəqiqə:** yazın.
+- **5 dəqiqə:** fel formalarını, artiklləri, cəm şəkilçilərini və orfoqrafiyanı yoxlayın.
+
+## Task 2 necə qiymətləndirilir
+
+İmtahançılar bərabər çəkili dörd meyardan istifadə edir: **Task Response**, **Coherence and Cohesion**, **Lexical Resource** və **Grammatical Range and Accuracy**. Bağlayıcı sözlər rabitəyə kömək edir, amma hər cümlədə olsalar (*Moreover… Furthermore… In addition…*), mətn mexaniki səslənir. Aydın abzaslar və topic sentence daha vacibdir.
+
+## Tez-tez edilən səhvlər
+
+- Sualdan bütöv ifadələri köçürmək, onları öz sözlərinizlə ifadə etməmək.
+- Sual fikir tələb edəndə aydın fikir bildirməmək.
+- İstənilən mövzuya uyğun gələn əzbərlənmiş girişlər.
+- Konkret nümunə əvəzinə çox ümumi nümunələr (*many people think…*).
+- Nəticədə yeni arqument əlavə etmək.
+
+## Rəylə məşq edin
+
+Lexify-da 40 dəqiqəlik taymer və söz sayğacı olan imtahan formatında Task 2 sualları var. Göndərdikdən sonra hər meyar üzrə təxmini bal və düzəlişləri ilə səhvlərin siyahısını alırsınız.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

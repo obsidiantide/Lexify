@@ -879,6 +879,139 @@ Lexify-da 40 dəqiqəlik taymer və söz sayğacı olan imtahan formatında Task
       },
     },
   },
+  {
+    slug: "ielts-reading-true-false-not-given",
+    updated: "2026-11-01",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Reading: True, False or Not Given without guessing",
+        description: "What each answer really means, a four-step method, worked examples and the traps that cost the most marks.",
+        body: `## What the three answers mean
+
+In this task you read statements and decide how each one relates to the passage:
+
+- **TRUE:** the passage says the same thing, usually in different words.
+- **FALSE:** the passage says the **opposite** or something that cannot be true at the same time.
+- **NOT GIVEN:** the passage says **nothing** that lets you decide. The topic may be mentioned, but not this exact point.
+
+**Yes / No / Not Given** works the same way, but the statements are about the **writer's opinions or claims**, not facts. You will see it more often in Academic passages that argue a point.
+
+## Four steps for each statement
+
+1. **Underline the key words** in the statement, especially names, numbers and dates. They are the easiest to find in the text.
+2. **Find the matching part** of the passage. The questions follow the order of the text, so the answer to question 3 is usually after the answer to question 2.
+3. **Compare carefully.** Look for words that change the meaning: *all / some*, *always / often*, *only*, *more / less*, *before / after*.
+4. **Decide using only the passage**, not what you know about the topic.
+
+## Worked examples
+
+Passage: *The bridge, completed in 1932, was at that time the longest of its kind in Europe. Engineers had originally planned a cheaper wooden design.*
+
+- *The bridge was finished in the 1930s.* → **TRUE** (1932 is in the 1930s).
+- *The bridge was the longest in the world when it opened.* → **NOT GIVEN** (the passage only talks about Europe; it says nothing about the world, and "longest in Europe" does not contradict it).
+- *Engineers first planned to build the bridge from stone.* → **FALSE** (the passage says the first plan was a wooden design).
+- *The wooden design was rejected because of safety concerns.* → **NOT GIVEN** (we know there was a plan, but not why it changed).
+
+If you are unsure between FALSE and NOT GIVEN, ask yourself: *does the passage say something that makes the statement wrong?* If it does, the answer is FALSE; if it does not, it is NOT GIVEN.
+
+## The most common traps
+
+- **Same words, different meaning.** A statement can repeat words from the text and still be FALSE because one small word (*never*, *only*, *most*) changes it.
+- **Your own knowledge.** If the passage does not say it, the answer is NOT GIVEN, even if you know it is true.
+- **Partial match.** If one part of the statement is supported and another part is not mentioned, the answer is NOT GIVEN.
+- **Spending too long.** If you cannot find the place in the text after about a minute, move on and come back at the end.
+
+## Practise with feedback
+
+Lexify Reading practice includes True, False or Not Given questions in real-test format. After you submit, you see the correct answer for every question and your accuracy for each question type, so you know which type to work on.`,
+      },
+      ru: {
+        title: "IELTS Reading: True, False или Not Given без угадывания",
+        description: "Что на самом деле значит каждый ответ, метод из четырёх шагов, разобранные примеры и ловушки, на которых теряют больше всего баллов.",
+        body: `## Что значат три ответа
+
+В этом задании вы читаете утверждения и решаете, как каждое связано с текстом:
+
+- **TRUE:** в тексте сказано то же самое, обычно другими словами.
+- **FALSE:** в тексте сказано **обратное** или то, что не может быть правдой одновременно с утверждением.
+- **NOT GIVEN:** в тексте **нет** информации, чтобы решить. Тема может упоминаться, но не именно этот пункт.
+
+**Yes / No / Not Given** устроено так же, но утверждения касаются **мнений или позиции автора**, а не фактов. Оно чаще встречается в Academic-текстах, где автор что-то доказывает.
+
+## Четыре шага для каждого утверждения
+
+1. **Подчеркните ключевые слова** в утверждении, особенно имена, числа и даты. Их проще всего найти в тексте.
+2. **Найдите соответствующее место** в тексте. Вопросы идут по порядку текста, поэтому ответ на вопрос 3 обычно находится после ответа на вопрос 2.
+3. **Сравните внимательно.** Ищите слова, которые меняют смысл: *all / some*, *always / often*, *only*, *more / less*, *before / after*.
+4. **Решайте только по тексту**, а не по тому, что вы знаете о теме.
+
+## Разбор примеров
+
+Текст: *The bridge, completed in 1932, was at that time the longest of its kind in Europe. Engineers had originally planned a cheaper wooden design.*
+
+- *The bridge was finished in the 1930s.* → **TRUE** (1932 — это 1930-е).
+- *The bridge was the longest in the world when it opened.* → **NOT GIVEN** (в тексте сказано только про Европу; про мир информации нет, и «самый длинный в Европе» этому не противоречит).
+- *Engineers first planned to build the bridge from stone.* → **FALSE** (в тексте сказано, что сначала планировали деревянный мост).
+- *The wooden design was rejected because of safety concerns.* → **NOT GIVEN** (известно, что такой план был, но не почему от него отказались).
+
+Если сомневаетесь между FALSE и NOT GIVEN, спросите себя: *есть ли в тексте что-то, что делает утверждение неверным?* Если есть — FALSE, если нет — NOT GIVEN.
+
+## Самые частые ловушки
+
+- **Те же слова, другой смысл.** Утверждение может повторять слова из текста и всё равно быть FALSE, потому что одно маленькое слово (*never*, *only*, *most*) меняет смысл.
+- **Собственные знания.** Если в тексте этого нет, ответ NOT GIVEN, даже если вы знаете, что это правда.
+- **Частичное совпадение.** Если одна часть утверждения подтверждается, а другая не упоминается, ответ NOT GIVEN.
+- **Слишком много времени.** Если за минуту не нашли нужное место, переходите дальше и вернитесь в конце.
+
+## Тренируйтесь с обратной связью
+
+В практике Reading в Lexify есть задания True, False or Not Given в формате экзамена. После отправки вы видите правильный ответ на каждый вопрос и точность по каждому типу заданий, поэтому понятно, над чем работать.`,
+      },
+      az: {
+        title: "IELTS Reading: True, False və ya Not Given təxminsiz",
+        description: "Hər cavabın əslində nə demək olduğu, dörd addımlı üsul, izahlı nümunələr və ən çox bal itirilən tələlər.",
+        body: `## Üç cavab nə deməkdir
+
+Bu tapşırıqda fikirləri oxuyur və hər birinin mətnlə necə əlaqəli olduğunu müəyyən edirsiniz:
+
+- **TRUE:** mətndə eyni şey deyilir, adətən başqa sözlərlə.
+- **FALSE:** mətndə **əksi** və ya fikirlə eyni vaxtda doğru ola bilməyən bir şey deyilir.
+- **NOT GIVEN:** mətndə qərar vermək üçün **məlumat yoxdur**. Mövzu xatırlana bilər, amma məhz bu məqam yox.
+
+**Yes / No / Not Given** eyni qaydada işləyir, amma fikirlər faktlar haqqında yox, **müəllifin fikirləri və ya mövqeyi** haqqındadır. Bu növ daha çox müəllifin nəyisə sübut etdiyi Academic mətnlərində olur.
+
+## Hər fikir üçün dörd addım
+
+1. Fikirdəki **açar sözlərin**, xüsusilə adların, rəqəmlərin və tarixlərin altından xətt çəkin. Onları mətndə tapmaq ən asandır.
+2. Mətndə **uyğun yeri tapın**. Suallar mətnin ardıcıllığı ilə gedir, ona görə 3-cü sualın cavabı adətən 2-ci sualın cavabından sonra olur.
+3. **Diqqətlə müqayisə edin.** Mənanı dəyişən sözlərə baxın: *all / some*, *always / often*, *only*, *more / less*, *before / after*.
+4. **Yalnız mətnə əsasən qərar verin**, mövzu haqqında bildiklərinizə görə yox.
+
+## İzahlı nümunələr
+
+Mətn: *The bridge, completed in 1932, was at that time the longest of its kind in Europe. Engineers had originally planned a cheaper wooden design.*
+
+- *The bridge was finished in the 1930s.* → **TRUE** (1932 1930-cu illərə aiddir).
+- *The bridge was the longest in the world when it opened.* → **NOT GIVEN** (mətndə yalnız Avropadan danışılır; dünya haqqında məlumat yoxdur və "Avropada ən uzun" bununla ziddiyyət təşkil etmir).
+- *Engineers first planned to build the bridge from stone.* → **FALSE** (mətndə əvvəlcə taxta körpü planlaşdırıldığı deyilir).
+- *The wooden design was rejected because of safety concerns.* → **NOT GIVEN** (belə planın olduğu məlumdur, amma ondan niyə imtina edildiyi yox).
+
+FALSE ilə NOT GIVEN arasında tərəddüd edirsinizsə, özünüzdən soruşun: *mətndə fikri yanlış edən bir şey varmı?* Varsa FALSE, yoxdursa NOT GIVEN.
+
+## Ən çox rast gəlinən tələlər
+
+- **Eyni sözlər, fərqli məna.** Fikir mətndəki sözləri təkrarlaya və yenə də FALSE ola bilər, çünki bir kiçik söz (*never*, *only*, *most*) mənanı dəyişir.
+- **Öz bilikləriniz.** Mətndə yoxdursa, doğru olduğunu bilsəniz belə cavab NOT GIVEN-dir.
+- **Qismən uyğunluq.** Fikrin bir hissəsi təsdiqlənir, digəri isə xatırlanmırsa, cavab NOT GIVEN-dir.
+- **Çox vaxt sərf etmək.** Bir dəqiqəyə lazımi yeri tapmadınızsa, keçin və sonda qayıdın.
+
+## Rəylə məşq edin
+
+Lexify-ın Reading məşqlərində imtahan formatında True, False or Not Given tapşırıqları var. Göndərdikdən sonra hər sualın düzgün cavabını və hər tapşırıq növü üzrə dəqiqliyinizi görürsünüz, beləliklə nə üzərində işləməli olduğunuzu bilirsiniz.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

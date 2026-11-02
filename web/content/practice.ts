@@ -285,6 +285,89 @@ Other cities have tried to copy this model with mixed results. Paris greatly exp
     ],
   },
   {
+    id: "practice-reading-urban-bees",
+    section: "reading",
+    kind: "exercise",
+    order: 4,
+    courseIds: ALL,
+    free: false,
+    title: "Bees in the city",
+    active: true,
+    durations: { light: 12, full: 12 },
+    passages: [
+      {
+        id: "p1",
+        title: "Bees in the city",
+        text: `Over the past twenty years, beekeeping has spread from the countryside to the rooftops of large cities. In one European capital, the number of registered hives roughly doubled in just five years, and hotels, banks and office buildings began keeping bees as part of their environmental programmes.
+
+Supporters argue that cities can be surprisingly good places for bees. Parks, private gardens and street trees offer a wide variety of flowers that bloom at different times of the year, while much modern farmland is planted with a single crop and regularly sprayed with pesticides. Several studies have found that honeybee colonies in cities produce more honey than those in the countryside.
+
+Ecologists, however, warn that the trend may not help nature as much as people believe. The honeybee is a managed species, kept mainly for its honey, and it competes for nectar and pollen with hundreds of species of wild bees. One survey concluded that in some districts there were now more hives than the local flowers could support, which left less food for wild species.
+
+For this reason, a number of city councils have changed their advice. Instead of encouraging residents to set up new hives, they now recommend planting a mix of flowers, leaving small areas of grass uncut and providing nesting sites for solitary bees, which live alone rather than in colonies.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "True / False / Not Given",
+        instructions: TFNG,
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q1", number: 1, type: "tfng", prompt: "Keeping bees in cities has become more popular over the last two decades." },
+          { id: "q2", number: 2, type: "tfng", prompt: "Most hives in cities belong to private individuals." },
+          { id: "q3", number: 3, type: "tfng", prompt: "Farmland usually offers bees a wider variety of flowers than cities do." },
+          { id: "q4", number: 4, type: "tfng", prompt: "Honeybees and wild bees feed on the same resources." },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "Multiple choice",
+        instructions: "Choose the correct letter, A, B, C or D.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          {
+            id: "q5",
+            number: 5,
+            type: "mcq",
+            prompt: "According to the third paragraph, ecologists are mainly worried that honeybees",
+            options: [
+              { value: "A", label: "produce less honey in cities than expected." },
+              { value: "B", label: "may leave less food for wild bees." },
+              { value: "C", label: "spread diseases to other insects." },
+              { value: "D", label: "are difficult to look after on rooftops." },
+            ],
+          },
+          {
+            id: "q6",
+            number: 6,
+            type: "mcq",
+            prompt: "What do some city councils now advise residents to do?",
+            options: [
+              { value: "A", label: "Set up more hives on their buildings." },
+              { value: "B", label: "Buy honey from local beekeepers." },
+              { value: "C", label: "Make their gardens more suitable for wild bees." },
+              { value: "D", label: "Stop growing flowers that attract honeybees." },
+            ],
+          },
+        ],
+      },
+      {
+        id: "g3",
+        typeLabel: "Sentence completion",
+        instructions: "Complete the sentences. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        passageId: "p1",
+        light: false,
+        questions: [
+          { id: "q7", number: 7, type: "gap", prompt: "Councils suggest leaving some small areas of grass ______.", maxWords: 1 },
+          { id: "q8", number: 8, type: "gap", prompt: "Solitary bees need ______ provided for them.", maxWords: 2 },
+        ],
+      },
+    ],
+  },
+  {
     id: "practice-writing-task1-energy",
     section: "writing",
     kind: "exercise",
@@ -446,6 +529,9 @@ export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
   },
   "practice-reading-cities-cycling": {
     answers: { q1: ["no"], q2: ["yes"], q3: ["no"], q4: ["not given"], q5: ["motorways"], q6: ["car-free sundays"], q7: ["feel safe"] },
+  },
+  "practice-reading-urban-bees": {
+    answers: { q1: ["true"], q2: ["not given"], q3: ["false"], q4: ["true"], q5: ["B"], q6: ["C"], q7: ["uncut"], q8: ["nesting sites"] },
   },
   "practice-listening-museum": {
     answers: {

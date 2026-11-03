@@ -495,6 +495,52 @@ For this reason, a number of city councils have changed their advice. Instead of
       },
     ],
   },
+  {
+    id: "practice-speaking-technology",
+    section: "speaking",
+    kind: "exercise",
+    order: 4,
+    courseIds: WS,
+    free: false,
+    title: "Parts 1–3: technology in daily life",
+    active: true,
+    durations: { light: 4, full: 13 },
+    speaking: [
+      {
+        part: 1,
+        light: true,
+        answerSeconds: 40,
+        questions: [
+          "How often do you use your phone during the day?",
+          "What do you mostly use the internet for?",
+          "Is there an app you could not live without?",
+          "Do you think you spend too much time in front of screens?",
+        ],
+      },
+      {
+        part: 2,
+        light: false,
+        prepSeconds: 60,
+        answerSeconds: 120,
+        questions: ["Describe a piece of technology that you find very useful."],
+        cueCard: {
+          topic: "Describe a piece of technology that you find very useful.",
+          bullets: ["what it is", "when you started using it", "what you use it for", "and explain why it is so useful to you."],
+        },
+      },
+      {
+        part: 3,
+        light: false,
+        answerSeconds: 60,
+        questions: [
+          "How has technology changed the way people communicate with their families?",
+          "Do older people find it harder to learn new technology? Why?",
+          "Should children be allowed to have their own smartphones?",
+          "Will technology create more jobs than it replaces in the future?",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Mock id per diagnostic task: mock-<section>-<n>, numbered in pool order within each section. */

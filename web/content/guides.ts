@@ -1012,6 +1012,133 @@ Lexify-ın Reading məşqlərində imtahan formatında True, False or Not Given 
       },
     },
   },
+  {
+    slug: "ielts-listening-tips",
+    updated: "2026-11-04",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Listening: how the test works and how to stop losing easy marks",
+        description: "The four parts of IELTS Listening, what to do before each recording starts, and the spelling and word-limit mistakes that cost the most marks.",
+        body: `## How the test works
+
+IELTS Listening is the same for Academic and General Training. There are **four parts** and **40 questions**, and the recordings last about **30 minutes**. You hear each recording **only once**.
+
+- **Part 1:** a conversation between two people about an everyday situation, such as booking a room or joining a club.
+- **Part 2:** one person speaking about an everyday topic, such as a tour or a local event.
+- **Part 3:** a conversation between up to four people in an education or training context, such as students discussing a project.
+- **Part 4:** a short lecture on an academic subject.
+
+The parts get harder as the test goes on. On paper you get 10 extra minutes at the end to copy your answers to the answer sheet; on computer you type answers as you go and get two minutes to check them.
+
+## Before each recording starts
+
+You get a short time to look at the questions before each part. Use it:
+
+1. **Read the instructions** and circle the word limit, for example *NO MORE THAN TWO WORDS AND/OR A NUMBER*.
+2. **Predict the answer type** for each gap: a number, a date, a name, a noun, a place.
+3. **Underline key words** in the questions and think of synonyms the speakers might use instead.
+
+## While you listen
+
+- The answers come **in the same order** as the questions. If you miss one, let it go and move on to the next.
+- Speakers often **correct themselves**: *"It's on Tuesday… no, sorry, Wednesday."* The final version is the answer.
+- In multiple choice, you will usually hear words from **all** the options. Wait until the speaker confirms one.
+- Write short notes on the question paper and finish the answer neatly at the end of the part.
+
+## Easy marks people lose
+
+- **Spelling:** a misspelled answer is wrong. Practise names of months, days, and common words such as *accommodation*, *necessary*, *environment*.
+- **Word limits:** if the limit is two words and you write three, the answer is wrong even if the meaning is right.
+- **Numbers and letters:** spelled-out names (*"that's S-M-Y-T-H"*) and phone numbers are common in Part 1. Practise listening to the alphabet and numbers at speed.
+- **Plurals:** check whether the sentence needs *ticket* or *tickets*.
+
+## Practise with feedback
+
+Lexify Listening practice plays each recording once, like the real test, and checks your answers automatically. After you submit, you see the correct answer for every question and your accuracy for each question type.`,
+      },
+      ru: {
+        title: "IELTS Listening: как устроен тест и как не терять лёгкие баллы",
+        description: "Четыре части IELTS Listening, что делать до начала каждой записи и ошибки в орфографии и лимите слов, на которых теряют больше всего баллов.",
+        body: `## Как устроен тест
+
+IELTS Listening одинаковый в Academic и General Training. В нём **четыре части** и **40 вопросов**, записи длятся около **30 минут**. Каждую запись вы слышите **только один раз**.
+
+- **Part 1:** разговор двух людей о бытовой ситуации, например бронирование номера или запись в клуб.
+- **Part 2:** один человек говорит на бытовую тему, например об экскурсии или местном мероприятии.
+- **Part 3:** разговор до четырёх человек в учебной обстановке, например студенты обсуждают проект.
+- **Part 4:** короткая лекция на академическую тему.
+
+Части становятся сложнее к концу теста. На бумажном экзамене в конце дают 10 минут, чтобы перенести ответы в бланк; на компьютере ответы печатают сразу и дают две минуты на проверку.
+
+## До начала каждой записи
+
+Перед каждой частью есть немного времени, чтобы посмотреть вопросы. Используйте его:
+
+1. **Прочитайте инструкцию** и обведите лимит слов, например *NO MORE THAN TWO WORDS AND/OR A NUMBER*.
+2. **Предскажите тип ответа** для каждого пропуска: число, дата, имя, существительное, место.
+3. **Подчеркните ключевые слова** в вопросах и подумайте, какими синонимами их могут заменить.
+
+## Во время прослушивания
+
+- Ответы идут **в том же порядке**, что и вопросы. Если пропустили один, не задерживайтесь и слушайте следующий.
+- Говорящие часто **поправляют себя**: *"It's on Tuesday… no, sorry, Wednesday."* Правильный ответ — последний вариант.
+- В заданиях с выбором ответа обычно звучат слова из **всех** вариантов. Дождитесь, пока говорящий подтвердит один.
+- Делайте короткие пометки на листе с вопросами, а аккуратно допишите ответы в конце части.
+
+## Лёгкие баллы, которые теряют
+
+- **Орфография:** ответ с ошибкой засчитывается как неверный. Потренируйте названия месяцев, дней недели и частые слова вроде *accommodation*, *necessary*, *environment*.
+- **Лимит слов:** если разрешено два слова, а вы написали три, ответ неверный, даже если смысл правильный.
+- **Буквы и цифры:** имена по буквам (*"that's S-M-Y-T-H"*) и номера телефонов часто встречаются в Part 1. Потренируйтесь воспринимать алфавит и числа на скорости.
+- **Множественное число:** проверьте, нужно ли *ticket* или *tickets*.
+
+## Тренируйтесь с обратной связью
+
+В практике Listening в Lexify каждая запись звучит один раз, как на экзамене, а ответы проверяются автоматически. После отправки вы видите правильный ответ на каждый вопрос и точность по каждому типу заданий.`,
+      },
+      az: {
+        title: "IELTS Listening: test necə keçir və asan balları necə itirməmək",
+        description: "IELTS Listening-in dörd hissəsi, hər yazı başlamazdan əvvəl nə etmək və ən çox bal itirilən orfoqrafiya və söz limiti səhvləri.",
+        body: `## Test necə keçir
+
+IELTS Listening Academic və General Training-də eynidir. **Dörd hissə** və **40 sual** var, yazılar təxminən **30 dəqiqə** davam edir. Hər yazını **yalnız bir dəfə** eşidirsiniz.
+
+- **Part 1:** iki nəfər arasında gündəlik vəziyyət haqqında söhbət, məsələn otaq bron etmək və ya kluba yazılmaq.
+- **Part 2:** bir nəfər gündəlik mövzuda danışır, məsələn ekskursiya və ya yerli tədbir haqqında.
+- **Part 3:** təhsil mühitində dörd nəfərə qədər insanın söhbəti, məsələn tələbələr layihəni müzakirə edir.
+- **Part 4:** akademik mövzuda qısa mühazirə.
+
+Hissələr testin sonuna doğru çətinləşir. Kağız imtahanda sonda cavabları blanka köçürmək üçün 10 dəqiqə verilir; kompüterdə isə cavabları dərhal yazırsınız və yoxlamaq üçün iki dəqiqə verilir.
+
+## Hər yazı başlamazdan əvvəl
+
+Hər hissədən əvvəl sualları nəzərdən keçirmək üçün bir az vaxt verilir. Ondan istifadə edin:
+
+1. **Təlimatı oxuyun** və söz limitini dairəyə alın, məsələn *NO MORE THAN TWO WORDS AND/OR A NUMBER*.
+2. Hər boşluq üçün **cavabın növünü təxmin edin**: rəqəm, tarix, ad, isim, yer.
+3. Suallarda **açar sözlərin** altından xətt çəkin və danışanların onların əvəzinə hansı sinonimləri işlədə biləcəyini düşünün.
+
+## Dinləyərkən
+
+- Cavablar suallarla **eyni ardıcıllıqla** gəlir. Birini buraxdınızsa, ilişib qalmayın, növbətiyə keçin.
+- Danışanlar tez-tez **özlərini düzəldirlər**: *"It's on Tuesday… no, sorry, Wednesday."* Düzgün cavab son variantdır.
+- Çoxseçimli tapşırıqlarda adətən **bütün** variantlardakı sözlər səslənir. Danışan birini təsdiqləyənə qədər gözləyin.
+- Sual vərəqində qısa qeydlər edin, cavabları isə hissənin sonunda səliqə ilə tamamlayın.
+
+## İtirilən asan ballar
+
+- **Orfoqrafiya:** səhv yazılmış cavab yanlış sayılır. Ayların, həftə günlərinin adlarını və *accommodation*, *necessary*, *environment* kimi tez-tez işlənən sözləri məşq edin.
+- **Söz limiti:** iki söz icazə verilibsə və siz üç söz yazmısınızsa, məna düzgün olsa belə cavab yanlışdır.
+- **Hərflər və rəqəmlər:** hərf-hərf deyilən adlar (*"that's S-M-Y-T-H"*) və telefon nömrələri Part 1-də tez-tez olur. Əlifbanı və rəqəmləri sürətlə eşitməyi məşq edin.
+- **Cəm forması:** cümləyə *ticket* yoxsa *tickets* lazım olduğunu yoxlayın.
+
+## Rəylə məşq edin
+
+Lexify-ın Listening məşqlərində hər yazı imtahanda olduğu kimi bir dəfə səslənir, cavablar isə avtomatik yoxlanılır. Göndərdikdən sonra hər sualın düzgün cavabını və hər tapşırıq növü üzrə dəqiqliyinizi görürsünüz.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

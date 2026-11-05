@@ -437,6 +437,35 @@ For this reason, a number of city councils have changed their advice. Instead of
     ],
   },
   {
+    id: "practice-writing-task1-commuting",
+    section: "writing",
+    kind: "exercise",
+    order: 5,
+    courseIds: WS,
+    free: false,
+    title: "Task 1: how people travel to work",
+    active: true,
+    durations: { light: 20, full: 20 },
+    writing: [
+      {
+        id: "task1",
+        light: true,
+        minWords: 150,
+        prompt:
+          "The chart below shows how workers in one European city travelled to work in 2005 and 2025.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        chart: {
+          title: "Main way of travelling to work",
+          unit: "%",
+          categories: ["Car", "Bus", "Train", "Bicycle", "Walking"],
+          series: [
+            { name: "2005", values: [48, 22, 14, 6, 10] },
+            { name: "2025", values: [31, 19, 21, 18, 11] },
+          ],
+        },
+      },
+    ],
+  },
+  {
     id: "practice-speaking-hometown",
     section: "speaking",
     kind: "exercise",

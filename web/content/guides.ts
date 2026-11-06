@@ -1139,6 +1139,187 @@ Lexify-ın Listening məşqlərində hər yazı imtahanda olduğu kimi bir dəf�
       },
     },
   },
+  {
+    slug: "ielts-speaking-part-1-and-3",
+    updated: "2026-11-06",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Speaking Parts 1 and 3: how long to answer and what to say",
+        description: "How Parts 1 and 3 work, a simple answer pattern for each, useful phrases for discussion questions and the mistakes that cost marks.",
+        body: `## How Parts 1 and 3 work
+
+The Speaking test lasts **11 to 14 minutes** and has three parts. Part 2 is the long turn with a cue card. Parts 1 and 3 are conversations, and together they make up more than half of the test.
+
+- **Part 1 (4–5 minutes):** short questions about you. The examiner usually starts with home, work or study, then moves to two or three everyday topics such as weather, music or food.
+- **Part 3 (4–5 minutes):** a discussion linked to the Part 2 topic, but about people and society in general, not about you. If your cue card was about a useful piece of technology, Part 3 may ask how technology has changed the way families communicate.
+
+## Part 1: answer, explain, stop
+
+Part 1 questions are simple on purpose. A one-word answer is too short, and a two-minute answer is too long. Aim for **two or three sentences**:
+
+1. **Answer** the question directly.
+2. **Explain** with a reason or a small detail.
+3. **Stop** and let the examiner ask the next question.
+
+*Do you like cooking?*
+"Yes, quite a lot, especially at the weekend. During the week I don't have much time, but on Sundays I usually cook something from my grandmother's recipes, like dolma."
+
+## Part 3: give an opinion and develop it
+
+Part 3 questions are more abstract and expect longer answers, about **four to six sentences**. A simple pattern works for most questions:
+
+1. **Opinion:** *I think…*, *In my view…*
+2. **Reason:** *This is mainly because…*
+3. **Example:** *For instance, in my country…*
+4. **Other side or condition:** *That said…*, *It depends on…*
+
+*Do you think people rely too much on technology?*
+"To some extent, yes. The main reason is that many everyday skills are now done by apps, so people practise them less. For example, very few young people can find their way in a city without a map on their phone. That said, technology also saves a lot of time, so I wouldn't say it is always a bad thing. It depends on whether people still use their own judgement."
+
+## Useful language for Part 3
+
+- Comparing past and present: *Compared with twenty years ago…*, *These days…, whereas in the past…*
+- Speculating about the future: *I imagine that…*, *It's likely that…*
+- Talking about different groups: *For older people…, while younger people…*
+- Buying a moment to think: *That's an interesting question. I've never really thought about it, but…*
+
+The last one is fine to use once or twice. Silence is not a problem for a second or two, but long pauses lower your Fluency score.
+
+## Common mistakes
+
+- **Memorised answers in Part 1.** Examiners notice them quickly and may ask a follow-up to check.
+- **Answering about yourself in Part 3.** The question is about people in general, so move from *I* to *people*, *young people*, *society*.
+- **Saying "I don't know" and stopping.** If you have no opinion, talk about what others might think or what it depends on.
+- **Asking the examiner for their opinion.** They will not answer; it is your test.
+- **Repeating the question word for word** instead of paraphrasing it.
+
+## How the parts are marked
+
+The examiner gives one score for the whole test, using the same four criteria in every part: **Fluency and Coherence**, **Lexical Resource**, **Grammatical Range and Accuracy** and **Pronunciation**. Part 3 is where you can show the most range, because abstract questions call for complex sentences and less common vocabulary.
+
+## Practise all three parts
+
+Every Lexify Speaking practice includes Part 1, Part 2 and Part 3 questions, with timers that match the real test, then an estimated band and comments on each criterion.`,
+      },
+      ru: {
+        title: "IELTS Speaking Part 1 и Part 3: сколько говорить и что отвечать",
+        description: "Как устроены Part 1 и Part 3, простая схема ответа для каждой части, полезные фразы для обсуждения и ошибки, которые стоят баллов.",
+        body: `## Как устроены Part 1 и Part 3
+
+Speaking длится **11–14 минут** и состоит из трёх частей. Part 2 — монолог по карточке. Part 1 и Part 3 — это разговор, и вместе они занимают больше половины теста.
+
+- **Part 1 (4–5 минут):** короткие вопросы о вас. Обычно экзаменатор начинает с дома, работы или учёбы, а потом переходит к двум-трём бытовым темам вроде погоды, музыки или еды.
+- **Part 3 (4–5 минут):** обсуждение, связанное с темой Part 2, но о людях и обществе в целом, а не о вас. Если карточка была про полезную технику, в Part 3 могут спросить, как технологии изменили общение в семьях.
+
+## Part 1: ответ, объяснение, стоп
+
+Вопросы Part 1 нарочно простые. Ответ одним словом слишком короткий, а двухминутный слишком длинный. Цель — **два-три предложения**:
+
+1. **Ответьте** прямо на вопрос.
+2. **Объясните** причиной или небольшой деталью.
+3. **Остановитесь** и дайте экзаменатору задать следующий вопрос.
+
+*Do you like cooking?*
+"Yes, quite a lot, especially at the weekend. During the week I don't have much time, but on Sundays I usually cook something from my grandmother's recipes, like dolma."
+
+## Part 3: мнение и его развитие
+
+Вопросы Part 3 абстрактнее и ждут ответа подлиннее, примерно **четыре-шесть предложений**. Для большинства вопросов подходит простая схема:
+
+1. **Мнение:** *I think…*, *In my view…*
+2. **Причина:** *This is mainly because…*
+3. **Пример:** *For instance, in my country…*
+4. **Другая сторона или условие:** *That said…*, *It depends on…*
+
+*Do you think people rely too much on technology?*
+"To some extent, yes. The main reason is that many everyday skills are now done by apps, so people practise them less. For example, very few young people can find their way in a city without a map on their phone. That said, technology also saves a lot of time, so I wouldn't say it is always a bad thing. It depends on whether people still use their own judgement."
+
+## Полезные фразы для Part 3
+
+- Сравнить прошлое и настоящее: *Compared with twenty years ago…*, *These days…, whereas in the past…*
+- Предположить, что будет: *I imagine that…*, *It's likely that…*
+- Говорить о разных группах людей: *For older people…, while younger people…*
+- Выиграть секунду на раздумье: *That's an interesting question. I've never really thought about it, but…*
+
+Последнюю фразу можно использовать раз-другой. Пауза в секунду-две не страшна, но долгое молчание снижает балл за Fluency.
+
+## Частые ошибки
+
+- **Заученные ответы в Part 1.** Экзаменаторы быстро их замечают и могут задать уточняющий вопрос.
+- **Отвечать о себе в Part 3.** Вопрос о людях вообще, поэтому переходите от *I* к *people*, *young people*, *society*.
+- **Сказать «I don't know» и замолчать.** Если своего мнения нет, расскажите, что могут думать другие или от чего это зависит.
+- **Спрашивать мнение экзаменатора.** Он не ответит: это ваш экзамен.
+- **Повторять вопрос дословно** вместо того, чтобы перефразировать.
+
+## Как оценивают
+
+Экзаменатор ставит одну оценку за весь тест по одним и тем же четырём критериям во всех частях: **Fluency and Coherence**, **Lexical Resource**, **Grammatical Range and Accuracy** и **Pronunciation**. В Part 3 проще всего показать уровень, потому что абстрактные вопросы требуют сложных предложений и менее частой лексики.
+
+## Тренируйте все три части
+
+В каждой практике Speaking в Lexify есть вопросы Part 1, Part 2 и Part 3 с таймерами как на настоящем экзамене, а после ответа примерный балл и комментарии по каждому критерию.`,
+      },
+      az: {
+        title: "IELTS Speaking Part 1 və Part 3: nə qədər danışmaq və nə cavab vermək",
+        description: "Part 1 və Part 3 necə keçir, hər hissə üçün sadə cavab sxemi, müzakirə sualları üçün faydalı ifadələr və bal itirdirən səhvlər.",
+        body: `## Part 1 və Part 3 necə keçir
+
+Speaking **11–14 dəqiqə** çəkir və üç hissədən ibarətdir. Part 2 kart üzrə monoloqdur. Part 1 və Part 3 isə söhbətdir və birlikdə testin yarısından çoxunu təşkil edir.
+
+- **Part 1 (4–5 dəqiqə):** sizin haqqınızda qısa suallar. İmtahançı adətən ev, iş və ya təhsillə başlayır, sonra hava, musiqi və ya yemək kimi iki-üç gündəlik mövzuya keçir.
+- **Part 3 (4–5 dəqiqə):** Part 2 mövzusu ilə bağlı müzakirə, amma sizin haqqınızda yox, ümumilikdə insanlar və cəmiyyət haqqında. Kartınız faydalı texnika haqqında idisə, Part 3-də texnologiyanın ailələrdə ünsiyyəti necə dəyişdiyini soruşa bilərlər.
+
+## Part 1: cavab, izah, dayan
+
+Part 1 sualları qəsdən sadədir. Bir sözlük cavab çox qısa, iki dəqiqəlik cavab isə çox uzundur. Hədəf **iki-üç cümlədir**:
+
+1. Suala birbaşa **cavab verin**.
+2. Səbəb və ya kiçik təfərrüatla **izah edin**.
+3. **Dayanın** və imtahançıya növbəti sualı verməyə imkan yaradın.
+
+*Do you like cooking?*
+"Yes, quite a lot, especially at the weekend. During the week I don't have much time, but on Sundays I usually cook something from my grandmother's recipes, like dolma."
+
+## Part 3: fikir bildirin və onu inkişaf etdirin
+
+Part 3 sualları daha mücərrəddir və daha uzun cavab gözləyir, təxminən **dörd-altı cümlə**. Əksər suallar üçün sadə sxem işləyir:
+
+1. **Fikir:** *I think…*, *In my view…*
+2. **Səbəb:** *This is mainly because…*
+3. **Nümunə:** *For instance, in my country…*
+4. **Digər tərəf və ya şərt:** *That said…*, *It depends on…*
+
+*Do you think people rely too much on technology?*
+"To some extent, yes. The main reason is that many everyday skills are now done by apps, so people practise them less. For example, very few young people can find their way in a city without a map on their phone. That said, technology also saves a lot of time, so I wouldn't say it is always a bad thing. It depends on whether people still use their own judgement."
+
+## Part 3 üçün faydalı ifadələr
+
+- Keçmişi və indini müqayisə etmək: *Compared with twenty years ago…*, *These days…, whereas in the past…*
+- Gələcək haqqında fərziyyə: *I imagine that…*, *It's likely that…*
+- Müxtəlif qruplar haqqında danışmaq: *For older people…, while younger people…*
+- Düşünmək üçün bir an qazanmaq: *That's an interesting question. I've never really thought about it, but…*
+
+Sonuncu ifadədən bir-iki dəfə istifadə etmək olar. Bir-iki saniyəlik fasilə problem deyil, amma uzun susmaq Fluency balını aşağı salır.
+
+## Tez-tez edilən səhvlər
+
+- **Part 1-də əzbərlənmiş cavablar.** İmtahançılar onları tez sezir və yoxlamaq üçün əlavə sual verə bilər.
+- **Part 3-də özünüz haqqında cavab vermək.** Sual ümumilikdə insanlar haqqındadır, ona görə *I*-dan *people*, *young people*, *society*-yə keçin.
+- **"I don't know" deyib susmaq.** Öz fikriniz yoxdursa, başqalarının nə düşünə biləcəyindən və ya bunun nədən asılı olduğundan danışın.
+- **İmtahançının fikrini soruşmaq.** O cavab verməyəcək: bu sizin imtahanınızdır.
+- **Sualı sözbəsöz təkrarlamaq**, onu başqa sözlərlə ifadə etmək əvəzinə.
+
+## Necə qiymətləndirilir
+
+İmtahançı bütün test üçün bir bal verir və bütün hissələrdə eyni dörd meyardan istifadə edir: **Fluency and Coherence**, **Lexical Resource**, **Grammatical Range and Accuracy** və **Pronunciation**. Səviyyənizi göstərmək ən asan Part 3-dədir, çünki mücərrəd suallar mürəkkəb cümlələr və daha az işlənən sözlər tələb edir.
+
+## Hər üç hissəni məşq edin
+
+Lexify-da hər Speaking məşqində real imtahandakı kimi taymerlərlə Part 1, Part 2 və Part 3 sualları var, cavabdan sonra isə təxmini bal və hər meyar üzrə şərhlər alırsınız.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

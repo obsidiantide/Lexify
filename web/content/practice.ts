@@ -10,6 +10,15 @@ import { seedAnswerKeys as diagnosticKeys, seedDiagnosticTasks } from "./diagnos
 const TFNG = "Do the following statements agree with the information in the passage? Choose TRUE if the statement agrees with the information, FALSE if it contradicts it, and NOT GIVEN if there is no information on this.";
 const ALL = ["ielts-academic"];
 const WS = ["ielts-academic", "writing-speaking"];
+const ENDINGS_RIVERS = [
+  { value: "A", label: "makes valuable land available for building." },
+  { value: "B", label: "can push traffic onto nearby streets." },
+  { value: "C", label: "helps to cool the surrounding area on hot days." },
+  { value: "D", label: "always attracts more visitors than expected." },
+  { value: "E", label: "can hold more water during heavy rain than a pipe." },
+  { value: "F", label: "is usually paid for by private companies." },
+];
+
 const HEADINGS_SLEEP = [
   { value: "i", label: "Why sleep was once thought to be useless" },
   { value: "ii", label: "How much sleep adults really need" },
@@ -368,6 +377,71 @@ For this reason, a number of city councils have changed their advice. Instead of
     ],
   },
   {
+    id: "practice-reading-buried-rivers",
+    section: "reading",
+    kind: "exercise",
+    order: 5,
+    courseIds: ALL,
+    free: false,
+    title: "Bringing buried rivers back",
+    active: true,
+    durations: { light: 12, full: 15 },
+    passages: [
+      {
+        id: "p1",
+        title: "Bringing buried rivers back",
+        text: `For centuries, cities grew around rivers, but as they expanded, many smaller rivers and streams disappeared from view. Engineers covered them with concrete, turned them into underground drains and built roads on top. In the nineteenth and twentieth centuries this was seen as progress: buried rivers no longer smelled, and covering them freed valuable land for building.
+
+In recent decades, a growing number of cities have begun to reverse this process, a practice known as "daylighting". One well-known example is in an Asian capital, where an elevated motorway was demolished so that the stream beneath it could be opened again. The plan was expensive and divided public opinion at first, but the new waterside park soon attracted millions of visitors a year.
+
+Supporters point to a range of benefits. Open water and the vegetation along its banks cool the surrounding streets on hot days, in some cases by several degrees. Restored rivers also provide habitats for fish, birds and insects that had vanished from the area. In addition, a river with natural banks can hold much more water during heavy rain than a narrow pipe, which reduces the risk of serious flooding further downstream.
+
+Critics, however, argue that the costs are often underestimated. Removing a road can push traffic onto nearby streets, and homes next to a new park usually become more expensive, which may force out long-term residents and small shops. Some engineers also note that a river which has been underground for a century may carry polluted water, and it can take years of cleaning before it is safe for people to touch.
+
+Because of these concerns, many recent projects are smaller and more gradual. Instead of opening several kilometres at once, cities restore short sections where land is already available, such as old car parks or school grounds, and involve local residents in the design from the beginning. Planners say this approach costs less and makes it easier to gain public support for later stages.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "Matching sentence endings",
+        instructions: "Complete each sentence with the correct ending, A–F. There are more endings than sentences.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q1", number: 1, type: "match", prompt: "Covering a river with concrete", options: ENDINGS_RIVERS },
+          { id: "q2", number: 2, type: "match", prompt: "Vegetation along a restored river", options: ENDINGS_RIVERS },
+          { id: "q3", number: 3, type: "match", prompt: "A river with natural banks", options: ENDINGS_RIVERS },
+          { id: "q4", number: 4, type: "match", prompt: "Removing a road to open a river", options: ENDINGS_RIVERS },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "True / False / Not Given",
+        instructions: TFNG,
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q5", number: 5, type: "tfng", prompt: "Everyone supported the plan to remove the motorway from the start." },
+          { id: "q6", number: 6, type: "tfng", prompt: "Restored rivers can bring back wildlife that had disappeared from the area." },
+          { id: "q7", number: 7, type: "tfng", prompt: "Most daylighting projects are paid for by national governments." },
+        ],
+      },
+      {
+        id: "g3",
+        typeLabel: "Sentence completion",
+        instructions: "Complete the sentences. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        passageId: "p1",
+        light: false,
+        questions: [
+          { id: "q8", number: 8, type: "gap", prompt: "Water from a river that has been underground for a long time may be ______.", maxWords: 1 },
+          { id: "q9", number: 9, type: "gap", prompt: "Smaller projects often use land such as old ______ or school grounds.", maxWords: 2 },
+          { id: "q10", number: 10, type: "gap", prompt: "Involving residents early makes it easier to gain ______ for later stages.", maxWords: 2 },
+        ],
+      },
+    ],
+  },
+  {
     id: "practice-writing-task1-energy",
     section: "writing",
     kind: "exercise",
@@ -607,6 +681,13 @@ export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
   },
   "practice-reading-urban-bees": {
     answers: { q1: ["true"], q2: ["not given"], q3: ["false"], q4: ["true"], q5: ["B"], q6: ["C"], q7: ["uncut"], q8: ["nesting sites"] },
+  },
+  "practice-reading-buried-rivers": {
+    answers: {
+      q1: ["A"], q2: ["C"], q3: ["E"], q4: ["B"],
+      q5: ["false"], q6: ["true"], q7: ["not given"],
+      q8: ["polluted"], q9: ["car parks", "carparks", "car-parks"], q10: ["public support"],
+    },
   },
   "practice-listening-museum": {
     answers: {

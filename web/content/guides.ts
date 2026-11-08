@@ -1320,6 +1320,136 @@ Lexify-da hər Speaking məşqində real imtahandakı kimi taymerlərlə Part 1,
       },
     },
   },
+  {
+    slug: "ielts-reading-matching-headings",
+    updated: "2026-11-08",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Reading: how to do matching headings",
+        description: "A five-step method for matching headings, the three kinds of distractor to watch for, a worked example and how to manage your time.",
+        body: `## What the task looks like
+
+You get a list of headings, usually numbered with Roman numerals (i, ii, iii…), and a passage with lettered paragraphs. For each paragraph you choose the heading that best sums up **the whole paragraph**. There are always more headings than paragraphs, so some are never used.
+
+Matching headings usually comes **first** in a set of questions about a passage, and it is one of the slowest question types for most candidates. A clear method saves several minutes.
+
+## A five-step method
+
+1. **Read the headings first**, quickly. Notice what makes each one different: two headings may share a topic but differ in one word, such as *causes* and *effects*, or *past* and *future*.
+2. **Read one paragraph at a time.** Pay most attention to the first two sentences and the last one, where writers usually state the main idea. Then glance through the middle to check it supports that idea.
+3. **Say the main idea in your own words**, in five or six words, before you look at the list again.
+4. **Choose the heading** that matches your summary. If two seem possible, write both next to the paragraph and come back later.
+5. **Cross out headings you have used.** As the list gets shorter, the doubtful paragraphs become easier.
+
+## How the distractors work
+
+- **Detail, not main idea.** A heading may match one sentence in the paragraph perfectly, but that sentence is only an example. The correct heading covers the whole paragraph.
+- **Same words, different meaning.** A heading that repeats a word from the paragraph is often a trap. The right answer is usually a paraphrase.
+- **Right topic, wrong angle.** If a paragraph explains *why* cities buried their rivers, a heading about *how* they did it is wrong, even though the topic is the same.
+
+## A short example
+
+*Paragraph:* "For centuries, cities grew around rivers, but as they expanded, many smaller streams disappeared from view. Engineers covered them with concrete and built roads on top. At the time, this was seen as progress."
+
+- i. The engineering methods used to build roads
+- ii. How and why urban rivers were hidden
+- iii. The environmental benefits of open water
+
+Heading i picks up the words *engineers* and *roads*, but the paragraph is not about road building. Heading iii is about a different part of the passage. **Heading ii** sums up the paragraph as a whole.
+
+## Managing time
+
+Allow about **one minute per paragraph**. If one paragraph is taking too long, move on: other questions on the same passage often help you understand it. Never leave an answer blank, because there is no penalty for a wrong answer.
+
+## Practise the skill
+
+Lexify's Reading practice includes matching headings tasks, and after each attempt you see the correct answers and your accuracy for every question type, so you know what to work on next.`,
+      },
+      ru: {
+        title: "IELTS Reading: как решать matching headings",
+        description: "Метод в пять шагов для заданий на заголовки, три вида ловушек, разобранный пример и как не терять время.",
+        body: `## Как выглядит задание
+
+Вам дают список заголовков, обычно с римскими цифрами (i, ii, iii…), и текст, где абзацы обозначены буквами. Для каждого абзаца нужно выбрать заголовок, который лучше всего передаёт **смысл всего абзаца**. Заголовков всегда больше, чем абзацев, поэтому часть из них останется лишней.
+
+Matching headings обычно идёт **первым** среди вопросов к тексту, и для многих это одно из самых медленных заданий. Чёткий порядок действий экономит несколько минут.
+
+## Метод в пять шагов
+
+1. **Сначала быстро прочитайте заголовки.** Обратите внимание, чем они отличаются: у двух заголовков может быть одна тема, но разное слово, например *causes* и *effects* или *past* и *future*.
+2. **Читайте по одному абзацу.** Главное внимание на первые два предложения и последнее: там автор обычно формулирует главную мысль. Середину просмотрите, чтобы убедиться, что она эту мысль поддерживает.
+3. **Сформулируйте главную мысль своими словами**, в пяти-шести словах, прежде чем снова смотреть в список.
+4. **Выберите заголовок**, который совпадает с вашей формулировкой. Если подходят два, запишите оба рядом с абзацем и вернитесь позже.
+5. **Вычёркивайте использованные заголовки.** Чем короче список, тем проще с сомнительными абзацами.
+
+## Как устроены ловушки
+
+- **Деталь вместо главной мысли.** Заголовок может идеально совпадать с одним предложением, но это предложение лишь пример. Правильный заголовок описывает весь абзац.
+- **Те же слова, другой смысл.** Заголовок, который повторяет слово из абзаца, часто оказывается ловушкой. Правильный ответ обычно сказан другими словами.
+- **Та же тема, другой угол.** Если абзац объясняет, *почему* города прятали реки, заголовок о том, *как* они это делали, неверен, хотя тема одна.
+
+## Короткий пример
+
+*Абзац:* "For centuries, cities grew around rivers, but as they expanded, many smaller streams disappeared from view. Engineers covered them with concrete and built roads on top. At the time, this was seen as progress."
+
+- i. The engineering methods used to build roads
+- ii. How and why urban rivers were hidden
+- iii. The environmental benefits of open water
+
+Заголовок i цепляется за слова *engineers* и *roads*, но абзац не о строительстве дорог. Заголовок iii относится к другой части текста. **Заголовок ii** передаёт смысл абзаца целиком.
+
+## Время
+
+Отводите примерно **минуту на абзац**. Если какой-то абзац отнимает слишком много времени, идите дальше: другие вопросы к тому же тексту часто помогают его понять. Не оставляйте пропусков, за неверный ответ баллы не снимают.
+
+## Тренируйте навык
+
+В практиках Reading в Lexify есть задания на matching headings, а после каждой попытки вы видите правильные ответы и точность по каждому типу вопросов, поэтому понятно, над чем работать дальше.`,
+      },
+      az: {
+        title: "IELTS Reading: matching headings necə həll edilir",
+        description: "Başlıq tapşırıqları üçün beş addımlıq üsul, diqqət edilməli üç növ tələ, izahlı nümunə və vaxtı necə idarə etmək.",
+        body: `## Tapşırıq necə görünür
+
+Sizə adətən Roma rəqəmləri ilə (i, ii, iii…) nömrələnmiş başlıqlar siyahısı və abzasları hərflərlə işarələnmiş mətn verilir. Hər abzas üçün **bütün abzasın** mənasını ən yaxşı ifadə edən başlığı seçməlisiniz. Başlıqlar həmişə abzaslardan çox olur, ona görə bəziləri istifadə olunmur.
+
+Matching headings adətən mətnə aid suallar arasında **birinci** gəlir və əksər namizədlər üçün ən yavaş tapşırıqlardan biridir. Aydın üsul bir neçə dəqiqə qənaət edir.
+
+## Beş addımlıq üsul
+
+1. **Əvvəlcə başlıqları tez oxuyun.** Onların fərqinə diqqət edin: iki başlığın mövzusu eyni, amma bir sözü fərqli ola bilər, məsələn *causes* və *effects* və ya *past* və *future*.
+2. **Abzasları bir-bir oxuyun.** Əsas diqqəti ilk iki cümləyə və sonuncuya verin: müəllif əsas fikri adətən orada deyir. Ortanı isə bu fikri dəstəklədiyini yoxlamaq üçün nəzərdən keçirin.
+3. Siyahıya yenidən baxmazdan əvvəl **əsas fikri öz sözlərinizlə** beş-altı sözlə ifadə edin.
+4. Öz ifadənizə uyğun gələn **başlığı seçin**. İki başlıq uyğun görünürsə, hər ikisini abzasın yanına yazın və sonra qayıdın.
+5. **İstifadə etdiyiniz başlıqların üstündən xətt çəkin.** Siyahı qısaldıqca şübhəli abzaslar asanlaşır.
+
+## Tələlər necə qurulur
+
+- **Əsas fikir yox, təfərrüat.** Başlıq abzasdakı bir cümləyə tam uyğun gələ bilər, amma həmin cümlə sadəcə nümunədir. Düzgün başlıq bütün abzası əhatə edir.
+- **Eyni sözlər, fərqli məna.** Abzasdakı sözü təkrarlayan başlıq çox vaxt tələ olur. Düzgün cavab adətən başqa sözlərlə ifadə olunur.
+- **Eyni mövzu, fərqli bucaq.** Abzas şəhərlərin çayları *niyə* gizlətdiyini izah edirsə, bunu *necə* etdikləri haqqında başlıq yanlışdır, mövzu eyni olsa da.
+
+## Qısa nümunə
+
+*Abzas:* "For centuries, cities grew around rivers, but as they expanded, many smaller streams disappeared from view. Engineers covered them with concrete and built roads on top. At the time, this was seen as progress."
+
+- i. The engineering methods used to build roads
+- ii. How and why urban rivers were hidden
+- iii. The environmental benefits of open water
+
+i başlığı *engineers* və *roads* sözlərindən yapışır, amma abzas yol tikintisi haqqında deyil. iii başlığı mətnin başqa hissəsinə aiddir. **ii başlığı** abzasın mənasını bütövlükdə ifadə edir.
+
+## Vaxtın idarəsi
+
+Hər abzasa təxminən **bir dəqiqə** ayırın. Hansısa abzas çox vaxt aparırsa, irəli keçin: eyni mətnə aid digər suallar onu anlamağa çox vaxt kömək edir. Cavabı boş qoymayın, çünki səhv cavaba görə bal çıxılmır.
+
+## Bacarığı məşq edin
+
+Lexify-da Reading məşqlərində matching headings tapşırıqları var, hər cəhddən sonra isə düzgün cavabları və hər sual növü üzrə dəqiqliyinizi görürsünüz, beləliklə növbəti addımda nə üzərində işləyəcəyinizi bilirsiniz.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

@@ -540,6 +540,26 @@ Because of these concerns, many recent projects are smaller and more gradual. In
     ],
   },
   {
+    id: "practice-writing-languages-school",
+    section: "writing",
+    kind: "exercise",
+    order: 6,
+    courseIds: WS,
+    free: false,
+    title: "Task 2: when children should start a foreign language",
+    active: true,
+    durations: { light: 40, full: 40 },
+    writing: [
+      {
+        id: "task2",
+        light: true,
+        minWords: 250,
+        prompt:
+          "Some people think that children should start learning a foreign language at primary school. Others believe it is better to wait until secondary school.\n\nDiscuss both these views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      },
+    ],
+  },
+  {
     id: "practice-speaking-hometown",
     section: "speaking",
     kind: "exercise",

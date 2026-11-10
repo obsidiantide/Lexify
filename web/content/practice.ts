@@ -664,6 +664,52 @@ Because of these concerns, many recent projects are smaller and more gradual. In
       },
     ],
   },
+  {
+    id: "practice-speaking-travel",
+    section: "speaking",
+    kind: "exercise",
+    order: 5,
+    courseIds: WS,
+    free: false,
+    title: "Parts 1–3: travel and holidays",
+    active: true,
+    durations: { light: 4, full: 13 },
+    speaking: [
+      {
+        part: 1,
+        light: true,
+        answerSeconds: 40,
+        questions: [
+          "Do you enjoy travelling? Why or why not?",
+          "How do you usually spend your holidays?",
+          "Do you prefer travelling alone or with other people?",
+          "Is there a place in your country you would recommend to visitors?",
+        ],
+      },
+      {
+        part: 2,
+        light: false,
+        prepSeconds: 60,
+        answerSeconds: 120,
+        questions: ["Describe a trip that you remember well."],
+        cueCard: {
+          topic: "Describe a trip that you remember well.",
+          bullets: ["where you went", "who you went with", "what you did there", "and explain why you remember this trip so well."],
+        },
+      },
+      {
+        part: 3,
+        light: false,
+        answerSeconds: 60,
+        questions: [
+          "Why do you think people enjoy travelling to other countries?",
+          "How has tourism changed in your country over the last twenty years?",
+          "Can tourism cause problems for local people? In what ways?",
+          "Do you think people will travel more or less in the future? Why?",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Mock id per diagnostic task: mock-<section>-<n>, numbered in pool order within each section. */

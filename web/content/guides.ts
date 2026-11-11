@@ -1450,6 +1450,220 @@ Lexify-da Reading məşqlərində matching headings tapşırıqları var, hər c
       },
     },
   },
+  {
+    slug: "ielts-writing-grammar-mistakes",
+    updated: "2026-11-11",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Writing: 8 grammar mistakes that lower your band",
+        description: "The eight grammar errors that cost the most marks in IELTS Writing, with wrong and correct examples and a quick way to check your own essay.",
+        body: `## Why small mistakes matter
+
+**Grammatical Range and Accuracy** is a quarter of your Writing score. To reach Band 7, most of your sentences need to be free of errors. For Band 6 a mix of simple and complex sentences is enough, even with some mistakes. Most lost marks come from the same eight errors, which repeat in essay after essay.
+
+## 1. Subject–verb agreement
+
+- ✗ *The number of students **have** increased.*
+- ✓ *The number of students **has** increased.*
+
+The subject is *the number*, not *students*. Watch long subjects: *One of the main reasons **is**…*, *The percentage of people who cycle **was**…*
+
+## 2. Articles with general and specific nouns
+
+- ✗ *The technology has changed the education.*
+- ✓ *Technology has changed education.*
+
+Use no article for uncountable and plural nouns in a general sense, and *the* when both you and the reader know which one: *the education system in my country*.
+
+## 3. Uncountable nouns used as plurals
+
+*Information*, *advice*, *research*, *evidence*, *knowledge*, *equipment* and *traffic* have no plural.
+
+- ✗ *Many researches show…*
+- ✓ *Much research shows…* or *Many studies show…*
+
+## 4. Tense in Task 1
+
+When a chart shows past years, describe it in the **past simple**: *In 2005, 48% of workers **travelled** by car.* Use *will* or *is expected to* only for projections.
+
+## 5. Comma splices
+
+- ✗ *Online courses are cheap, they are also flexible.*
+- ✓ *Online courses are cheap. They are also flexible.*
+- ✓ *Online courses are cheap, and they are also flexible.*
+
+Two full sentences need a full stop, a semicolon or a linking word, not just a comma.
+
+## 6. Wrong use of linking words
+
+- ✗ *Although cars are convenient, but they cause pollution.*
+- ✓ *Although cars are convenient, they cause pollution.*
+
+Use *although* **or** *but*, never both. Likewise, *however* starts a new sentence or follows a semicolon: *Cars are convenient; however, they cause pollution.*
+
+## 7. Sentence fragments
+
+- ✗ *Because many people work from home.*
+- ✓ *Traffic has fallen because many people work from home.*
+
+A clause starting with *because*, *which* or *while* cannot stand on its own.
+
+## 8. Word form
+
+- ✗ *It is very benefit for children.*
+- ✓ *It is very beneficial for children.*
+
+Check that you have used the right part of speech: *economy / economic / economical*, *success / successful / successfully*.
+
+## How to check your own essay
+
+Keep **three minutes** at the end of the test. Read only for these errors, one type at a time: first the verbs, then the nouns, then the punctuation. You will find more mistakes this way than by reading once for everything.
+
+## Practise with feedback
+
+Every essay you write in Lexify gets an estimated band for Grammatical Range and Accuracy, with examples of mistakes from your own text and how to fix them.`,
+      },
+      ru: {
+        title: "IELTS Writing: 8 грамматических ошибок, которые снижают балл",
+        description: "Восемь грамматических ошибок, на которых теряют больше всего баллов в IELTS Writing, с неверными и верными примерами и быстрый способ проверить своё эссе.",
+        body: `## Почему мелкие ошибки важны
+
+**Grammatical Range and Accuracy** — это четверть балла за Writing. Для Band 7 большинство предложений должны быть без ошибок. Для Band 6 хватит сочетания простых и сложных предложений, даже с ошибками. Большая часть потерянных баллов приходится на одни и те же восемь ошибок, которые повторяются из эссе в эссе.
+
+## 1. Согласование подлежащего и сказуемого
+
+- ✗ *The number of students **have** increased.*
+- ✓ *The number of students **has** increased.*
+
+Подлежащее здесь *the number*, а не *students*. Будьте внимательны с длинными подлежащими: *One of the main reasons **is**…*, *The percentage of people who cycle **was**…*
+
+## 2. Артикли с общими и конкретными понятиями
+
+- ✗ *The technology has changed the education.*
+- ✓ *Technology has changed education.*
+
+С неисчисляемыми и множественными существительными в общем смысле артикль не нужен. *The* ставится, когда и вы, и читатель знаете, о чём речь: *the education system in my country*.
+
+## 3. Неисчисляемые существительные во множественном числе
+
+У слов *information*, *advice*, *research*, *evidence*, *knowledge*, *equipment* и *traffic* нет множественного числа.
+
+- ✗ *Many researches show…*
+- ✓ *Much research shows…* или *Many studies show…*
+
+## 4. Время в Task 1
+
+Если на графике прошлые годы, описывайте его в **past simple**: *In 2005, 48% of workers **travelled** by car.* *Will* или *is expected to* — только для прогнозов.
+
+## 5. Два предложения через запятую
+
+- ✗ *Online courses are cheap, they are also flexible.*
+- ✓ *Online courses are cheap. They are also flexible.*
+- ✓ *Online courses are cheap, and they are also flexible.*
+
+Два полных предложения разделяют точкой, точкой с запятой или связкой, но не одной запятой.
+
+## 6. Неверные связки
+
+- ✗ *Although cars are convenient, but they cause pollution.*
+- ✓ *Although cars are convenient, they cause pollution.*
+
+Используйте *although* **или** *but*, но не оба сразу. *However* начинает новое предложение или стоит после точки с запятой: *Cars are convenient; however, they cause pollution.*
+
+## 7. Незаконченные предложения
+
+- ✗ *Because many people work from home.*
+- ✓ *Traffic has fallen because many people work from home.*
+
+Часть с *because*, *which* или *while* не может быть отдельным предложением.
+
+## 8. Форма слова
+
+- ✗ *It is very benefit for children.*
+- ✓ *It is very beneficial for children.*
+
+Проверяйте часть речи: *economy / economic / economical*, *success / successful / successfully*.
+
+## Как проверить своё эссе
+
+Оставьте **три минуты** в конце экзамена. Читайте только в поисках этих ошибок и по одному типу за раз: сначала глаголы, потом существительные, потом пунктуация. Так вы найдёте больше, чем если читать один раз «на всё».
+
+## Тренируйтесь с обратной связью
+
+Каждое эссе в Lexify получает примерный балл по Grammatical Range and Accuracy с примерами ошибок из вашего же текста и тем, как их исправить.`,
+      },
+      az: {
+        title: "IELTS Writing: balı aşağı salan 8 qrammatik səhv",
+        description: "IELTS Writing-də ən çox bal itirdirən səkkiz qrammatik səhv, yanlış və düzgün nümunələrlə, həmçinin öz essenizi tez yoxlamaq üsulu.",
+        body: `## Kiçik səhvlər niyə vacibdir
+
+**Grammatical Range and Accuracy** Writing balının dörddə biridir. Band 7 üçün cümlələrin əksəriyyəti səhvsiz olmalıdır. Band 6 üçün sadə və mürəkkəb cümlələrin qarışığı, hətta bəzi səhvlərlə, kifayətdir. İtirilən balların çoxu esselərdə təkrarlanan eyni səkkiz səhvdən gəlir.
+
+## 1. Mübtəda ilə xəbərin uzlaşması
+
+- ✗ *The number of students **have** increased.*
+- ✓ *The number of students **has** increased.*
+
+Burada mübtəda *students* yox, *the number*-dir. Uzun mübtədalara diqqət edin: *One of the main reasons **is**…*, *The percentage of people who cycle **was**…*
+
+## 2. Ümumi və konkret isimlərlə artikl
+
+- ✗ *The technology has changed the education.*
+- ✓ *Technology has changed education.*
+
+Ümumi mənada sayılmayan və cəm isimlərlə artikl lazım deyil. *The* həm sizin, həm də oxucunun nədən söhbət getdiyini bildiyi halda işlənir: *the education system in my country*.
+
+## 3. Sayılmayan isimlərin cəm şəkli
+
+*Information*, *advice*, *research*, *evidence*, *knowledge*, *equipment* və *traffic* sözlərinin cəm forması yoxdur.
+
+- ✗ *Many researches show…*
+- ✓ *Much research shows…* və ya *Many studies show…*
+
+## 4. Task 1-də zaman
+
+Qrafikdə keçmiş illər göstərilirsə, onu **past simple** ilə təsvir edin: *In 2005, 48% of workers **travelled** by car.* *Will* və ya *is expected to* yalnız proqnozlar üçündür.
+
+## 5. Vergüllə birləşdirilmiş iki cümlə
+
+- ✗ *Online courses are cheap, they are also flexible.*
+- ✓ *Online courses are cheap. They are also flexible.*
+- ✓ *Online courses are cheap, and they are also flexible.*
+
+İki tam cümlə nöqtə, nöqtəli vergül və ya bağlayıcı sözlə ayrılır, sadəcə vergüllə yox.
+
+## 6. Bağlayıcı sözlərin səhv işlənməsi
+
+- ✗ *Although cars are convenient, but they cause pollution.*
+- ✓ *Although cars are convenient, they cause pollution.*
+
+*Although* **və ya** *but* işlədin, ikisini birlikdə yox. *However* isə yeni cümləyə başlayır və ya nöqtəli vergüldən sonra gəlir: *Cars are convenient; however, they cause pollution.*
+
+## 7. Yarımçıq cümlələr
+
+- ✗ *Because many people work from home.*
+- ✓ *Traffic has fallen because many people work from home.*
+
+*Because*, *which* və ya *while* ilə başlayan hissə ayrıca cümlə ola bilməz.
+
+## 8. Söz forması
+
+- ✗ *It is very benefit for children.*
+- ✓ *It is very beneficial for children.*
+
+Nitq hissəsini yoxlayın: *economy / economic / economical*, *success / successful / successfully*.
+
+## Öz essenizi necə yoxlamaq
+
+İmtahanın sonunda **üç dəqiqə** saxlayın. Yalnız bu səhvləri axtararaq, hər dəfə bir növ üzrə oxuyun: əvvəlcə feillər, sonra isimlər, sonra durğu işarələri. Belə daha çox səhv taparsınız, nəinki hər şey üçün bir dəfə oxuyanda.
+
+## Rəylə məşq edin
+
+Lexify-da yazdığınız hər esse Grammatical Range and Accuracy üzrə təxmini bal alır, öz mətninizdən səhv nümunələri və onların necə düzəldiləcəyi ilə birlikdə.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

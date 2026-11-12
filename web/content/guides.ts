@@ -1664,6 +1664,136 @@ Lexify-da yazdığınız hər esse Grammatical Range and Accuracy üzrə təxmin
       },
     },
   },
+  {
+    slug: "ielts-reading-sentence-summary-completion",
+    updated: "2026-11-12",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Reading: sentence and summary completion",
+        description: "How word limits work, a five-step method for gap-fill questions, a worked example and the mistakes that turn correct answers into wrong ones.",
+        body: `## What these tasks look like
+
+In **sentence completion** and **summary completion** you fill gaps with words taken from the passage. The instructions give a word limit, for example *NO MORE THAN TWO WORDS*. Answers usually follow the order of the passage, and the sentences around each gap paraphrase what the passage says.
+
+Some summary tasks give you a box of words to choose from instead. The method is the same, but the answer may be a synonym rather than the exact word in the text.
+
+## Read the word limit first
+
+The limit is a rule, not a guideline. If it says *NO MORE THAN TWO WORDS* and you write three, the answer is marked wrong even if the meaning is correct. A number written in figures (*25*) counts as one word. Hyphenated words such as *car-free* count as one.
+
+## A five-step method
+
+1. **Read the instructions** and circle the word limit.
+2. **Read the sentence with the gap** and predict what kind of word fits: a noun, an adjective, a number, a plural?
+3. **Find the place in the passage.** Look for names, numbers or rare words from the sentence, then read that part carefully. The rest of the sentence will be a paraphrase, not the same words.
+4. **Copy the word exactly**, with the same spelling. Do not change its form: if the passage says *polluted*, do not write *pollution*.
+5. **Read the full sentence again** with your answer in it. It must be grammatically correct.
+
+## A short example
+
+*Passage:* "…a river which has been underground for a century may carry polluted water, and it can take years of cleaning before it is safe for people to touch."
+
+*Sentence:* Water from a river that has been underground for a long time may be ______. (ONE WORD)
+
+The gap follows *may be*, so you need an adjective. *for a long time* is a paraphrase of *for a century*. The answer is **polluted**.
+
+## Common mistakes
+
+- **Going over the word limit**, often by adding *the* or *a*.
+- **Changing the word form** to make the sentence sound better. The word must come from the passage.
+- **Spelling mistakes.** A misspelled answer is wrong, so copy letter by letter.
+- **Choosing a word that fits the meaning but not the grammar**, such as a singular noun where the sentence needs a plural.
+- **Spending too long on one gap.** If you cannot find it in a minute, move on: the next answer will usually come later in the text, which tells you where to look.
+
+## Practise with real tasks
+
+Lexify's Reading practice includes sentence completion with the same word limits as the exam. Answers are checked without counting capital letters, but spelling and the word limit are checked just as strictly as in the real test.`,
+      },
+      ru: {
+        title: "IELTS Reading: sentence и summary completion",
+        description: "Как работают ограничения по словам, метод в пять шагов для заданий с пропусками, разобранный пример и ошибки, из-за которых верный ответ засчитывают как неверный.",
+        body: `## Как выглядят эти задания
+
+В **sentence completion** и **summary completion** нужно заполнить пропуски словами из текста. В инструкции есть ограничение, например *NO MORE THAN TWO WORDS*. Ответы обычно идут в том же порядке, что и в тексте, а предложения вокруг пропуска пересказывают текст другими словами.
+
+В некоторых заданиях на summary слова нужно выбрать из списка. Метод тот же, но ответом может быть синоним, а не точное слово из текста.
+
+## Сначала прочитайте ограничение
+
+Ограничение — это правило, а не совет. Если написано *NO MORE THAN TWO WORDS*, а вы написали три, ответ засчитают как неверный, даже если смысл правильный. Число цифрами (*25*) — это одно слово. Слова через дефис вроде *car-free* тоже считаются одним.
+
+## Метод в пять шагов
+
+1. **Прочитайте инструкцию** и выделите ограничение по словам.
+2. **Прочитайте предложение с пропуском** и предположите, какое слово подходит: существительное, прилагательное, число, множественное число?
+3. **Найдите нужное место в тексте.** Ищите имена, числа или редкие слова из предложения и внимательно прочитайте этот кусок. Остальное предложение будет пересказом, а не теми же словами.
+4. **Перепишите слово точно**, с тем же написанием. Не меняйте форму: если в тексте *polluted*, не пишите *pollution*.
+5. **Перечитайте предложение целиком** с вашим ответом. Оно должно быть грамматически правильным.
+
+## Короткий пример
+
+*Текст:* "…a river which has been underground for a century may carry polluted water, and it can take years of cleaning before it is safe for people to touch."
+
+*Предложение:* Water from a river that has been underground for a long time may be ______. (ONE WORD)
+
+После *may be* нужно прилагательное. *for a long time* — пересказ *for a century*. Ответ: **polluted**.
+
+## Частые ошибки
+
+- **Больше слов, чем разрешено**, часто из-за лишних *the* или *a*.
+- **Изменить форму слова**, чтобы предложение звучало лучше. Слово должно быть из текста.
+- **Орфографические ошибки.** Ответ с ошибкой неверен, поэтому переписывайте по буквам.
+- **Слово подходит по смыслу, но не по грамматике**, например единственное число там, где нужно множественное.
+- **Слишком долго сидеть над одним пропуском.** Если не нашли за минуту, идите дальше: следующий ответ обычно дальше по тексту, и это подсказывает, где искать.
+
+## Тренируйтесь на настоящих заданиях
+
+В практиках Reading в Lexify есть sentence completion с такими же ограничениями, как на экзамене. Регистр букв при проверке не важен, но орфографию и число слов проверяют так же строго, как на настоящем тесте.`,
+      },
+      az: {
+        title: "IELTS Reading: sentence və summary completion",
+        description: "Söz məhdudiyyəti necə işləyir, boşluq doldurma sualları üçün beş addımlıq üsul, izahlı nümunə və düzgün cavabı səhvə çevirən xətalar.",
+        body: `## Bu tapşırıqlar necə görünür
+
+**Sentence completion** və **summary completion** tapşırıqlarında boşluqları mətndən götürülmüş sözlərlə doldurursunuz. Təlimatda məhdudiyyət olur, məsələn *NO MORE THAN TWO WORDS*. Cavablar adətən mətndəki ardıcıllıqla gəlir, boşluq olan cümlələr isə mətni başqa sözlərlə ifadə edir.
+
+Bəzi summary tapşırıqlarında sözü siyahıdan seçmək lazımdır. Üsul eynidir, amma cavab mətndəki dəqiq söz yox, onun sinonimi ola bilər.
+
+## Əvvəlcə məhdudiyyəti oxuyun
+
+Məhdudiyyət tövsiyə yox, qaydadır. *NO MORE THAN TWO WORDS* yazılıbsa və siz üç söz yazsanız, məna düzgün olsa belə cavab səhv sayılır. Rəqəmlə yazılmış ədəd (*25*) bir sözdür. *car-free* kimi defisli sözlər də bir söz sayılır.
+
+## Beş addımlıq üsul
+
+1. **Təlimatı oxuyun** və söz məhdudiyyətini qeyd edin.
+2. **Boşluq olan cümləni oxuyun** və hansı sözün uyğun gəldiyini təxmin edin: isim, sifət, rəqəm, cəm?
+3. **Mətndə yeri tapın.** Cümlədəki adları, rəqəmləri və ya nadir sözləri axtarın və həmin hissəni diqqətlə oxuyun. Cümlənin qalanı eyni sözlər yox, başqa sözlərlə ifadə olacaq.
+4. **Sözü dəqiq köçürün**, eyni yazılışla. Formasını dəyişməyin: mətndə *polluted* varsa, *pollution* yazmayın.
+5. **Cümləni cavabınızla birlikdə yenidən oxuyun.** O, qrammatik cəhətdən düzgün olmalıdır.
+
+## Qısa nümunə
+
+*Mətn:* "…a river which has been underground for a century may carry polluted water, and it can take years of cleaning before it is safe for people to touch."
+
+*Cümlə:* Water from a river that has been underground for a long time may be ______. (ONE WORD)
+
+*May be*-dən sonra sifət lazımdır. *for a long time* ifadəsi *for a century*-nin başqa sözlərlə ifadəsidir. Cavab: **polluted**.
+
+## Tez-tez edilən səhvlər
+
+- **İcazə veriləndən çox söz yazmaq**, çox vaxt artıq *the* və ya *a* üzündən.
+- Cümlə daha yaxşı səslənsin deyə **söz formasını dəyişmək**. Söz mətndən olmalıdır.
+- **Orfoqrafik səhvlər.** Səhv yazılmış cavab yanlışdır, ona görə hərf-hərf köçürün.
+- **Mənaya uyğun, amma qrammatikaya uyğun olmayan söz seçmək**, məsələn cəm lazım olan yerdə tək isim.
+- **Bir boşluğa çox vaxt sərf etmək.** Bir dəqiqəyə tapmadınızsa, irəli keçin: növbəti cavab adətən mətndə daha sonra gəlir və bu, harada axtarmaq lazım olduğunu göstərir.
+
+## Real tapşırıqlarla məşq edin
+
+Lexify-da Reading məşqlərində imtahandakı kimi söz məhdudiyyəti olan sentence completion tapşırıqları var. Yoxlamada böyük-kiçik hərf nəzərə alınmır, amma orfoqrafiya və söz sayı real testdəki kimi ciddi yoxlanılır.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

@@ -442,6 +442,90 @@ Because of these concerns, many recent projects are smaller and more gradual. In
     ],
   },
   {
+    id: "practice-reading-habits",
+    section: "reading",
+    kind: "exercise",
+    order: 6,
+    courseIds: ALL,
+    free: false,
+    title: "How habits work",
+    active: true,
+    durations: { light: 12, full: 15 },
+    passages: [
+      {
+        id: "p1",
+        title: "How habits work",
+        text: `Much of what we do each day is not the result of careful decisions. Researchers estimate that a large share of daily behaviour, from the route we take to work to the way we make coffee, is repeated almost automatically in the same context. These habits save mental effort: once an action is linked to a particular cue, such as a time of day or a place, the brain no longer needs to weigh up the options each time.
+
+This efficiency, however, has a cost. Because habits are triggered by cues rather than by goals, they continue even when they no longer serve us. In one well-known study, people who regularly ate popcorn at the cinema ate almost as much stale, week-old popcorn as fresh popcorn, but only when they were watching a film in a cinema. In a meeting room, they ate far less of the stale snack. In my view, this shows clearly that willpower alone is a weak tool against an established habit.
+
+Popular advice often claims that a new habit takes exactly twenty-one days to form. Research does not support such a precise figure. In a study that followed volunteers trying to adopt a new daily behaviour, the time it took for the action to feel automatic ranged from a few weeks to many months, depending on the person and the difficulty of the task. Interestingly, missing a single day made little difference to the final result.
+
+The most effective strategies therefore focus on the environment rather than on motivation. Changing the cues, for example by keeping fruit on the kitchen table or leaving running shoes by the door, makes the desired action easier to start. I believe that schools and employers could do far more to design spaces that encourage healthy routines, instead of simply telling people to try harder.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "Yes / No / Not Given",
+        instructions: "Do the following statements agree with the views of the writer? Choose YES if the statement agrees with the views of the writer, NO if it contradicts the views of the writer, and NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q1", number: 1, type: "ynng", prompt: "Habits help people to save mental effort." },
+          { id: "q2", number: 2, type: "ynng", prompt: "Willpower is usually enough to break a long-standing habit." },
+          { id: "q3", number: 3, type: "ynng", prompt: "Most of our habits are formed during childhood." },
+          { id: "q4", number: 4, type: "ynng", prompt: "Employers should help to create environments that support good habits." },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "Multiple choice",
+        instructions: "Choose the correct letter, A, B, C or D.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          {
+            id: "q5",
+            number: 5,
+            type: "mcq",
+            prompt: "The popcorn study suggests that how much people ate depended mainly on",
+            options: [
+              { value: "A", label: "how hungry they were." },
+              { value: "B", label: "how fresh the popcorn was." },
+              { value: "C", label: "where they were eating." },
+              { value: "D", label: "how much the snack cost." },
+            ],
+          },
+          {
+            id: "q6",
+            number: 6,
+            type: "mcq",
+            prompt: "What does the writer say about the claim that habits take twenty-one days to form?",
+            options: [
+              { value: "A", label: "It is true for simple tasks only." },
+              { value: "B", label: "It is more precise than the research allows." },
+              { value: "C", label: "It was first made by scientists." },
+              { value: "D", label: "It ignores the effect of missing a day." },
+            ],
+          },
+        ],
+      },
+      {
+        id: "g3",
+        typeLabel: "Sentence completion",
+        instructions: "Complete the sentences. Choose ONE WORD ONLY from the passage for each answer.",
+        passageId: "p1",
+        light: false,
+        questions: [
+          { id: "q7", number: 7, type: "gap", prompt: "Habits are triggered by ______ rather than by goals.", maxWords: 1 },
+          { id: "q8", number: 8, type: "gap", prompt: "Missing a single ______ had little effect on how a new habit developed.", maxWords: 1 },
+          { id: "q9", number: 9, type: "gap", prompt: "The best strategies focus on the environment instead of on ______.", maxWords: 1 },
+        ],
+      },
+    ],
+  },
+  {
     id: "practice-writing-task1-energy",
     section: "writing",
     kind: "exercise",
@@ -753,6 +837,13 @@ export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
       q1: ["A"], q2: ["C"], q3: ["E"], q4: ["B"],
       q5: ["false"], q6: ["true"], q7: ["not given"],
       q8: ["polluted"], q9: ["car parks", "carparks", "car-parks"], q10: ["public support"],
+    },
+  },
+  "practice-reading-habits": {
+    answers: {
+      q1: ["yes"], q2: ["no"], q3: ["not given"], q4: ["yes"],
+      q5: ["C"], q6: ["B"],
+      q7: ["cues"], q8: ["day"], q9: ["motivation"],
     },
   },
   "practice-listening-museum": {

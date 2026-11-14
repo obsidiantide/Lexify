@@ -1,4 +1,5 @@
 import type { ChartSpec } from "@/lib/diagnostic/types";
+import { axisTop, round } from "@/lib/chart-scale";
 
 const COLORS = ["#9aa5c4", "var(--color-ink)", "var(--color-amber)", "var(--color-reading)"];
 
@@ -8,11 +9,11 @@ export function BarChart({ chart }: { chart: ChartSpec }) {
   const H = 280;
   const pad = { l: 40, r: 10, t: 16, b: 46 };
   const max = Math.max(...chart.series.flatMap((s) => s.values));
-  const top = Math.ceil(max / 20) * 20 || 10;
+  const top = axisTop(max);
   const groupW = (W - pad.l - pad.r) / chart.categories.length;
   const barW = Math.min(34, (groupW - 16) / chart.series.length);
   const y = (v: number) => pad.t + (H - pad.t - pad.b) * (1 - v / top);
-  const ticks = Array.from({ length: 6 }, (_, i) => (top / 5) * i);
+  const ticks = Array.from({ length: 6 }, (_, i) => round((top / 5) * i));
 
   return (
     <figure className="rounded-2xl border border-line bg-surface p-4">

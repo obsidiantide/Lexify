@@ -644,6 +644,35 @@ The most effective strategies therefore focus on the environment rather than on 
     ],
   },
   {
+    id: "practice-writing-task1-online-time",
+    section: "writing",
+    kind: "exercise",
+    order: 7,
+    courseIds: WS,
+    free: false,
+    title: "Task 1: time spent online by age group",
+    active: true,
+    durations: { light: 20, full: 20 },
+    writing: [
+      {
+        id: "task1",
+        light: true,
+        minWords: 150,
+        prompt:
+          "The chart below shows the average number of hours per day that people in different age groups spent online in one country in 2012 and 2024.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        chart: {
+          title: "Average time spent online per day",
+          unit: "hours",
+          categories: ["16–24", "25–34", "35–44", "45–54", "55–64", "65+"],
+          series: [
+            { name: "2012", values: [3.8, 3.1, 2.4, 1.9, 1.2, 0.6] },
+            { name: "2024", values: [6.2, 5.4, 4.6, 3.9, 3.1, 2.3] },
+          ],
+        },
+      },
+    ],
+  },
+  {
     id: "practice-speaking-hometown",
     section: "speaking",
     kind: "exercise",

@@ -823,6 +823,52 @@ The most effective strategies therefore focus on the environment rather than on 
       },
     ],
   },
+  {
+    id: "practice-speaking-books",
+    section: "speaking",
+    kind: "exercise",
+    order: 6,
+    courseIds: WS,
+    free: false,
+    title: "Parts 1–3: books and reading",
+    active: true,
+    durations: { light: 4, full: 13 },
+    speaking: [
+      {
+        part: 1,
+        light: true,
+        answerSeconds: 40,
+        questions: [
+          "Do you enjoy reading? Why or why not?",
+          "What kind of things do you usually read?",
+          "Do you prefer paper books or reading on a screen?",
+          "Did you read a lot when you were a child?",
+        ],
+      },
+      {
+        part: 2,
+        light: false,
+        prepSeconds: 60,
+        answerSeconds: 120,
+        questions: ["Describe a book you read that you found interesting."],
+        cueCard: {
+          topic: "Describe a book you read that you found interesting.",
+          bullets: ["what the book was", "when you read it", "what it was about", "and explain why you found it interesting."],
+        },
+      },
+      {
+        part: 3,
+        light: false,
+        answerSeconds: 60,
+        questions: [
+          "Why do you think some young people read less than in the past?",
+          "What can parents and schools do to encourage children to read?",
+          "Do you think printed books will disappear in the future?",
+          "Is it better to learn from books or from videos? Why?",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Mock id per diagnostic task: mock-<section>-<n>, numbered in pool order within each section. */

@@ -673,6 +673,26 @@ The most effective strategies therefore focus on the environment rather than on 
     ],
   },
   {
+    id: "practice-writing-online-shopping",
+    section: "writing",
+    kind: "exercise",
+    order: 8,
+    courseIds: WS,
+    free: false,
+    title: "Task 2: shopping online instead of in shops",
+    active: true,
+    durations: { light: 40, full: 40 },
+    writing: [
+      {
+        id: "task2",
+        light: true,
+        minWords: 250,
+        prompt:
+          "In many countries, more and more people are buying goods online rather than in shops.\n\nWhy is this happening? Is this a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      },
+    ],
+  },
+  {
     id: "practice-speaking-hometown",
     section: "speaking",
     kind: "exercise",

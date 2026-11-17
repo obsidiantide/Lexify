@@ -1794,6 +1794,181 @@ Lexify-da Reading məşqlərində imtahandakı kimi söz məhdudiyyəti olan sen
       },
     },
   },
+  {
+    slug: "ielts-writing-task-1-maps-and-processes",
+    updated: "2026-11-17",
+    minutes: 6,
+    text: {
+      en: {
+        title: "IELTS Writing Task 1: maps and process diagrams",
+        description: "How to structure a map or process answer, the overview for each, the passive and sequencing language you need, and the mistakes that cost marks.",
+        body: `## Two task types that are not charts
+
+Some Task 1 questions show a **map** of a place at two points in time, or a **process diagram** with stages and arrows. There are no numbers to compare, so many candidates do not know what to write. The structure is the same as for a chart: introduction, overview, two detail paragraphs, about 170–190 words.
+
+## Maps: what changed
+
+A map task usually shows a town, a park, a campus or a building *before* and *after* a change, or a plan for the future.
+
+1. **Introduction.** Paraphrase the task: what place, which years.
+2. **Overview.** The two or three biggest changes. *Overall, the area became more residential, and most of the farmland was replaced by housing and roads.*
+3. **Detail paragraphs.** Group by area (the north, the centre, the coast) or by type of change (what was built, what was removed, what stayed).
+
+**Language for maps**
+
+| Purpose | Examples |
+| --- | --- |
+| Something new | was built, was constructed, was added, a car park was created |
+| Something removed | was demolished, was knocked down, was cleared, was replaced by |
+| Something changed | was extended, was converted into, was moved to, was widened |
+| No change | remained, stayed the same, was kept |
+| Location | to the north of, next to, opposite, in the south-east corner, along the river |
+
+Use the **passive** for changes, because what matters is the building, not who built it. Use the **past simple** for a past map and *will be* or *is planned to be* for a future plan.
+
+## Processes: the stages in order
+
+A process diagram shows how something is made (bricks, chocolate, glass) or how a natural cycle works (water, a plant's life).
+
+1. **Introduction.** What process, and how many stages it has.
+2. **Overview.** Where it starts, where it ends, and whether it is a **cycle** or a **line**. *Overall, there are eight stages, beginning with the collection of clay and ending with delivery to customers.*
+3. **Detail paragraphs.** Split the stages roughly in half and describe them in order.
+
+**Language for processes**
+
+- **Sequencers:** *first, to begin with, next, after that, once this is done, at the following stage, finally*.
+- **Passive present:** *The clay **is dug** up and **is passed** through a metal grid.* Man-made processes almost always use the passive.
+- **Active present** for natural cycles: *Water **evaporates** and **forms** clouds.*
+- **Purpose:** *in order to, so that*: *The bricks are dried for two days so that they do not crack.*
+
+Turn the labels on the diagram into full sentences. If a stage is labelled *drying (24–48 hours)*, write *The bricks are then left to dry for between 24 and 48 hours.*
+
+## Common mistakes
+
+- **No overview.** A map or process still needs one, and without it Task Achievement is usually limited to band 5.
+- **Describing every detail.** Pick the important changes or stages and group them.
+- **Active voice for man-made steps** (*Workers put the clay into a mould*). Use the passive.
+- **Copying the labels as a list** instead of writing sentences with sequencers.
+- **Adding reasons or opinions**, for example why the town built a new road.
+
+## Practise the structure
+
+The same four-paragraph structure works for Lexify's Task 1 practices with bar charts: write the overview first, then group the details. Once that is automatic, maps and processes become a matter of the right vocabulary.`,
+      },
+      ru: {
+        title: "IELTS Writing Task 1: карты и схемы процессов",
+        description: "Как построить ответ по карте или процессу, какой нужен overview, пассив и слова-связки, и ошибки, на которых теряют баллы.",
+        body: `## Два типа заданий без графиков
+
+Иногда в Task 1 дают **карту** места в два разных момента или **схему процесса** с этапами и стрелками. Сравнивать цифры не нужно, и многие не понимают, что писать. Структура та же, что и для графика: введение, общий обзор, два абзаца с деталями, примерно 170–190 слов.
+
+## Карты: что изменилось
+
+Обычно на карте показан город, парк, кампус или здание *до* и *после* изменений либо план на будущее.
+
+1. **Введение.** Перефразируйте задание: какое место и какие годы.
+2. **Overview.** Два-три самых крупных изменения. *Overall, the area became more residential, and most of the farmland was replaced by housing and roads.*
+3. **Абзацы с деталями.** Группируйте по частям карты (север, центр, побережье) или по типу изменений (что построили, что убрали, что осталось).
+
+**Лексика для карт**
+
+| Задача | Примеры |
+| --- | --- |
+| Появилось новое | was built, was constructed, was added, a car park was created |
+| Что-то убрали | was demolished, was knocked down, was cleared, was replaced by |
+| Что-то изменилось | was extended, was converted into, was moved to, was widened |
+| Без изменений | remained, stayed the same, was kept |
+| Расположение | to the north of, next to, opposite, in the south-east corner, along the river |
+
+Для изменений используйте **пассивный залог**: важно здание, а не тот, кто его построил. Для карты прошлого нужно **past simple**, для плана на будущее *will be* или *is planned to be*.
+
+## Процессы: этапы по порядку
+
+Схема процесса показывает, как что-то производится (кирпич, шоколад, стекло) или как устроен природный цикл (круговорот воды, жизнь растения).
+
+1. **Введение.** Какой процесс и сколько в нём этапов.
+2. **Overview.** С чего начинается, чем заканчивается, и это **цикл** или **линия**. *Overall, there are eight stages, beginning with the collection of clay and ending with delivery to customers.*
+3. **Абзацы с деталями.** Разделите этапы примерно пополам и опишите их по порядку.
+
+**Лексика для процессов**
+
+- **Слова-связки:** *first, to begin with, next, after that, once this is done, at the following stage, finally*.
+- **Пассив в настоящем времени:** *The clay **is dug** up and **is passed** through a metal grid.* Производственные процессы почти всегда описывают в пассиве.
+- **Активный залог** для природных циклов: *Water **evaporates** and **forms** clouds.*
+- **Цель:** *in order to, so that*: *The bricks are dried for two days so that they do not crack.*
+
+Превращайте подписи на схеме в полные предложения. Если этап подписан *drying (24–48 hours)*, напишите *The bricks are then left to dry for between 24 and 48 hours.*
+
+## Частые ошибки
+
+- **Нет overview.** Для карты и процесса он тоже нужен, без него Task Achievement обычно ограничен баллом 5.
+- **Описание каждой мелочи.** Выберите важные изменения или этапы и сгруппируйте их.
+- **Активный залог в производственных шагах** (*Workers put the clay into a mould*). Нужен пассив.
+- **Подписи списком** вместо предложений со словами-связками.
+- **Причины и мнения**, например почему в городе построили новую дорогу.
+
+## Отработайте структуру
+
+Та же структура из четырёх абзацев работает в практиках Task 1 в Lexify с диаграммами: сначала overview, потом сгруппированные детали. Когда это станет привычкой, для карт и процессов останется выучить нужную лексику.`,
+      },
+      az: {
+        title: "IELTS Writing Task 1: xəritələr və proses sxemləri",
+        description: "Xəritə və ya proses cavabını necə qurmaq, hər biri üçün overview, lazım olan passiv və bağlayıcılar, bal itirdən səhvlər.",
+        body: `## Qrafik olmayan iki tapşırıq növü
+
+Bəzən Task 1-də bir yerin iki fərqli vaxtdakı **xəritəsi** və ya mərhələləri və oxları olan **proses sxemi** verilir. Müqayisə ediləcək rəqəmlər yoxdur, ona görə çoxları nə yazacağını bilmir. Struktur qrafikdəki kimidir: giriş, ümumi icmal, təfərrüatlı iki abzas, təxminən 170–190 söz.
+
+## Xəritələr: nə dəyişdi
+
+Xəritədə adətən şəhər, park, kampus və ya bina dəyişiklikdən *əvvəl* və *sonra* göstərilir, ya da gələcək üçün plan verilir.
+
+1. **Giriş.** Tapşırığı başqa sözlərlə ifadə edin: hansı yer, hansı illər.
+2. **Overview.** Ən böyük iki-üç dəyişiklik. *Overall, the area became more residential, and most of the farmland was replaced by housing and roads.*
+3. **Təfərrüat abzasları.** Xəritənin hissələrinə (şimal, mərkəz, sahil) və ya dəyişikliyin növünə (nə tikildi, nə söküldü, nə qaldı) görə qruplaşdırın.
+
+**Xəritələr üçün ifadələr**
+
+| Məqsəd | Nümunələr |
+| --- | --- |
+| Yeni nəsə | was built, was constructed, was added, a car park was created |
+| Nəsə götürüldü | was demolished, was knocked down, was cleared, was replaced by |
+| Nəsə dəyişdi | was extended, was converted into, was moved to, was widened |
+| Dəyişməyib | remained, stayed the same, was kept |
+| Yer | to the north of, next to, opposite, in the south-east corner, along the river |
+
+Dəyişikliklər üçün **passiv növdən** istifadə edin, çünki vacib olan binadır, onu kimin tikdiyi yox. Keçmiş xəritə üçün **past simple**, gələcək plan üçün *will be* və ya *is planned to be* lazımdır.
+
+## Proseslər: mərhələlər ardıcıllıqla
+
+Proses sxemi nəyinsə necə hazırlandığını (kərpic, şokolad, şüşə) və ya təbii dövrün necə işlədiyini (suyun dövranı, bitkinin həyatı) göstərir.
+
+1. **Giriş.** Hansı proses və neçə mərhələdən ibarətdir.
+2. **Overview.** Harada başlayır, harada bitir, bu **dövrdür**, yoxsa **xətt**. *Overall, there are eight stages, beginning with the collection of clay and ending with delivery to customers.*
+3. **Təfərrüat abzasları.** Mərhələləri təxminən yarıya bölün və ardıcıllıqla təsvir edin.
+
+**Proseslər üçün ifadələr**
+
+- **Bağlayıcılar:** *first, to begin with, next, after that, once this is done, at the following stage, finally*.
+- **İndiki zamanda passiv:** *The clay **is dug** up and **is passed** through a metal grid.* İstehsal prosesləri demək olar ki, həmişə passivdə təsvir olunur.
+- Təbii dövrlər üçün **aktiv növ:** *Water **evaporates** and **forms** clouds.*
+- **Məqsəd:** *in order to, so that*: *The bricks are dried for two days so that they do not crack.*
+
+Sxemdəki yazıları tam cümlələrə çevirin. Mərhələ *drying (24–48 hours)* adlanırsa, *The bricks are then left to dry for between 24 and 48 hours* yazın.
+
+## Tez-tez edilən səhvlər
+
+- **Overview yoxdur.** Xəritə və proses üçün də lazımdır, onsuz Task Achievement adətən 5 balla məhdudlaşır.
+- **Hər xırdalığı təsvir etmək.** Vacib dəyişiklikləri və ya mərhələləri seçin və qruplaşdırın.
+- **İstehsal addımlarında aktiv növ** (*Workers put the clay into a mould*). Passiv lazımdır.
+- **Yazıları siyahı kimi köçürmək**, bağlayıcılı cümlələr yazmaq əvəzinə.
+- **Səbəb və fikir əlavə etmək**, məsələn şəhərin niyə yeni yol çəkdiyini.
+
+## Strukturu məşq edin
+
+Eyni dörd abzaslı struktur Lexify-dakı diaqramlı Task 1 məşqlərində də işləyir: əvvəlcə overview, sonra qruplaşdırılmış təfərrüatlar. Bu vərdişə çevriləndə xəritə və proseslər üçün yalnız lazımi ifadələri öyrənmək qalır.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

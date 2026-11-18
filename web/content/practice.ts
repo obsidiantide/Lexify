@@ -693,6 +693,35 @@ The most effective strategies therefore focus on the environment rather than on 
     ],
   },
   {
+    id: "practice-writing-task1-household-spending",
+    section: "writing",
+    kind: "exercise",
+    order: 9,
+    courseIds: WS,
+    free: false,
+    title: "Task 1: how households spend their money",
+    active: true,
+    durations: { light: 20, full: 20 },
+    writing: [
+      {
+        id: "task1",
+        light: true,
+        minWords: 150,
+        prompt:
+          "The chart below shows the percentage of the average household budget spent on six categories in one country in 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        chart: {
+          title: "Share of household spending by category",
+          unit: "%",
+          categories: ["Housing", "Food", "Transport", "Leisure", "Health", "Clothing"],
+          series: [
+            { name: "2000", values: [24, 22, 14, 9, 5, 8] },
+            { name: "2020", values: [33, 15, 16, 12, 8, 5] },
+          ],
+        },
+      },
+    ],
+  },
+  {
     id: "practice-speaking-hometown",
     section: "speaking",
     kind: "exercise",

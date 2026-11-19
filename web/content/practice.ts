@@ -19,6 +19,12 @@ const ENDINGS_RIVERS = [
   { value: "F", label: "is usually paid for by private companies." },
 ];
 
+const PEOPLE_FARMS = [
+  { value: "A", label: "Dr Lena Hartmann" },
+  { value: "B", label: "Marcus Obi" },
+  { value: "C", label: "Professor Sara Lind" },
+];
+
 const HEADINGS_SLEEP = [
   { value: "i", label: "Why sleep was once thought to be useless" },
   { value: "ii", label: "How much sleep adults really need" },
@@ -526,6 +532,72 @@ The most effective strategies therefore focus on the environment rather than on 
     ],
   },
   {
+    id: "practice-reading-vertical-farms",
+    section: "reading",
+    kind: "exercise",
+    order: 7,
+    courseIds: ALL,
+    free: false,
+    title: "Farming upwards",
+    active: true,
+    durations: { light: 12, full: 15 },
+    passages: [
+      {
+        id: "p1",
+        title: "Farming upwards",
+        text: `The idea of growing food inside tall buildings in the middle of a city once sounded like science fiction. Today, vertical farms operate on several continents. Instead of spreading crops across open fields, these farms stack them in layers, often ten or more, under artificial light. Because the plants grow upwards rather than outwards, a building the size of a supermarket can produce as much lettuce as many hectares of farmland.
+
+The first commercial vertical farms grew mainly leafy greens and herbs, and these crops still dominate today. Plant scientist Dr Lena Hartmann explains that the controlled environment gives growers unusual power over their produce. "With LED lighting we can choose the exact colour and length of the light each day," she says. "By changing the light, we can make a basil plant taste stronger or a lettuce leaf crunchier." Water is also used far more efficiently. Most vertical farms recycle the water their plants do not absorb, and they typically use up to 95 per cent less than a farm in the open air.
+
+Marcus Obi, who runs a vertical farm in a former warehouse, points to another advantage. "We have no insects to fight and no weather to worry about," he says, "so we grow everything without spraying a single chemical." His farm sits close to the cities where the food is eaten, which means salad can reach shop shelves within hours of harvest, rather than after days on a lorry.
+
+Not everyone is convinced that vertical farming will feed the world. Professor Sara Lind, an agricultural economist, notes that sunlight is free while electricity is not. "Lighting is the biggest single cost for an indoor farm, larger even than wages or rent," she says. In her view, the model only works for crops that grow quickly and sell at a high price. Staple foods such as wheat or rice need too much space and light to be profitable indoors.
+
+The economic warnings have proved accurate in some cases. When energy prices rose sharply, several well-funded vertical farming companies closed down. The farms that survived have tried to cut their bills. Many now use solar panels on their roofs, and some have moved to regions where electricity is cheap. Whether vertical farms become a normal part of the food system may depend less on the plants than on the price of power.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "Matching features",
+        instructions: "Look at the following statements and the list of people. Match each statement with the correct person, A, B or C. You may use any letter more than once.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q1", number: 1, type: "match", prompt: "Electricity for lighting costs an indoor farm more than anything else.", options: PEOPLE_FARMS },
+          { id: "q2", number: 2, type: "match", prompt: "Indoor crops can be grown without chemical sprays.", options: PEOPLE_FARMS },
+          { id: "q3", number: 3, type: "match", prompt: "The flavour of a plant can be changed by adjusting the light.", options: PEOPLE_FARMS },
+          { id: "q4", number: 4, type: "match", prompt: "Only fast-growing, expensive crops are worth growing indoors.", options: PEOPLE_FARMS },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "True / False / Not Given",
+        instructions: TFNG,
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q5", number: 5, type: "tfng", prompt: "The first commercial vertical farms mostly grew wheat." },
+          { id: "q6", number: 6, type: "tfng", prompt: "Vertical farms generally need less water than outdoor farms." },
+          { id: "q7", number: 7, type: "tfng", prompt: "Some vertical farming companies went out of business when energy became more expensive." },
+          { id: "q8", number: 8, type: "tfng", prompt: "Several European governments give financial support to vertical farms." },
+        ],
+      },
+      {
+        id: "g3",
+        typeLabel: "Summary completion",
+        instructions: "Complete the summary. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        passageId: "p1",
+        light: false,
+        questions: [
+          { id: "q9", number: 9, type: "gap", prompt: "Crops in a vertical farm are grown in ______, so a small building can produce a large harvest.", maxWords: 2 },
+          { id: "q10", number: 10, type: "gap", prompt: "Because the farms are near ______, fresh food reaches shops within hours.", maxWords: 2 },
+          { id: "q11", number: 11, type: "gap", prompt: "To lower their energy bills, many farms have installed ______.", maxWords: 2 },
+        ],
+      },
+    ],
+  },
+  {
     id: "practice-writing-task1-energy",
     section: "writing",
     kind: "exercise",
@@ -968,6 +1040,13 @@ export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
       q1: ["yes"], q2: ["no"], q3: ["not given"], q4: ["yes"],
       q5: ["C"], q6: ["B"],
       q7: ["cues"], q8: ["day"], q9: ["motivation"],
+    },
+  },
+  "practice-reading-vertical-farms": {
+    answers: {
+      q1: ["C"], q2: ["B"], q3: ["A"], q4: ["C"],
+      q5: ["false"], q6: ["true"], q7: ["true"], q8: ["not given"],
+      q9: ["layers"], q10: ["cities", "the cities"], q11: ["solar panels"],
     },
   },
   "practice-listening-museum": {

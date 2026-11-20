@@ -1969,6 +1969,118 @@ Eyni dörd abzaslı struktur Lexify-dakı diaqramlı Task 1 məşqlərində də 
       },
     },
   },
+  {
+    slug: "ielts-reading-matching-features",
+    updated: "2026-11-20",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Reading: matching features and matching information",
+        description: "How to match statements to people or paragraphs when the answers are not in order, a step-by-step method for each task and the traps to avoid.",
+        body: `## Two similar tasks
+
+**Matching features** gives you a list of statements and a short list of options, usually people, places, dates or theories, labelled A, B, C. You decide which option each statement belongs to. Unless the instructions say otherwise, you **may use a letter more than once** and some letters may not be used at all.
+
+**Matching information** asks which lettered paragraph contains a given piece of information, such as *an example of*, *a reason for* or *a comparison between*. Here too a paragraph can be the answer more than once.
+
+In both tasks the answers are **not in passage order**. That is the main difference from True / False / Not Given and gap-fill, and the reason these tasks feel slow.
+
+## A method for matching features
+
+1. **Find every option in the passage first.** Underline each name every time it appears, including *she*, *he* or *the economist* that refer back to it. For a person, their views are often spread over two or three places.
+2. **Read what each option says**, in a few words of your own: *Hartmann: light changes taste. Obi: no chemicals, close to cities. Lind: electricity is expensive, only fast high-value crops.*
+3. **Read each statement and look for its meaning, not its words.** The statement will be a paraphrase: *electricity for lighting costs more than anything else* matches *the biggest single cost*.
+4. **Check who actually says it.** A writer may report an idea and then give an expert's answer to it. The statement belongs to the person who holds that view, not the first name near it.
+
+## A method for matching information
+
+1. **Read the statements first** and mark the type of information each asks for: an example, a cause, a number, a prediction, a criticism.
+2. **Read the passage paragraph by paragraph.** After each one, look back at the list and ask which statements it could answer.
+3. **Leave the hardest ones until last.** By then you will know the passage well, and fewer statements will be left.
+
+## Common mistakes
+
+- **Choosing the option whose name appears nearest the matching words.** Quotations are often introduced by one person and answered by another.
+- **Assuming each letter is used once.** Read the instructions. *You may use any letter more than once* is a real hint that one option has several answers.
+- **Matching a word, not a meaning.** If the statement and the passage share an unusual word, check that the meaning is the same.
+- **Spending too long on one statement.** Move on and come back. Answers to the other statements narrow down what is left.
+
+## Practise with a real task
+
+The Lexify Reading practice *Farming upwards* has a matching features task with three people and four statements, followed by True / False / Not Given and summary completion questions on the same passage.`,
+      },
+      ru: {
+        title: "IELTS Reading: matching features и matching information",
+        description: "Как сопоставлять утверждения с людьми или абзацами, когда ответы идут не по порядку, пошаговый метод для каждого задания и ловушки.",
+        body: `## Два похожих задания
+
+В **matching features** даётся список утверждений и короткий список вариантов, обычно людей, мест, дат или теорий, под буквами A, B, C. Нужно решить, к какому варианту относится каждое утверждение. Если в инструкции не сказано иначе, **одну букву можно использовать несколько раз**, а некоторые буквы могут не понадобиться вовсе.
+
+В **matching information** спрашивают, в каком абзаце с буквой есть определённая информация, например *пример чего-то*, *причина чего-то* или *сравнение*. Здесь тоже один абзац может быть ответом несколько раз.
+
+В обоих заданиях ответы **идут не по порядку текста**. Это главное отличие от True / False / Not Given и заданий с пропусками, поэтому эти задания и кажутся медленными.
+
+## Как делать matching features
+
+1. **Сначала найдите в тексте все варианты.** Подчеркните каждое имя везде, где оно встречается, вместе с *she*, *he* или *the economist*, которые к нему отсылают. Мнение одного человека часто разбросано по двум-трём местам.
+2. **Кратко запишите, что говорит каждый**, своими словами: *Hartmann: свет меняет вкус. Obi: без химии, близко к городам. Lind: электричество дорогое, только быстрые и дорогие культуры.*
+3. **Читайте каждое утверждение и ищите смысл, а не слова.** Утверждение будет перефразом: *electricity for lighting costs more than anything else* соответствует *the biggest single cost*.
+4. **Проверьте, кто именно это говорит.** Автор может привести мнение, а потом дать ответ эксперта на него. Утверждение относится к тому, кто придерживается этого мнения, а не к первому имени рядом.
+
+## Как делать matching information
+
+1. **Сначала прочитайте утверждения** и отметьте, какой тип информации нужен: пример, причина, число, прогноз, критика.
+2. **Читайте текст по абзацам.** После каждого посмотрите на список и спросите себя, на какие утверждения он может отвечать.
+3. **Самые трудные оставьте на конец.** К тому времени вы хорошо узнаете текст, а утверждений останется меньше.
+
+## Частые ошибки
+
+- **Выбирать вариант, чьё имя стоит ближе всего к нужным словам.** Цитату часто вводит один человек, а отвечает на неё другой.
+- **Считать, что каждая буква используется один раз.** Прочитайте инструкцию. *You may use any letter more than once* прямо подсказывает, что у одного варианта может быть несколько ответов.
+- **Сопоставлять слово, а не смысл.** Если в утверждении и тексте есть одно и то же редкое слово, проверьте, совпадает ли смысл.
+- **Слишком долго сидеть над одним утверждением.** Переходите дальше и возвращайтесь. Ответы на другие утверждения сужают выбор.
+
+## Потренируйтесь на реальном задании
+
+В практике Reading *Farming upwards* в Lexify есть задание matching features с тремя людьми и четырьмя утверждениями, а после него вопросы True / False / Not Given и summary completion по тому же тексту.`,
+      },
+      az: {
+        title: "IELTS Reading: matching features və matching information",
+        description: "Cavablar ardıcıl olmayanda ifadələri insanlarla və ya abzaslarla necə uyğunlaşdırmaq, hər tapşırıq üçün addım-addım üsul və tələlər.",
+        body: `## İki oxşar tapşırıq
+
+**Matching features** tapşırığında ifadələr siyahısı və adətən A, B, C hərfləri ilə işarələnmiş qısa variantlar siyahısı verilir: insanlar, yerlər, tarixlər və ya nəzəriyyələr. Hər ifadənin hansı varianta aid olduğunu müəyyən edirsiniz. Təlimatda başqa cür deyilməyibsə, **bir hərfdən bir neçə dəfə istifadə edə bilərsiniz**, bəzi hərflər isə ümumiyyətlə lazım olmaya bilər.
+
+**Matching information** tapşırığında müəyyən məlumatın hansı abzasda olduğu soruşulur, məsələn *nəyəsə nümunə*, *nəyinsə səbəbi* və ya *müqayisə*. Burada da bir abzas bir neçə dəfə cavab ola bilər.
+
+Hər iki tapşırıqda cavablar **mətnin ardıcıllığı ilə gəlmir**. True / False / Not Given və boşluq doldurma tapşırıqlarından əsas fərq budur və bu tapşırıqların yavaş görünməsinin səbəbi də budur.
+
+## Matching features üçün üsul
+
+1. **Əvvəlcə bütün variantları mətndə tapın.** Hər adın altından keçdiyi hər yerdə xətt çəkin, ona istinad edən *she*, *he* və ya *the economist* sözləri də daxil olmaqla. Bir insanın fikirləri çox vaxt iki-üç yerə səpələnmiş olur.
+2. **Hər birinin nə dediyini qısaca öz sözlərinizlə yazın:** *Hartmann: işıq dadı dəyişir. Obi: kimyəvi maddəsiz, şəhərlərə yaxın. Lind: elektrik bahadır, yalnız tez böyüyən və baha bitkilər.*
+3. **Hər ifadəni oxuyun və sözləri yox, mənanı axtarın.** İfadə başqa sözlərlə yazılacaq: *electricity for lighting costs more than anything else* ifadəsi *the biggest single cost* ilə uyğun gəlir.
+4. **Bunu kimin dediyini yoxlayın.** Müəllif bir fikri gətirib, sonra ona ekspertin cavabını verə bilər. İfadə yaxındakı ilk ada yox, bu fikri müdafiə edən şəxsə aiddir.
+
+## Matching information üçün üsul
+
+1. **Əvvəlcə ifadələri oxuyun** və hər birinin hansı növ məlumat tələb etdiyini qeyd edin: nümunə, səbəb, rəqəm, proqnoz, tənqid.
+2. **Mətni abzas-abzas oxuyun.** Hər abzasdan sonra siyahıya baxın və onun hansı ifadələrə cavab verə biləcəyini düşünün.
+3. **Ən çətinlərini sona saxlayın.** O vaxta qədər mətni yaxşı tanıyacaqsınız, ifadələr də az qalacaq.
+
+## Tez-tez edilən səhvlər
+
+- **Adı lazımi sözlərə ən yaxın olan variantı seçmək.** Sitatı çox vaxt bir nəfər gətirir, ona isə başqası cavab verir.
+- **Hər hərfin bir dəfə işləndiyini düşünmək.** Təlimatı oxuyun. *You may use any letter more than once* bir variantın bir neçə cavabı ola biləcəyinə real işarədir.
+- **Mənanı yox, sözü uyğunlaşdırmaq.** İfadədə və mətndə eyni nadir söz varsa, mənanın da eyni olduğunu yoxlayın.
+- **Bir ifadəyə çox vaxt sərf etmək.** İrəli keçin və sonra qayıdın. Digər ifadələrin cavabları seçimi daraldır.
+
+## Real tapşırıqla məşq edin
+
+Lexify-dakı *Farming upwards* Reading məşqində üç nəfər və dörd ifadədən ibarət matching features tapşırığı var, ardınca isə eyni mətn üzrə True / False / Not Given və summary completion sualları gəlir.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

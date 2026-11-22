@@ -990,6 +990,52 @@ The economic warnings have proved accurate in some cases. When energy prices ros
       },
     ],
   },
+  {
+    id: "practice-speaking-food",
+    section: "speaking",
+    kind: "exercise",
+    order: 7,
+    courseIds: WS,
+    free: false,
+    title: "Parts 1–3: food and cooking",
+    active: true,
+    durations: { light: 4, full: 13 },
+    speaking: [
+      {
+        part: 1,
+        light: true,
+        answerSeconds: 40,
+        questions: [
+          "Do you like cooking? Why or why not?",
+          "What is a typical meal in your country?",
+          "Do you usually eat at home or in restaurants?",
+          "Is there any food you did not like as a child but enjoy now?",
+        ],
+      },
+      {
+        part: 2,
+        light: false,
+        prepSeconds: 60,
+        answerSeconds: 120,
+        questions: ["Describe a meal that you remember well."],
+        cueCard: {
+          topic: "Describe a meal that you remember well.",
+          bullets: ["where you had it", "who you were with", "what you ate", "and explain why you remember this meal."],
+        },
+      },
+      {
+        part: 3,
+        light: false,
+        answerSeconds: 60,
+        questions: [
+          "Why do you think fast food has become so popular?",
+          "Should schools teach children how to cook?",
+          "How have people's eating habits changed in your country in recent years?",
+          "Do you think governments should do more to encourage healthy eating?",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Mock id per diagnostic task: mock-<section>-<n>, numbered in pool order within each section. */

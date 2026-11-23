@@ -794,6 +794,26 @@ The economic warnings have proved accurate in some cases. When energy prices ros
     ],
   },
   {
+    id: "practice-writing-tourism",
+    section: "writing",
+    kind: "exercise",
+    order: 10,
+    courseIds: WS,
+    free: false,
+    title: "Task 2: the effects of international tourism",
+    active: true,
+    durations: { light: 40, full: 40 },
+    writing: [
+      {
+        id: "task2",
+        light: true,
+        minWords: 250,
+        prompt:
+          "International tourism has grown rapidly in recent decades. Some people believe it brings more benefits than problems to the places that tourists visit.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      },
+    ],
+  },
+  {
     id: "practice-speaking-hometown",
     section: "speaking",
     kind: "exercise",

@@ -2081,6 +2081,169 @@ Lexify-dakı *Farming upwards* Reading məşqində üç nəfər və dörd ifadə
       },
     },
   },
+  {
+    slug: "ielts-vocabulary-lexical-resource",
+    updated: "2026-11-24",
+    minutes: 6,
+    text: {
+      en: {
+        title: "IELTS vocabulary: how to build Lexical Resource for Band 7",
+        description: "What examiners look for in vocabulary, why collocations matter more than rare words, how to learn by topic and the word mistakes that cost marks.",
+        body: `## What examiners mean by vocabulary
+
+In Writing and Speaking, vocabulary is scored as **Lexical Resource**, a quarter of the band. Examiners do not count rare words. They look at three things:
+
+- **Range:** can you talk about a topic without repeating the same few words?
+- **Precision:** do you choose the word that fits, and combine it naturally with other words?
+- **Accuracy:** are the spelling and word forms correct?
+
+For **Band 7** you need some less common words and natural word combinations, with only occasional mistakes. A long word used in the wrong way lowers your score rather than raising it.
+
+## Learn phrases, not single words
+
+Native speakers use words in fixed pairs and groups called **collocations**. Learn them together:
+
+| Instead of | Learn |
+| --- | --- |
+| *a big problem* | *a serious problem*, *a major concern* |
+| *make a crime* | *commit a crime* |
+| *do a decision* | *make a decision*, *reach a decision* |
+| *strong rain* | *heavy rain* |
+| *very important* | *essential*, *crucial*, *of great importance* |
+
+When you meet a new word, write down the whole phrase you found it in, not just its translation.
+
+## Learn by topic
+
+IELTS topics repeat: education, work, technology, environment, health, cities, travel, media. For each topic, keep one page with:
+
+1. **Ten to fifteen key phrases**, such as *reduce carbon emissions* or *public transport network*.
+2. **Two or three ways to say the main idea**, for paraphrasing: *more people live in cities* → *urban populations are growing* → *the rise of urbanisation*.
+3. **One example from your own country or experience** that you can use in an essay or in Speaking Part 3.
+
+## Make words stay
+
+- **Review on a schedule.** Look at new phrases again after one day, three days, a week and a month. Short, spaced reviews work better than one long session.
+- **Use each word within a day.** Write one sentence about your own life with it, or say it aloud in a practice answer. Words you have produced stay much longer than words you have only read.
+- **Read and listen to real English** on IELTS topics, such as news articles and podcasts, and collect two or three phrases each time.
+
+## Mistakes that cost marks
+
+- **Memorised "band 9" phrases** that do not fit the question, such as *in this day and age* in every introduction. Examiners recognise them.
+- **Wrong word form:** *the economic is growing* instead of *the economy is growing*.
+- **Informal words in Writing:** *kids*, *a lot of*, *stuff*. Use *children*, *many* or *a great deal of*, *things* or a precise noun.
+- **Synonyms that change the meaning.** *Cheap* and *inexpensive* are close, but *cheap* can also mean *low quality*. Check examples before you use a new word.
+
+## Practise with feedback
+
+Every Writing and Speaking practice in Lexify gives a separate estimate for Lexical Resource, with comments on words you repeat and phrases you could upgrade.`,
+      },
+      ru: {
+        title: "Словарный запас для IELTS: как поднять Lexical Resource до 7.0",
+        description: "Что экзаменаторы ищут в словарном запасе, почему коллокации важнее редких слов, как учить слова по темам и какие ошибки снижают балл.",
+        body: `## Что экзаменаторы называют словарным запасом
+
+В Writing и Speaking словарный запас оценивается по критерию **Lexical Resource**, это четверть балла. Экзаменаторы не считают редкие слова. Они смотрят на три вещи:
+
+- **Разнообразие:** можете ли вы говорить на тему, не повторяя одни и те же слова?
+- **Точность:** выбираете ли вы подходящее слово и естественно ли сочетаете его с другими?
+- **Правильность:** верны ли написание и формы слов?
+
+Для **Band 7** нужны менее распространённые слова и естественные сочетания, с редкими ошибками. Длинное слово, использованное неправильно, снижает балл, а не повышает.
+
+## Учите фразы, а не отдельные слова
+
+Носители языка используют слова в устойчивых парах и группах, которые называют **коллокациями**. Учите их целиком:
+
+| Вместо | Учите |
+| --- | --- |
+| *a big problem* | *a serious problem*, *a major concern* |
+| *make a crime* | *commit a crime* |
+| *do a decision* | *make a decision*, *reach a decision* |
+| *strong rain* | *heavy rain* |
+| *very important* | *essential*, *crucial*, *of great importance* |
+
+Встретив новое слово, записывайте всю фразу, в которой оно было, а не только перевод.
+
+## Учите по темам
+
+Темы IELTS повторяются: образование, работа, технологии, экология, здоровье, города, путешествия, СМИ. Для каждой темы заведите одну страницу:
+
+1. **Десять-пятнадцать ключевых фраз**, например *reduce carbon emissions* или *public transport network*.
+2. **Два-три способа сказать главную мысль** для перефразирования: *more people live in cities* → *urban populations are growing* → *the rise of urbanisation*.
+3. **Один пример из вашей страны или опыта**, который можно использовать в эссе или в Speaking Part 3.
+
+## Как сделать, чтобы слова запоминались
+
+- **Повторяйте по графику.** Просмотрите новые фразы через день, через три дня, через неделю и через месяц. Короткие повторения с интервалами работают лучше одного долгого занятия.
+- **Используйте слово в течение суток.** Напишите с ним одно предложение о своей жизни или скажите его вслух в тренировочном ответе. Слова, которые вы сами произнесли или написали, держатся гораздо дольше прочитанных.
+- **Читайте и слушайте настоящий английский** на темы IELTS, например новости и подкасты, и каждый раз выписывайте две-три фразы.
+
+## Ошибки, на которых теряют баллы
+
+- **Заученные фразы «на 9 баллов»**, которые не подходят к вопросу, например *in this day and age* в каждом вступлении. Экзаменаторы их узнают.
+- **Неверная форма слова:** *the economic is growing* вместо *the economy is growing*.
+- **Разговорные слова в Writing:** *kids*, *a lot of*, *stuff*. Используйте *children*, *many* или *a great deal of*, *things* или точное существительное.
+- **Синонимы, меняющие смысл.** *Cheap* и *inexpensive* близки, но *cheap* может значить ещё и *некачественный*. Смотрите примеры, прежде чем использовать новое слово.
+
+## Тренируйтесь с обратной связью
+
+Каждая практика Writing и Speaking в Lexify даёт отдельную оценку по Lexical Resource с комментариями о повторяющихся словах и фразах, которые можно заменить на более сильные.`,
+      },
+      az: {
+        title: "IELTS lüğəti: Lexical Resource-u Band 7-yə necə çatdırmaq",
+        description: "İmtahan verənlər lüğətdə nəyə baxır, niyə kollokasiyalar nadir sözlərdən vacibdir, sözləri mövzular üzrə necə öyrənmək və bal itirdən səhvlər.",
+        body: `## İmtahan verənlər lüğət dedikdə nəyi nəzərdə tutur
+
+Writing və Speaking-də lüğət ehtiyatı **Lexical Resource** meyarı ilə qiymətləndirilir, bu balın dörddə biridir. İmtahan verənlər nadir sözləri saymır. Onlar üç şeyə baxır:
+
+- **Müxtəliflik:** eyni sözləri təkrarlamadan mövzu haqqında danışa bilirsinizmi?
+- **Dəqiqlik:** uyğun sözü seçib onu digər sözlərlə təbii birləşdirirsinizmi?
+- **Düzgünlük:** sözlərin yazılışı və formaları düzgündürmü?
+
+**Band 7** üçün daha az işlənən sözlər və təbii söz birləşmələri lazımdır, səhvlər isə nadir olmalıdır. Səhv işlədilmiş uzun söz balı artırmır, əksinə, aşağı salır.
+
+## Ayrı sözləri yox, ifadələri öyrənin
+
+Dili ana dili kimi danışanlar sözləri **kollokasiya** adlanan sabit cütlərdə və qruplarda işlədir. Onları birlikdə öyrənin:
+
+| Bunun əvəzinə | Bunu öyrənin |
+| --- | --- |
+| *a big problem* | *a serious problem*, *a major concern* |
+| *make a crime* | *commit a crime* |
+| *do a decision* | *make a decision*, *reach a decision* |
+| *strong rain* | *heavy rain* |
+| *very important* | *essential*, *crucial*, *of great importance* |
+
+Yeni sözlə qarşılaşanda yalnız tərcüməsini yox, onun işləndiyi bütöv ifadəni yazın.
+
+## Mövzular üzrə öyrənin
+
+IELTS mövzuları təkrarlanır: təhsil, iş, texnologiya, ətraf mühit, sağlamlıq, şəhərlər, səyahət, media. Hər mövzu üçün bir səhifə ayırın:
+
+1. **On-on beş əsas ifadə**, məsələn *reduce carbon emissions* və ya *public transport network*.
+2. **Əsas fikri ifadə etməyin iki-üç yolu**, başqa sözlərlə demək üçün: *more people live in cities* → *urban populations are growing* → *the rise of urbanisation*.
+3. **Öz ölkənizdən və ya təcrübənizdən bir nümunə**, onu esse və ya Speaking Part 3-də işlədə bilərsiniz.
+
+## Sözlər yaddaşda necə qalır
+
+- **Qrafik üzrə təkrarlayın.** Yeni ifadələrə bir gün, üç gün, bir həftə və bir ay sonra yenidən baxın. Fasilələrlə qısa təkrarlar bir uzun məşğələdən daha yaxşı işləyir.
+- **Sözü bir gün ərzində işlədin.** Onunla öz həyatınız haqqında bir cümlə yazın və ya məşq cavabında ucadan deyin. Özünüzün dediyiniz və ya yazdığınız sözlər yalnız oxuduğunuz sözlərdən çox daha uzun yadda qalır.
+- **IELTS mövzularında real ingilis dilini oxuyun və dinləyin**, məsələn xəbərlər və podkastlar, hər dəfə iki-üç ifadə qeyd edin.
+
+## Bal itirdən səhvlər
+
+- Suala uyğun gəlməyən **əzbərlənmiş «9 ballıq» ifadələr**, məsələn hər girişdə *in this day and age*. İmtahan verənlər onları tanıyır.
+- **Səhv söz forması:** *the economy is growing* əvəzinə *the economic is growing*.
+- **Writing-də danışıq sözləri:** *kids*, *a lot of*, *stuff*. Əvəzində *children*, *many* və ya *a great deal of*, *things* və ya dəqiq isim işlədin.
+- **Mənanı dəyişən sinonimlər.** *Cheap* və *inexpensive* yaxındır, amma *cheap* həm də *keyfiyyətsiz* mənasını verə bilər. Yeni sözü işlətməzdən əvvəl nümunələrə baxın.
+
+## Rəy ilə məşq edin
+
+Lexify-dakı hər Writing və Speaking məşqi Lexical Resource üzrə ayrıca qiymət verir, təkrarladığınız sözlər və daha güclü ifadələrlə əvəz edilə bilən yerlər haqqında şərhlərlə.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

@@ -598,6 +598,91 @@ The economic warnings have proved accurate in some cases. When energy prices ros
     ],
   },
   {
+    id: "practice-reading-light-pollution",
+    section: "reading",
+    kind: "exercise",
+    order: 8,
+    courseIds: ALL,
+    free: false,
+    title: "Losing the dark",
+    active: true,
+    durations: { light: 12, full: 15 },
+    passages: [
+      {
+        id: "p1",
+        title: "Losing the dark",
+        text: `For most of human history, the night sky was dark enough to see thousands of stars. Today, more than eighty per cent of the world's population lives under skies polluted by artificial light, and in many large cities the Milky Way has not been visible for generations. Astronomers were the first to complain, because the glow from streetlights and buildings made it harder to observe faint objects. Major observatories have since been built on remote mountains, far from any town.
+
+The problem, however, is not only scientific. Many animals depend on darkness. Young sea turtles, for example, hatch on beaches at night and find their way to the water by moving towards the brightest horizon, which is normally the sea reflecting the moon. Near a lit-up coastal road, they may crawl inland instead and die. Migrating birds, which use the stars to navigate, can become confused by brightly lit towers and fly around them until they are exhausted. Insects are drawn to lamps in huge numbers, and some researchers believe this contributes to the decline of insect populations in many regions.
+
+Humans may also be affected. Our bodies follow a daily rhythm controlled partly by light. In the evening, darkness signals the brain to release melatonin, a hormone that helps us sleep. Exposure to bright light at night, particularly the blue light produced by many modern LED lamps, can delay this process. Studies have linked long-term exposure to poorer sleep, although scientists stress that screens inside the home are often a bigger source of evening light than streetlights outside.
+
+Unlike many forms of pollution, light pollution is relatively easy to reduce. Lamps can be fitted with shields so that they point downwards instead of into the sky. Warmer, orange-coloured bulbs are less disruptive than cold white ones, and lights in offices and car parks can be switched off or dimmed late at night. Several towns have adopted such measures and become official "dark sky" communities. Residents there report that the change has also lowered the cost of street lighting, a benefit that has persuaded councils which were not initially interested in the environmental arguments.`,
+      },
+    ],
+    groups: [
+      {
+        id: "g1",
+        typeLabel: "True / False / Not Given",
+        instructions: TFNG,
+        passageId: "p1",
+        light: true,
+        questions: [
+          { id: "q1", number: 1, type: "tfng", prompt: "Most people in the world live in places where the night sky is affected by artificial light." },
+          { id: "q2", number: 2, type: "tfng", prompt: "Astronomers were among the first people to raise concerns about light pollution." },
+          { id: "q3", number: 3, type: "tfng", prompt: "Young sea turtles move towards the darkest part of the horizon." },
+          { id: "q4", number: 4, type: "tfng", prompt: "Light pollution is the main reason why insect numbers are falling." },
+          { id: "q5", number: 5, type: "tfng", prompt: "Dark sky communities attract more tourists than other towns." },
+        ],
+      },
+      {
+        id: "g2",
+        typeLabel: "Multiple choice",
+        instructions: "Choose the correct letter, A, B, C or D.",
+        passageId: "p1",
+        light: true,
+        questions: [
+          {
+            id: "q6",
+            number: 6,
+            type: "mcq",
+            prompt: "According to the passage, what do scientists say about light and sleep?",
+            options: [
+              { value: "A", label: "Streetlights are the main cause of poor sleep." },
+              { value: "B", label: "Light inside homes may matter more than light outside." },
+              { value: "C", label: "Orange light prevents the body from producing melatonin." },
+              { value: "D", label: "Short exposure to light at night has no effect." },
+            ],
+          },
+          {
+            id: "q7",
+            number: 7,
+            type: "mcq",
+            prompt: "Why did some councils that were not interested in the environment support dark sky measures?",
+            options: [
+              { value: "A", label: "Residents asked them to protect wildlife." },
+              { value: "B", label: "The measures made the streets safer." },
+              { value: "C", label: "Street lighting became cheaper." },
+              { value: "D", label: "The government required them to act." },
+            ],
+          },
+        ],
+      },
+      {
+        id: "g3",
+        typeLabel: "Sentence completion",
+        instructions: "Complete the sentences. Choose ONE WORD ONLY from the passage for each answer.",
+        passageId: "p1",
+        light: false,
+        questions: [
+          { id: "q8", number: 8, type: "gap", prompt: "Migrating birds use the ______ to find their way.", maxWords: 1 },
+          { id: "q9", number: 9, type: "gap", prompt: "Darkness in the evening causes the brain to release a hormone called ______.", maxWords: 1 },
+          { id: "q10", number: 10, type: "gap", prompt: "Fitting lamps with ______ makes them point down towards the ground.", maxWords: 1 },
+        ],
+      },
+    ],
+  },
+  {
     id: "practice-writing-task1-energy",
     section: "writing",
     kind: "exercise",
@@ -1113,6 +1198,13 @@ export const seedPracticeAnswerKeys: Record<string, AnswerKey> = {
       q1: ["C"], q2: ["B"], q3: ["A"], q4: ["C"],
       q5: ["false"], q6: ["true"], q7: ["true"], q8: ["not given"],
       q9: ["layers"], q10: ["cities", "the cities"], q11: ["solar panels"],
+    },
+  },
+  "practice-reading-light-pollution": {
+    answers: {
+      q1: ["true"], q2: ["true"], q3: ["false"], q4: ["not given"], q5: ["not given"],
+      q6: ["B"], q7: ["C"],
+      q8: ["stars"], q9: ["melatonin"], q10: ["shields"],
     },
   },
   "practice-listening-museum": {

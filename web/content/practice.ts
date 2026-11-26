@@ -899,6 +899,35 @@ Unlike many forms of pollution, light pollution is relatively easy to reduce. La
     ],
   },
   {
+    id: "practice-writing-task1-recycling",
+    section: "writing",
+    kind: "exercise",
+    order: 11,
+    courseIds: WS,
+    free: false,
+    title: "Task 1: recycling rates by material",
+    active: true,
+    durations: { light: 20, full: 20 },
+    writing: [
+      {
+        id: "task1",
+        light: true,
+        minWords: 150,
+        prompt:
+          "The chart below shows the percentage of household waste that was recycled in one city, by type of material, in 2010 and 2025.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        chart: {
+          title: "Share of household waste recycled",
+          unit: "%",
+          categories: ["Paper", "Glass", "Metal", "Plastic", "Food waste"],
+          series: [
+            { name: "2010", values: [45, 38, 30, 12, 8] },
+            { name: "2025", values: [68, 52, 49, 31, 36] },
+          ],
+        },
+      },
+    ],
+  },
+  {
     id: "practice-speaking-hometown",
     section: "speaking",
     kind: "exercise",

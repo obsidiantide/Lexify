@@ -1170,6 +1170,52 @@ Unlike many forms of pollution, light pollution is relatively easy to reduce. La
       },
     ],
   },
+  {
+    id: "practice-speaking-work-study",
+    section: "speaking",
+    kind: "exercise",
+    order: 8,
+    courseIds: WS,
+    free: false,
+    title: "Parts 1–3: work and study",
+    active: true,
+    durations: { light: 4, full: 13 },
+    speaking: [
+      {
+        part: 1,
+        light: true,
+        answerSeconds: 40,
+        questions: [
+          "Do you work or are you a student?",
+          "What do you like most about your job or your studies?",
+          "Is there anything you would like to change about it?",
+          "What job did you want to do when you were a child?",
+        ],
+      },
+      {
+        part: 2,
+        light: false,
+        prepSeconds: 60,
+        answerSeconds: 120,
+        questions: ["Describe a skill you learned that has been useful in your work or studies."],
+        cueCard: {
+          topic: "Describe a skill you learned that has been useful in your work or studies.",
+          bullets: ["what the skill is", "how and when you learned it", "how you use it", "and explain why it has been useful to you."],
+        },
+      },
+      {
+        part: 3,
+        light: false,
+        answerSeconds: 60,
+        questions: [
+          "Do you think schools prepare young people well for the world of work?",
+          "Why do some people change careers several times during their lives?",
+          "Is it more important to have a job you enjoy or a job that pays well?",
+          "How might technology change the kinds of jobs people do in the future?",
+        ],
+      },
+    ],
+  },
 ];
 
 /** Mock id per diagnostic task: mock-<section>-<n>, numbered in pool order within each section. */

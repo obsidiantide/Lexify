@@ -16,7 +16,7 @@ Lexify is an AI-powered language learning ecosystem combining a Telegram Mini Ap
 ## ⚡ Phase 2: Viral Growth, Audio & Gamification (Current Focus — Intensive Sprint)
 - [x] **Viral Referral Engine**: Deep-linked `/start ref_123` referral links with custom invitation messages.
 - [ ] **Web Speech Audio Engine**: 1-click native audio pronunciation for vocabulary in Web & Telegram.
-- [ ] **SM-2 Algorithm Enhancement**: Upgraded Spaced Repetition algorithm calculating exact memory decay curves (`easiness_factor` & `interval`).
+- [x] **SM-2 Algorithm Enhancement**: Vocabulary quiz reviews scheduled with SM-2 (`easiness_factor`, `interval_days`, `repetitions`), answers graded 0–5. Collocation reviews still use fixed intervals.
 - [ ] **Streak Protection & Achievement Badges**: Gamified milestones (7-day streak, 100 mastered words, IELTS Scholar).
 - [ ] **Social Share Cards**: Dynamic OG image generator for sharing quiz scores and essay band results on social media.
 

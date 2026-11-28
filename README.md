@@ -17,7 +17,7 @@
 - **🌟 Word of the Day** — Daily broadcast of interesting words to all users
 - **📚 Personal Vocabulary** — Every word is saved to your personal dictionary
 - **🎮 Quiz Modes** — Practice with 3 quiz types: Word→Translation, Translation→Word, Multiple Choice
-- **⏰ Spaced Repetition** — Intelligent review scheduling (correct → +2 days, wrong → +1 hour)
+- **⏰ Spaced Repetition (SM-2)** — Each word keeps an easiness factor, interval and repetition count. Answers are graded 0–5 (exact typed answer 5, typo or multiple choice 4, wrong 1, skip 0); passes schedule the next review 1, 6, then interval × easiness days ahead, a miss resets the word and brings it back in an hour
 - **📊 Progress Tracking** — View your learning statistics anytime
 - **✨ Smart Matching** — Fuzzy answer matching and auto-correction during quizzes
 
@@ -47,7 +47,8 @@ app/
 │   ├── ask_service.py       # Groq API — grammar chatbot
 │   ├── ielts_service.py     # Groq API — IELTS writing evaluation
 │   ├── word_service.py      # Word CRUD and user management
-│   └── quiz_service.py      # Quiz logic and spaced repetition
+│   ├── quiz_service.py      # Quiz logic and answer grading
+│   └── srs_service.py       # SM-2 spaced repetition maths
 └── database/
     ├── models.py            # SQLAlchemy ORM models
     └── session.py           # Async engine and session factory
@@ -129,6 +130,15 @@ WEBHOOK_URL=https://yourdomain.com
 
 Then deploy behind a reverse proxy (e.g., nginx) pointing to port 8000.
 
+### Tests
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
+The tests use an in-memory SQLite database and need no MySQL, Redis or Groq.
+
 ## Bot Commands
 
 | Command          | Description                              |
@@ -162,7 +172,7 @@ Then deploy behind a reverse proxy (e.g., nginx) pointing to port 8000.
 |--------------|--------------------------------------------|
 | `users`      | Telegram users with language preferences    |
 | `words`      | Global word dictionary with AI explanations|
-| `user_words` | Per-user vocabulary with review stats      |
+| `user_words` | Per-user vocabulary with review stats and SM-2 state (`easiness_factor`, `interval_days`, `repetitions`, `next_review`) |
 
 **User preferences stored:**
 - `language` — Native/translation language (Russian, Turkish, etc.)

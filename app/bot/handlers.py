@@ -65,6 +65,12 @@ from app.services.ask_service import ask_service
 from app.services.ielts_service import ielts_service
 from app.services.collocation_library_service import collocation_library_service
 from app.services.quiz_service import quiz_service
+from app.services.srs_service import (
+    PASSING_QUALITY,
+    QUALITY_RECOGNISED,
+    QUALITY_SKIPPED,
+    QUALITY_WRONG,
+)
 from app.services.word_service import word_service
 
 logger = logging.getLogger(__name__)
@@ -784,7 +790,9 @@ async def quiz_skip_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) 
         )
         # Record skip as wrong answer in DB
         async with async_session_factory() as session:
-            await quiz_service.record_answer(session, user.id, word_data["word_id"], False)
+            await quiz_service.record_answer(
+                session, user.id, word_data["word_id"], QUALITY_SKIPPED
+            )
             await session.commit()
         # Add to mistakes
         mistakes = context.user_data.get("quiz_mistakes", [])
@@ -818,7 +826,10 @@ async def quiz_choice_handler(update: Update, context: ContextTypes.DEFAULT_TYPE
 
     async with async_session_factory() as session:
         user_word = await quiz_service.record_answer(
-            session, user.id, word_data["word_id"], is_correct
+            session,
+            user.id,
+            word_data["word_id"],
+            QUALITY_RECOGNISED if is_correct else QUALITY_WRONG,
         )
         await session.commit()
 
@@ -867,11 +878,12 @@ async def quiz_answer_handler(update: Update, context: ContextTypes.DEFAULT_TYPE
     else:
         correct_answer = word_data["translation"]
 
-    is_correct = quiz_service.check_answer(user_answer, correct_answer)
+    quality = quiz_service.grade_answer(user_answer, correct_answer)
+    is_correct = quality >= PASSING_QUALITY
 
     async with async_session_factory() as session:
         user_word = await quiz_service.record_answer(
-            session, user.id, word_data["word_id"], is_correct
+            session, user.id, word_data["word_id"], quality
         )
         await session.commit()
 

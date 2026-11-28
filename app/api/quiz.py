@@ -18,6 +18,7 @@ from app.constants import MODE_CHOICES, MODE_CLASSIC, MODE_REVERSE, QUIZ_MODES
 from app.database.models import User, UserWord
 from app.services.activity_service import activity_service
 from app.services.quiz_service import primary_variant, quiz_service
+from app.services.srs_service import PASSING_QUALITY, QUALITY_RECOGNISED, QUALITY_WRONG
 
 router = APIRouter()
 
@@ -93,16 +94,18 @@ async def submit_answer(
 
     if data.mode == MODE_REVERSE:
         expected = word.word
-        is_correct = quiz_service.check_answer(data.answer, word.word)
+        quality = quiz_service.grade_answer(data.answer, word.word)
     elif data.mode == MODE_CHOICES:
         expected = primary_variant(word.translation)
-        is_correct = data.answer.strip().lower() == expected.lower()
+        picked = data.answer.strip().lower() == expected.lower()
+        quality = QUALITY_RECOGNISED if picked else QUALITY_WRONG
     else:
         expected = word.translation
-        is_correct = quiz_service.check_answer(data.answer, word.translation)
+        quality = quiz_service.grade_answer(data.answer, word.translation)
+    is_correct = quality >= PASSING_QUALITY
 
     updated = await quiz_service.record_answer_for_user(
-        db, current_user, data.word_id, is_correct
+        db, current_user, data.word_id, quality
     )
     await activity_service.record(
         db, current_user, reviews=1, correct=1 if is_correct else 0
@@ -114,6 +117,8 @@ async def submit_answer(
         correct_count=updated.correct_count,
         wrong_count=updated.wrong_count,
         next_review=updated.next_review,
+        interval_days=updated.interval_days,
+        easiness_factor=updated.easiness_factor,
     )
 
 

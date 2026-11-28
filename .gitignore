@@ -29,3 +29,4 @@ Thumbs.db
 # Local batch files containing sensitive keys/tokens
 *.bat
 
+.pytest_cache/

@@ -10,11 +10,19 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import joinedload
 
 from app.database.models import User, UserWord, Word
+from app.services.srs_service import (
+    PASSING_QUALITY,
+    QUALITY_FUZZY,
+    QUALITY_PERFECT,
+    QUALITY_WRONG,
+    apply_review,
+)
 from app.services.word_service import word_service
 
 logger = logging.getLogger(__name__)
 
-# Spaced repetition intervals
+# Fixed intervals still used by the collocation library. Vocabulary words are
+# scheduled with SM-2 (srs_service); WRONG_INTERVAL is their relearning step.
 CORRECT_INTERVAL = datetime.timedelta(days=2)
 WRONG_INTERVAL = datetime.timedelta(hours=1)
 
@@ -235,8 +243,17 @@ class QuizService:
 
     def check_answer(self, user_answer: str, correct_translation: str) -> bool:
         """Check if the user's answer matches the correct translation."""
+        return self.grade_answer(user_answer, correct_translation) >= PASSING_QUALITY
+
+    def grade_answer(self, user_answer: str, correct_translation: str) -> int:
+        """Grade a typed answer as an SM-2 recall quality.
+
+        An exact match of any variant is perfect recall (5), a fuzzy match
+        within SIMILARITY_THRESHOLD is recall with a slip (4), anything else
+        is a failed recall (1).
+        """
         if not user_answer or not isinstance(user_answer, str):
-            return False
+            return QUALITY_WRONG
 
         user_clean = user_answer.strip().lower()
 
@@ -261,9 +278,10 @@ class QuizService:
                 seen.add(v)
                 variants.append(v)
 
+        if user_clean in variants:
+            return QUALITY_PERFECT
+
         for variant in variants:
-            if user_clean == variant:
-                return True
             ratio = SequenceMatcher(None, user_clean, variant).ratio()
             if ratio >= SIMILARITY_THRESHOLD:
                 logger.debug(
@@ -272,9 +290,9 @@ class QuizService:
                     variant,
                     ratio,
                 )
-                return True
+                return QUALITY_FUZZY
 
-        return False
+        return QUALITY_WRONG
 
     # ─── Record answer ────────────────────────────────────────────────────
 
@@ -283,25 +301,28 @@ class QuizService:
         session: AsyncSession,
         telegram_id: int,
         word_id: int,
-        is_correct: bool,
+        quality: int,
     ) -> UserWord:
         """Update review stats for a user's word after a quiz attempt.
 
-        Applies spaced repetition:
-        - Correct: next_review = now + 2 days
-        - Wrong:   next_review = now + 1 hour
+        ``quality`` is the SM-2 recall grade (0..5, see srs_service).
         """
         user = await word_service.get_or_create_user(session, telegram_id)
-        return await self.record_answer_for_user(session, user, word_id, is_correct)
+        return await self.record_answer_for_user(session, user, word_id, quality)
 
     async def record_answer_for_user(
         self,
         session: AsyncSession,
         user: User,
         word_id: int,
-        is_correct: bool,
+        quality: int,
     ) -> UserWord:
-        """Apply spaced repetition for an already-resolved user."""
+        """Schedule the next review of a word with SM-2.
+
+        A pass (quality >= 3) moves the word 1, 6, then interval x EF days
+        ahead. A fail resets the SM-2 state and brings the word back after
+        WRONG_INTERVAL, so it is relearned the same day.
+        """
         now = _now_utc()
 
         stmt = select(UserWord).where(
@@ -313,14 +334,21 @@ class QuizService:
         if user_word is None:
             raise ValueError(f"Word {word_id} is not in this user's library")
 
-        if is_correct:
+        if quality >= PASSING_QUALITY:
             user_word.correct_count += 1
-            user_word.next_review = now + CORRECT_INTERVAL
-            logger.info("Correct answer for word_id=%d, user_id=%d", word_id, user.id)
         else:
             user_word.wrong_count += 1
-            user_word.next_review = now + WRONG_INTERVAL
-            logger.info("Wrong answer for word_id=%d, user_id=%d", word_id, user.id)
+
+        state = apply_review(user_word, quality, now=now, relearn_delay=WRONG_INTERVAL)
+        logger.info(
+            "Review word_id=%d user_id=%d q=%d -> EF=%.2f interval=%dd reps=%d",
+            word_id,
+            user.id,
+            quality,
+            state.easiness_factor,
+            state.interval_days,
+            state.repetitions,
+        )
 
         await session.flush()
         return user_word

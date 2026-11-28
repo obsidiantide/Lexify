@@ -24,6 +24,10 @@ _REQUIRED_COLUMNS: list[tuple[str, str, str]] = [
     ("users", "daily_goal", "INT NOT NULL DEFAULT 10"),
     ("users", "streak_days", "INT NOT NULL DEFAULT 0"),
     ("users", "last_active_day", "DATE NULL"),
+    # SM-2 spaced repetition state for vocabulary reviews
+    ("user_words", "easiness_factor", "FLOAT NOT NULL DEFAULT 2.5"),
+    ("user_words", "interval_days", "INT NOT NULL DEFAULT 0"),
+    ("user_words", "repetitions", "INT NOT NULL DEFAULT 0"),
 ]
 
 # (table, index name, DDL fragment)

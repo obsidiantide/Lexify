@@ -178,6 +178,8 @@ class AnswerResponse(BaseModel):
     correct_count: int
     wrong_count: int
     next_review: datetime.datetime
+    interval_days: int
+    easiness_factor: float
 
 
 # ─── Tutor chat ───────────────────────────────────────────────────────────────

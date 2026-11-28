@@ -114,6 +114,16 @@ class UserWord(Base):
     )
     correct_count: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
     wrong_count: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    # SM-2 scheduling state, see app/services/srs_service.py
+    easiness_factor: Mapped[float] = mapped_column(
+        Float, default=2.5, server_default="2.5", nullable=False
+    )
+    interval_days: Mapped[int] = mapped_column(
+        Integer, default=0, server_default="0", nullable=False
+    )
+    repetitions: Mapped[int] = mapped_column(
+        Integer, default=0, server_default="0", nullable=False
+    )
     next_review: Mapped[datetime.datetime] = mapped_column(
         DateTime, server_default=func.now(), nullable=False, index=True
     )

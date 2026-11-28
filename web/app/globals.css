@@ -1,48 +1,48 @@
 @import "tailwindcss";
 
-@import "@fontsource-variable/manrope";
-@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/source-serif-4";
+@import "@fontsource-variable/source-serif-4/wght-italic.css";
 
 /*
- * Lexify identity: deep ink navy, warm paper, amber accent.
- * Each IELTS skill has its own hue so the dashboards read at a glance.
+ * Lexify identity, "paper" edition: warm paper, dark brown ink, ochre accent,
+ * a serif for headings and Inter for text. Corners are almost square and
+ * rules are thin, so the pages read like a printed study book.
+ * Each IELTS skill keeps its own muted hue so the dashboards read at a glance.
  */
 @theme {
-  --font-sans: "Manrope Variable", ui-sans-serif, system-ui, sans-serif;
-  /* Fraunces has no Cyrillic, so Russian headings fall back to Manrope. */
-  --font-display: "Fraunces Variable", "Manrope Variable", ui-serif, Georgia, serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  /* Source Serif 4 covers Latin, Azerbaijani and Cyrillic, so every locale gets the same headings. */
+  --font-display: "Source Serif 4 Variable", ui-serif, Georgia, serif;
 
-  --color-ink: #0f1b3d;
-  --color-ink-soft: #24335f;
-  --color-paper: #faf7f1;
-  --color-surface: #ffffff;
-  --color-sand: #f2ede3;
-  --color-line: #e6e0d4;
-  --color-muted: #5d667a;
-  --color-amber: #f2a33a;
-  --color-amber-deep: #c8780f;
-  --color-amber-soft: #fdf0db;
+  --color-ink: #2a1f12;
+  --color-ink-soft: #3a2c1c;
+  --color-paper: #f8f5ee;
+  --color-surface: #fffcf4;
+  --color-sand: #f2ecdd;
+  --color-line: #e3dacb;
+  --color-muted: #6e5d47;
+  --color-cream: #f5ebd3;
+  --color-amber: #b57a2e;
+  --color-amber-deep: #8e5f1f;
+  --color-amber-soft: #f5ebd3;
 
-  --color-reading: #2f7d6d;
-  --color-reading-soft: #e3f1ed;
-  --color-listening: #6b5bd6;
-  --color-listening-soft: #ebe8fb;
-  --color-writing: #d0603a;
-  --color-writing-soft: #fbe8e1;
-  --color-speaking: #2e7fc1;
-  --color-speaking-soft: #e2eef8;
+  --color-reading: #3d6d8e;
+  --color-reading-soft: #e6eef3;
+  --color-listening: #4a7c59;
+  --color-listening-soft: #e5efe7;
+  --color-writing: #b57a2e;
+  --color-writing-soft: #f6ecdb;
+  --color-speaking: #8e5fb3;
+  --color-speaking-soft: #f0e8f5;
 
-  --color-success: #2f855a;
-  --color-danger: #c53030;
+  --color-success: #3e7d54;
+  --color-danger: #b6442c;
 
-  --radius-card: 1.25rem;
-  --shadow-card: 0 1px 2px rgb(15 27 61 / 0.04), 0 8px 24px -12px rgb(15 27 61 / 0.12);
-  --shadow-lift: 0 2px 4px rgb(15 27 61 / 0.05), 0 18px 40px -18px rgb(15 27 61 / 0.25);
-}
-
-/* Fraunces has no Cyrillic: mixing it with Manrope inside one Russian heading looks broken. */
-html[lang="ru"] {
-  --font-display: "Manrope Variable", ui-sans-serif, system-ui, sans-serif;
+  --radius-card: 4px;
+  --shadow-card: 0 1px 0 rgb(42 31 18 / 0.03);
+  --shadow-lift: 0 2px 4px rgb(74 58 38 / 0.05), 0 24px 50px -30px rgb(74 58 38 / 0.42);
+  --ease-paper: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 html {
@@ -71,19 +71,19 @@ body {
 }
 
 @utility btn {
-  @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  @apply inline-flex items-center justify-center gap-2 rounded-[2px] border border-transparent px-5 py-2.5 text-sm font-medium transition-colors duration-200 active:translate-y-px disabled:cursor-not-allowed disabled:opacity-50;
 }
 
 @utility btn-primary {
-  @apply btn bg-ink text-white hover:bg-ink-soft;
+  @apply btn border-ink bg-ink text-cream hover:border-ink-soft hover:bg-ink-soft;
 }
 
 @utility btn-accent {
-  @apply btn bg-amber text-ink hover:bg-[#f5b257];
+  @apply btn border-amber-deep bg-amber-deep text-[#fffcf0] hover:border-[#7a5219] hover:bg-[#7a5219];
 }
 
 @utility btn-ghost {
-  @apply btn border border-line bg-surface text-ink hover:border-ink/30;
+  @apply btn border-ink bg-transparent text-ink hover:bg-ink hover:text-cream;
 }
 
 @utility btn-lg {
@@ -91,7 +91,7 @@ body {
 }
 
 @utility input {
-  @apply w-full rounded-xl border border-line bg-surface px-4 py-3 text-base text-ink placeholder:text-muted/70 focus:border-ink/40 focus:outline-none focus:ring-2 focus:ring-amber/40;
+  @apply w-full rounded-[2px] border border-line bg-surface px-4 py-3 text-base text-ink placeholder:text-muted/70 focus:border-ink/40 focus:outline-none focus:ring-2 focus:ring-amber/30;
 }
 
 @utility label {
@@ -99,13 +99,13 @@ body {
 }
 
 @utility eyebrow {
-  @apply text-xs font-bold uppercase tracking-[0.14em] text-amber-deep;
+  @apply text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-amber;
 }
 
 @utility prose-lx {
   @apply text-[15px] leading-7 text-ink/90;
   & h2 {
-    @apply mt-8 mb-3 font-display text-2xl font-semibold text-ink;
+    @apply mt-8 mb-3 font-display text-2xl font-medium text-ink;
   }
   & h3 {
     @apply mt-6 mb-2 text-lg font-bold text-ink;
@@ -123,7 +123,7 @@ body {
     @apply font-bold text-ink;
   }
   & blockquote {
-    @apply my-4 rounded-xl border-l-4 border-amber bg-amber-soft/60 px-4 py-3;
+    @apply my-4 border-l-2 border-amber bg-amber-soft/60 px-4 py-3;
   }
   & a {
     @apply font-semibold text-ink underline decoration-amber decoration-2 underline-offset-2;
@@ -136,6 +136,99 @@ body {
   }
   & td {
     @apply border-b border-line px-3 py-2 align-top;
+  }
+}
+
+/* ---------- Motion: calm, short, and off for people who ask for less ---------- */
+@keyframes paper-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes paper-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 3px rgb(106 135 101 / 0.28);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgb(106 135 101 / 0.08);
+  }
+}
+
+@keyframes paper-view-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.paper-in {
+  opacity: 0;
+  animation: paper-in 0.7s cubic-bezier(0.2, 0.65, 0.3, 1) forwards;
+}
+
+.paper-view-in {
+  animation: paper-view-in 0.3s cubic-bezier(0.35, 0.65, 0.35, 1);
+}
+
+.paper-pulse {
+  animation: paper-pulse 2.4s ease-in-out infinite;
+}
+
+/* Arrow inside a link or button nudges right on hover. */
+.arrow-nudge {
+  display: inline-block;
+  transition: transform 0.24s var(--ease-paper);
+}
+:is(a, button):hover > .arrow-nudge,
+.group:hover .arrow-nudge {
+  transform: translateX(3px);
+}
+
+/* Footer links get a hairline underline that grows from the left. */
+.paper-link {
+  position: relative;
+}
+.paper-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition:
+    transform 0.22s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.22s;
+}
+.paper-link:hover::after {
+  opacity: 0.45;
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .paper-in,
+  .paper-view-in,
+  .paper-pulse {
+    opacity: 1 !important;
+    animation: none !important;
+    transform: none !important;
+  }
+  .arrow-nudge {
+    transition: none;
   }
 }
 

@@ -24,47 +24,51 @@ export function SiteHeader() {
 
   const home = `/${locale}`;
   const links = [
-    { href: `${home}#how`, label: m.nav.howItWorks },
     { href: `${home}#courses`, label: m.nav.courses },
-    { href: `${home}#pricing`, label: m.nav.pricing },
+    { href: `${home}#plans`, label: m.nav.pricing },
     { href: `${home}/preview`, label: m.nav.preview },
+    { href: `${home}/guides`, label: m.nav.guides },
   ];
 
   return (
     <header
-      className={`no-print sticky top-0 z-40 transition-colors ${scrolled || open ? "border-b border-line bg-paper/90 backdrop-blur" : "bg-transparent"}`}
+      className={`no-print sticky top-0 z-40 border-b bg-paper/[0.88] backdrop-blur-md transition-colors duration-300 ${scrolled || open ? "border-line" : "border-transparent"}`}
     >
-      <div className="container-page flex h-16 items-center justify-between gap-4">
-        <Link href={home} aria-label="Lexify" onClick={() => setOpen(false)}>
-          <Logo />
-        </Link>
+      <div className="mx-auto grid h-16 max-w-[1320px] grid-cols-[1fr_auto] items-center gap-4 px-5 sm:px-8 md:grid-cols-[1fr_auto_1fr]">
+        <div className="flex items-center gap-4">
+          <Link href={home} aria-label="Lexify" onClick={() => setOpen(false)} className="transition-opacity hover:opacity-75">
+            <Logo />
+          </Link>
+          <span className="hidden md:block">
+            <LanguageSwitcher align="left" />
+          </span>
+        </div>
 
-        <nav className="hidden items-center gap-1 md:flex">
+        <nav className="hidden items-center gap-7 md:flex">
           {links.map((l) => (
-            <Link key={l.href} href={l.href} className="rounded-full px-3 py-2 text-sm font-semibold text-ink/75 hover:bg-sand hover:text-ink">
+            <Link key={l.href} href={l.href} className="paper-link text-sm text-ink/85 transition-colors hover:text-ink">
               {l.label}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-2 md:flex">
-          <LanguageSwitcher />
+        <div className="hidden items-center justify-end gap-2 md:flex">
           {loading ? (
-            <span className="h-10 w-28" />
+            <span className="h-9 w-24" />
           ) : user ? (
             <>
-              <Link href={`${home}/app`} className="btn-primary">
+              <Link href={`${home}/app`} className="btn-primary px-4 py-2">
                 {m.nav.cabinet}
               </Link>
               <UserMenu user={user} />
             </>
           ) : (
             <>
-              <Link href={`${home}/login`} className="btn px-4 text-ink hover:bg-sand">
-                {m.nav.login}
-              </Link>
-              <Link href={`${home}/signup`} className="btn-primary">
+              <Link href={`${home}/signup`} className="paper-link px-2 text-sm text-ink/85 hover:text-ink">
                 {m.nav.signup}
+              </Link>
+              <Link href={`${home}/login`} className="btn-primary px-4 py-2">
+                {m.nav.login}
               </Link>
             </>
           )}
@@ -74,7 +78,7 @@ export function SiteHeader() {
           <LanguageSwitcher />
           <button
             type="button"
-            className="rounded-full p-2 hover:bg-sand"
+            className="p-2 transition-opacity hover:opacity-70"
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? m.nav.closeMenu : m.nav.openMenu}
             aria-expanded={open}
@@ -85,14 +89,14 @@ export function SiteHeader() {
       </div>
 
       {open && (
-        <div className="border-t border-line bg-paper md:hidden">
+        <div className="paper-view-in border-t border-line bg-paper md:hidden">
           <nav className="container-page flex flex-col py-3">
             {links.map((l) => (
-              <Link key={l.href} href={l.href} onClick={() => setOpen(false)} className="rounded-xl px-3 py-3 text-base font-semibold hover:bg-sand">
+              <Link key={l.href} href={l.href} onClick={() => setOpen(false)} className="border-b border-line/70 px-1 py-3.5 font-display text-lg hover:text-amber-deep">
                 {l.label}
               </Link>
             ))}
-            <div className="mt-3 flex flex-col gap-2 border-t border-line pt-4">
+            <div className="mt-4 flex flex-col gap-2">
               {user ? (
                 <>
                   <Link href={`${home}/app`} onClick={() => setOpen(false)} className="btn-primary btn-lg">

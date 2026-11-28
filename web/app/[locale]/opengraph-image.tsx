@@ -36,7 +36,7 @@ export default async function OgImage({ params }: { params: Promise<{ locale: st
           flexDirection: "column",
           justifyContent: "space-between",
           padding: 72,
-          background: "#0f1b3d",
+          background: "#2a1f12",
           color: "#fff",
           fontFamily: "Manrope",
         }}
@@ -44,13 +44,13 @@ export default async function OgImage({ params }: { params: Promise<{ locale: st
         <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
           <div style={{ display: "flex", alignItems: "flex-end", gap: 8, width: 64, height: 64, padding: 14, borderRadius: 18, background: "#1c2a55" }}>
             {bars.map((h, i) => (
-              <div key={i} style={{ width: 9, height: 36 * h, borderRadius: 3, background: "#f2a33a", opacity: 0.55 + i * 0.22 }} />
+              <div key={i} style={{ width: 9, height: 36 * h, borderRadius: 3, background: "#d39a4c", opacity: 0.55 + i * 0.22 }} />
             ))}
           </div>
           <span style={{ fontSize: 44, fontWeight: 700 }}>Lexify</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-          <span style={{ fontSize: 30, fontWeight: 700, color: "#f2a33a", letterSpacing: 2 }}>IELTS ACADEMIC</span>
+          <span style={{ fontSize: 30, fontWeight: 700, color: "#d39a4c", letterSpacing: 2 }}>IELTS ACADEMIC</span>
           <span style={{ fontSize: 76, fontWeight: 700, lineHeight: 1.05, maxWidth: 980 }}>{m.meta.ogTagline}</span>
         </div>
         <div style={{ display: "flex", gap: 14 }}>

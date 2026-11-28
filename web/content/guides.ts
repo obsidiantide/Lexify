@@ -2244,6 +2244,181 @@ Lexify-dakı hər Writing və Speaking məşqi Lexical Resource üzrə ayrıca q
       },
     },
   },
+  {
+    slug: "ielts-speaking-fluency-coherence",
+    updated: "2026-11-28",
+    minutes: 5,
+    text: {
+      en: {
+        title: "IELTS Speaking: how to improve fluency and coherence",
+        description: "What examiners mean by fluency and coherence, how to handle pauses, a simple shape for Part 1 and Part 3 answers and natural spoken linking words.",
+        body: `## What Fluency and Coherence means
+
+**Fluency and Coherence** is a quarter of your Speaking band. Examiners listen for two things:
+
+- **Fluency:** can you keep talking at a natural speed without long pauses, repeating yourself or correcting every sentence?
+- **Coherence:** are your ideas connected, so the listener can follow why one sentence comes after another?
+
+Speaking fast is not the goal. A steady pace with clear links between ideas scores higher than a rush of words. For **Band 7** you should be able to speak at length without noticeable effort, using a range of linking words, with only occasional hesitation to look for language.
+
+## Hesitation is normal, silence is not
+
+Native speakers pause too. The difference is that they fill the gap with natural phrases instead of silence or *ummm*:
+
+- *That's an interesting question…*
+- *Let me think for a moment…*
+- *I've never really thought about it, but I suppose…*
+- *What I mean is…*
+
+Learn three or four of these and use them when you need time. Do not use the same one in every answer.
+
+## Give answers a shape
+
+A short structure stops you from running out of things to say.
+
+**Part 1 (two to three sentences):** answer, reason, example.
+> *Yes, I cook most evenings. It helps me relax after work, and I like knowing what's in my food. Last night, for example, I made a simple vegetable soup.*
+
+**Part 3 (four to six sentences):** opinion, reason, example, the other side, conclusion.
+> *I think schools could do more. Many young people leave without practical skills, such as managing money. In my country, for instance, very few schools teach it. On the other hand, the curriculum is already full. So perhaps a short course in the final year would be a good compromise.*
+
+## Linking words that sound natural in speech
+
+| Purpose | Spoken links |
+| --- | --- |
+| Adding | *and also*, *on top of that*, *another thing is* |
+| Contrast | *but*, *although*, *on the other hand*, *that said* |
+| Reason | *because*, *the main reason is*, *that's why* |
+| Example | *for example*, *for instance*, *like when* |
+| Concluding | *so*, *overall*, *all in all* |
+
+Avoid formal written linkers such as *furthermore* or *moreover* in every answer. In speech they sound memorised.
+
+## How to practise
+
+1. **Record yourself** answering one Part 1 and one Part 3 question a day. Listen back and count the long pauses.
+2. **Answer the same question twice.** The second time, aim for fewer pauses and one more linking word.
+3. **Talk about everyday things in English** for two minutes: your morning, a film, a meal. The goal is to make speaking feel normal.
+4. **Don't memorise answers.** Examiners notice, and a memorised answer can lower your score. Memorise phrases and structures instead.
+
+## Practise with feedback
+
+Lexify's Speaking practices give you real exam questions with timed preparation and recording, and an estimated score for Fluency and Coherence along with the other three criteria.`,
+      },
+      ru: {
+        title: "IELTS Speaking: как улучшить fluency и coherence",
+        description: "Что экзаменаторы понимают под беглостью и связностью, как заполнять паузы, простая структура ответов Part 1 и Part 3 и естественные разговорные связки.",
+        body: `## Что такое Fluency and Coherence
+
+**Fluency and Coherence** даёт четверть балла за Speaking. Экзаменатор слушает две вещи:
+
+- **Беглость:** можете ли вы говорить в естественном темпе без долгих пауз, повторов и исправления каждого предложения?
+- **Связность:** связаны ли ваши мысли так, чтобы слушателю было понятно, почему одно предложение идёт за другим?
+
+Говорить быстро не нужно. Ровный темп с понятными связками между мыслями оценивается выше, чем поток слов. Для **Band 7** нужно уметь говорить развёрнуто без заметных усилий, с разными связками и лишь изредка делая паузы, чтобы подобрать слово.
+
+## Паузы нормальны, молчание нет
+
+Носители языка тоже делают паузы. Разница в том, что они заполняют их естественными фразами, а не тишиной или *эээ*:
+
+- *That's an interesting question…*
+- *Let me think for a moment…*
+- *I've never really thought about it, but I suppose…*
+- *What I mean is…*
+
+Выучите три-четыре такие фразы и используйте их, когда нужно время. Не повторяйте одну и ту же в каждом ответе.
+
+## Дайте ответу форму
+
+Короткая структура помогает не исчерпать мысль.
+
+**Part 1 (два-три предложения):** ответ, причина, пример.
+> *Yes, I cook most evenings. It helps me relax after work, and I like knowing what's in my food. Last night, for example, I made a simple vegetable soup.*
+
+**Part 3 (четыре-шесть предложений):** мнение, причина, пример, другая сторона, вывод.
+> *I think schools could do more. Many young people leave without practical skills, such as managing money. In my country, for instance, very few schools teach it. On the other hand, the curriculum is already full. So perhaps a short course in the final year would be a good compromise.*
+
+## Связки, которые звучат естественно в речи
+
+| Задача | Разговорные связки |
+| --- | --- |
+| Добавить | *and also*, *on top of that*, *another thing is* |
+| Противопоставить | *but*, *although*, *on the other hand*, *that said* |
+| Причина | *because*, *the main reason is*, *that's why* |
+| Пример | *for example*, *for instance*, *like when* |
+| Вывод | *so*, *overall*, *all in all* |
+
+Не вставляйте в каждый ответ письменные связки вроде *furthermore* или *moreover*. В речи они звучат заученно.
+
+## Как тренироваться
+
+1. **Записывайте себя:** каждый день отвечайте на один вопрос Part 1 и один Part 3. Прослушайте запись и посчитайте долгие паузы.
+2. **Отвечайте на один вопрос дважды.** Во второй раз постарайтесь сделать меньше пауз и добавить ещё одну связку.
+3. **Говорите по-английски о повседневном** две минуты: о своём утре, фильме, ужине. Цель в том, чтобы говорить стало привычно.
+4. **Не заучивайте ответы.** Экзаменаторы это замечают, и заученный ответ может снизить балл. Заучивайте фразы и структуры.
+
+## Тренируйтесь с обратной связью
+
+В практиках Speaking в Lexify настоящие экзаменационные вопросы с таймером на подготовку и записью, а также оценка по Fluency and Coherence и трём другим критериям.`,
+      },
+      az: {
+        title: "IELTS Speaking: fluency və coherence-i necə yaxşılaşdırmaq",
+        description: "İmtahan verənlər səlislik və əlaqəlilik dedikdə nəyi nəzərdə tutur, fasilələri necə doldurmaq, Part 1 və Part 3 cavabları üçün sadə struktur və təbii danışıq bağlayıcıları.",
+        body: `## Fluency and Coherence nə deməkdir
+
+**Fluency and Coherence** Speaking balının dörddə biridir. İmtahan verən iki şeyə qulaq asır:
+
+- **Səlislik:** uzun fasilələr vermədən, təkrarlamadan və hər cümləni düzəltmədən təbii sürətlə danışa bilirsinizmi?
+- **Əlaqəlilik:** fikirləriniz bir-birinə bağlıdırmı ki, dinləyən bir cümlənin niyə digərindən sonra gəldiyini başa düşsün?
+
+Məqsəd sürətlə danışmaq deyil. Fikirlər arasında aydın əlaqələri olan sabit temp söz axınından daha yüksək qiymətləndirilir. **Band 7** üçün nəzərəçarpan səy göstərmədən geniş danışa bilməli, müxtəlif bağlayıcılardan istifadə etməli və söz axtarmaq üçün yalnız arabir fasilə verməlisiniz.
+
+## Fasilə normaldır, susmaq yox
+
+Dili ana dili kimi danışanlar da fasilə verir. Fərq ondadır ki, onlar boşluğu sükut və ya *ıııı* ilə yox, təbii ifadələrlə doldururlar:
+
+- *That's an interesting question…*
+- *Let me think for a moment…*
+- *I've never really thought about it, but I suppose…*
+- *What I mean is…*
+
+Bunlardan üç-dördünü öyrənin və vaxt lazım olanda işlədin. Hər cavabda eyni ifadəni təkrarlamayın.
+
+## Cavaba forma verin
+
+Qısa struktur deyəcək söz tapmamaq problemini aradan qaldırır.
+
+**Part 1 (iki-üç cümlə):** cavab, səbəb, nümunə.
+> *Yes, I cook most evenings. It helps me relax after work, and I like knowing what's in my food. Last night, for example, I made a simple vegetable soup.*
+
+**Part 3 (dörd-altı cümlə):** fikir, səbəb, nümunə, digər tərəf, nəticə.
+> *I think schools could do more. Many young people leave without practical skills, such as managing money. In my country, for instance, very few schools teach it. On the other hand, the curriculum is already full. So perhaps a short course in the final year would be a good compromise.*
+
+## Danışıqda təbii səslənən bağlayıcılar
+
+| Məqsəd | Danışıq bağlayıcıları |
+| --- | --- |
+| Əlavə | *and also*, *on top of that*, *another thing is* |
+| Ziddiyyət | *but*, *although*, *on the other hand*, *that said* |
+| Səbəb | *because*, *the main reason is*, *that's why* |
+| Nümunə | *for example*, *for instance*, *like when* |
+| Nəticə | *so*, *overall*, *all in all* |
+
+Hər cavaba *furthermore* və ya *moreover* kimi yazılı bağlayıcılar qoymayın. Danışıqda onlar əzbərlənmiş kimi səslənir.
+
+## Necə məşq etməli
+
+1. **Özünüzü yazın:** hər gün bir Part 1 və bir Part 3 sualına cavab verin. Yazını dinləyin və uzun fasilələri sayın.
+2. **Eyni suala iki dəfə cavab verin.** İkinci dəfə daha az fasilə verməyə və bir bağlayıcı da əlavə etməyə çalışın.
+3. **Gündəlik şeylər haqqında iki dəqiqə ingiliscə danışın:** səhəriniz, bir film, yemək. Məqsəd danışmağı adi hala gətirməkdir.
+4. **Cavabları əzbərləməyin.** İmtahan verənlər bunu görür və əzbərlənmiş cavab balı aşağı sala bilər. Bunun əvəzinə ifadələri və strukturları əzbərləyin.
+
+## Rəy ilə məşq edin
+
+Lexify-dakı Speaking məşqlərində hazırlıq taymeri və səs yazısı ilə real imtahan sualları var, həmçinin Fluency and Coherence və digər üç meyar üzrə təxmini qiymət verilir.`,
+      },
+    },
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {
